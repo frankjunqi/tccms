@@ -16,6 +16,7 @@ public class LoginAction extends BaseAction {
 	@Override
 	public void execute() throws ServletException, IOException {
 
+		// test
 		if(!request.isSubmit())
 		{
 			Info info = _getInfo();
