@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!--
+     配置介绍：
+maxEntriesLocalHeap：缓存中允许创建的最大对象数
+eternal：缓存中对象是否为永久的，如果是，超时设置将被忽略，对象从不过期。
+timeToIdleSeconds：缓存数据的钝化时间，也就是在一个元素消亡之前，两次访问时间的最大时间间隔值，这只能在元素不是永久驻留时有效，如果该值是 0 就意味着元素可以停顿无穷长的时间。
+timeToLiveSeconds：缓存数据的生存时间，也就是一个元素从构建到消亡的最大时间间隔值，这只能在元素不是永久驻留时有效，如果该值是0就意味着元素可以停顿无穷长的时间。
+overflowToDisk：内存不足时，是否启用磁盘缓存。
+memoryStoreEvictionPolicy：缓存满了之后的淘汰算法。LRU和FIFO算法这里就不做介绍。LFU算法直接淘汰使用比较少的对象，在内存保留的都是一些经常访问的对象。对于大部分网站项目，该算法比较适用。  
+       
+        -->   
+
+
+<ehcache updateCheck="false" dynamicConfig="false">
+
+  <diskStore path="java.io.tmpdir"/>
+
+   <cacheManagerEventListenerFactory class="" properties=""/>
+  
+
+    <defaultCache
+           maxEntriesLocalHeap="100"
+           eternal="false"
+           overflowToDisk="true"
+           timeToIdleSeconds="120"
+           timeToLiveSeconds="120">
+    </defaultCache>
+
+  <cache name="Visit"
+	           maxEntriesLocalHeap="1000"
+	           eternal="true"
+	           overflowToDisk="true"
+	           timeToIdleSeconds="120"
+	           timeToLiveSeconds="120"
+	       />
+ 
+     <cache name="Info"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+       />
+     
+	  <cache name="Page"
+	           maxEntriesLocalHeap="100"
+	           eternal="false"
+	           timeToIdleSeconds="3600"
+	           timeToLiveSeconds="3600"
+	           overflowToDisk="true"
+	       />
+
+ 		<cache name="In18"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+       />
+      
+       	<cache name="Link"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+       />
+    
+        <cache name="Menu"
+           maxEntriesLocalHeap="1000"
+           eternal="false"
+           timeToIdleSeconds="3600"
+           timeToLiveSeconds="3600"
+           overflowToDisk="true"
+       />
+	   
+   
+
+</ehcache>
+
+<!-- 
+配置说明
+name:
+	设置高速缓存的名称。这是用来识别缓存。它必须是唯一的。
+maxEntriesLocalHeap:
+	设置将在内存中创建的对象的最大数量。 0 =没有限制。
+              在实践中，没有的限制意味着Integer.MAX_SIZE（2147483647）除非分布式缓存
+              在这种情况下，它与Terracotta服务器的资源是有限的。
+              
+maxEntriesLocalDisk:
+	设置，将保持在DiskStore中的对象的最大数目默认值是零，这意味着无限的。
+eternal:   	
+   	集元素是否是永恒的。如果永恒的，超时将被忽略，元素是永远不会过期。
+   	
+   以下属性和元素是可选的。
+
+
+
+    
+
+    
+maxBytesLocalDisk:
+至于maxBytesLocalHeap，但指定磁盘存储空间的限制，永远不会使用这个缓存。
+
+    timeToIdleSeconds：
+    设置闲置元素期满之前。
+    即最大的一个元素之前到期之间的时间量访问
+    只有当元素也不是永恒的。
+    可选属性。值为0意味着元素可以闲置无穷。
+    默认值是0。
+    
+timeToLiveSeconds:
+    设置生存时间为元素期满之前。
+    即创建时间之间的最大时间，当一个元件到期。
+    只有当元素也不是永恒的。
+    可选属性。值为0意味着，元素可以住无穷。
+    默认值是0。
+
+diskExpiryThreadIntervalSeconds：
+    之间的秒数为DiskStore磁盘届满线程运行（不适用于RestartableStore的）。默认值
+    为120秒。
+    
+diskSpoolBufferSizeMB:
+    这是分配DiskStore（不适用于RestartableStore的）的阀芯缓冲区的大小。信息被写入
+    这个区域，然后异步写入到磁盘中。默认大小为30MB。
+    每个线轴缓冲区仅用于由其缓存。如果你内存不足错误认为
+    降低此值。为了提高DiskStore性能考虑增加。跟踪级别
+    在登录DiskStore显示，如果把备份发生。
+
+ clearOnFlush：
+    是否flush（）方法时，应清除缓存被称为MemoryStore。
+    默认情况下，这是真实的即清除MemoryStore。
+    statistics:
+    无论收集的统计数据。请注意，这应该打开，如果您使用的是
+    Ehcache的监视器。默认情况下，统计处于关闭状态，有利于原料的性能。
+    要启用一套统计=“真”
+
+memoryStoreEvictionPolicy：
+    政策将后实施达到maxEntriesLocalHeap限制的。默认
+    政策最近最少使用（LRU）。其他政策 -
+    先入先出（FIFO），不常用
+    （指定为LFU）
+    copyOnRead:
+    一个元素是否被复制时从缓存中读取。
+    默认情况下，这是假的。
+
+  copyOnWrite：
+    一个元素是否被添加到缓存中时被复制。
+    默认情况下，这是假的。
+
+    缓存持久性配置，通过持久的子元素。的属性
+    持久性元素是：
+    strategy:
+    配置类型的持久性所提供的配置的高速缓存。这必须是一体的
+-->
