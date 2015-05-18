@@ -1,0 +1,190 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xml:lang="EN" lang="EN" dir="ltr">
+<head>
+    <title>骏燕文化</title>
+    <meta name="keywords" content=""/>
+    <meta name="description" content=""/>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <meta http-equiv="imagetoolbar" content="no"/>
+    <link rel="stylesheet" href="styles/layout.css" type="text/css"/>
+    <script type="text/javascript" src="scripts/jquery-1.6.3.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.defaultvalue.js"></script>
+    <script type="text/javascript" src="scripts/jquery-ui-1.8.13.custom.min.js"></script>
+    <script type="text/javascript" src="scripts/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="clutureListAction.js"></script>
+    <!-- 初始化提交信息-->
+    <script type="text/javascript">
+        $(document).ready(function () {
+            clickGetCluturesList();
+            clickGetNewsList();
+            $("#fullname, #validemail, #message").defaultvalue("姓名", "Email Address", "Message");
+            $('#shout a').click(function () {
+                var to = $(this).attr('href');
+                $.scrollTo(to, 1200);
+                return false;
+            });
+            $('a.topOfPage').click(function () {
+                $.scrollTo(0, 1200);
+                return false;
+            });
+            $("#tabcontainer").tabs({
+                event: "click"
+            });
+        });
+    </script>
+    <!-- Homepage Only Scripts -->
+    <script type="text/javascript" src="scripts/jquery.cycle.min.js"></script>
+    <!--<script type="text/javascript" src="scripts/jquery.cycle.setup.js"></script>-->
+    <script type="text/javascript" src="scripts/piecemaker/swfobject/swfobject.js"></script>
+    <script type="text/javascript">
+        var flashvars = {};
+        flashvars.cssSource = "scripts/piecemaker/piecemaker.css";
+        flashvars.xmlSource = "scripts/piecemaker/piecemaker.xml";
+        var params = {};
+        params.play = "false";
+        params.menu = "false";
+        params.scale = "showall";
+        params.wmode = "transparent";
+        params.allowfullscreen = "true";
+        params.allowscriptaccess = "sameDomain";
+        params.allownetworking = "all";
+        swfobject.embedSWF('scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+    </script>
+    <!-- End Homepage Only Scripts -->
+</head>
+<body id="top">
+<!--top search-->
+<div class="wrapper col1">
+    <div id="topbar" class="clear">
+        <form action="#" method="post" id="search">
+            <fieldset>
+                <legend>Site Search</legend>
+                <input type="text" value="Search Our Website&hellip;"
+                       onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"/>
+                <input type="image" id="go" src="images/search.gif" alt="Search"/>
+            </fieldset>
+        </form>
+    </div>
+</div>
+<!-- 导航栏 -->
+<div class="wrapper col2">
+    <div id="header" class="clear">
+        <div class="fl_left">
+            <a href="index.html"><img src="images/logo_white.jpg" alt=""
+                                          style="width: 280px;height: 52px; text-align: center"/></a>
+        </div>
+        <div id="topnav">
+            <ul>
+                <li><a href="joinourteam.html">招聘</a></li>
+                <li><a href="portfolio.html">新闻动态</a></li>
+                <li><a href="gallery.html">动态</a></li>
+                <li><a href="listgallery.html">案例</a></li>
+                <li><a href="companyprofile.html">简介</a></li>
+                <li class="active"><a href="index.html">首页</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!-- banner的切换 -->
+<div class="wrapper col3">
+    <div id="featured_slide">
+        <div id="piecemaker"><img src="images/demo/piecemaker/960x360.gif" alt=""/></div>
+    </div>
+</div>
+<!-- 文化&新闻动态 -->
+<div class="wrapper col4">
+    <div id="container" class="clear">
+        <div id="homepage" class="clear">
+            <!-- 文化动态 -->
+            <div class="fl_left">
+                <h2>文化动态</h2>
+
+                <div id="hpage_slider">
+                    <!-- 代码动态添加 -->
+                </div>
+                <!-- 代码根据id动态修改显示数据 -->
+                <h2 id="cluture_title">Project Name Goes Here</h2>
+
+                <p id="cluture_type"></p>
+
+                <p id="cluture_desc"></p>
+
+                <p class="readmore"><a id="cluture_url" href="" target="_blank"><strong>查看详情 &raquo;</strong></a></p>
+            </div>
+            <!-- 新闻动态 -->
+            <div class="fl_right">
+                <h2 onclick="clickGetNewsList();">新闻动态</h2>
+                <ul id="newslist" class="testimonials">
+                    <!-- 代码动态添加 -->
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- 关于我们 -->
+<div class="wrapper">
+    <div id="footer" class="clear">
+        <div class="fl_left">
+            <div class="about_us border">
+                <h2>关于我们</h2>
+
+                <p>骏燕文化传播有限公司主营高端商业摄影，凭借严谨的工作作风，从工艺与艺术高度融合的思考态度，以完备的策划体系，致力于高端文化商业产品的专业策划与拍摄。为您提供专业的拍摄、设计及印刷制作的服务平台。</p>
+            </div>
+            <div id="contact" class="clear">
+                <h2>联系我们</h2>
+
+                <div class="fl_left">
+                    <form method="post" action="#">
+                        <label for="fullname">姓名:</label>
+                        <input type="text" name="fullname" id="fullname" value=""/>
+                        <label for="validemail">Email:</label>
+                        <input type="text" name="validemail" id="validemail" value=""/>
+                        <label for="message">Message:</label>
+                        <textarea name="message" id="message" cols="45" rows="10"></textarea>
+                        <button type="submit" value="submit"><span>提交</span></button>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+        <!-- 互联网联系方式 -->
+        <div class="fl_right">
+            <h2>互联沟通</h2>
+            <ul class="socialize">
+                <li><span>Facebook:</span> <a href="javascript:void(0)">www.facebook.com/myhandel</a></li>
+                <li><span>Twitter:</span> <a href="javascript:void(0)">www.twitter.com/myhandel</a></li>
+                <li><span>LinkedIn:</span> <a href="javascript:void(0)">www.linkedin.com/myhandel</a></li>
+                <li class="last"><img style="width: 168px;height: 168px;" src="images/jywh_erweima.jpg" alt="骏燕文化"/></li>
+            </ul>
+            <div style="margin-top: 40px">
+                <address>
+                    <strong class="title"> 骏燕文化传播有限公司</strong><br/>
+                    苏州市姑苏区十梓街395号（公园路交叉路口）<br/>
+                </address>
+                <ul>
+                    <li><strong class="title">Tel:</strong><br/>
+                        15250091300
+                    </li>
+                    <li><strong class="title">Tel:</strong><br/>
+                        13358001200
+                    </li>
+                    <li><strong class="title">Email:</strong><br/>
+                        <a href="javascript:void(0)">junyanwenhua@sina.com</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- 回到顶部 -->
+    <div id="backtotop"><a href="#top" class="topOfPage">回到顶部</a></div>
+</div>
+<!-- 版权信息声明 -->
+<div class="wrapper">
+    <div id="copyright" class="clear">
+        <p class="fl_left">Copyright &copy; 2002-2015 版权所有 - <a href="javascript:void(0)">苏州骏燕文化有限公司</a>
+        </p>
+    </div>
+</div>
+</body>
+</html>
