@@ -15,8 +15,11 @@
 	<span>内容管理</span>
 	</li>
 	<li data-options="iconCls:'link',url:'${Domain.base}/manage/link'">
-	<span>友情链接</span>
+	<span>招聘信息管理</span>
 	</li>
+    <li data-options="iconCls:'link',url:'${Domain.base}/manage/link'">
+        <span>友情链接</span>
+    </li>
 </ul>
 </li>
 <li data-options="iconCls:'server_connect'">

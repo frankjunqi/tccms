@@ -86,8 +86,8 @@ function editNavId()
 
 <a href="javascript:addNav()" class="easyui-linkbutton" iconCls="basket_add" > 添加 </a> 
  &nbsp;|&nbsp;
- <a href="javascript:editNavId()" class="easyui-linkbutton" iconCls="basket_edit" > 编辑 </a> 
-
+ <a href="javascript:editNavId()" class="easyui-linkbutton" iconCls="basket_edit" > 编辑 </a> &nbsp;|&nbsp;
+    <a href="javascript:deleteLinkId()" class="easyui-linkbutton" iconCls="link_delete" > 删除 </a>
 </div>
     
    
