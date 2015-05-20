@@ -14,7 +14,7 @@
 	<li data-options="iconCls:'comments',url:'${Domain.base}/manage/comment'">
 	<span>内容管理</span>
 	</li>
-	<li data-options="iconCls:'link',url:'${Domain.base}/manage/link'">
+	<li data-options="iconCls:'link',url:'${Domain.base}/manage/jobList'">
 	<span>招聘信息管理</span>
 	</li>
     <li data-options="iconCls:'link',url:'${Domain.base}/manage/link'">

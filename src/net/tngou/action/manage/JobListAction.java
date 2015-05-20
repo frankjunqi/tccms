@@ -4,7 +4,7 @@ import com.alibaba.fastjson.JSON;
 import net.tngou.action.BaseAction;
 import net.tngou.entity.Ask;
 import net.tngou.jdbc.QueryHelper;
-import net.tngou.pojo.Link;
+import net.tngou.pojo.Job;
 import net.tngou.pojo.POJO;
 
 import javax.servlet.ServletException;
@@ -27,42 +27,50 @@ public class JobListAction extends BaseAction {
 
     public void json() {
         Ask ask = (Ask) getAsk(new Ask());
-        Link bean = new Link();
+        Job bean = new Job();
         int total = bean.totalCount();
-        List<? extends POJO> list = bean.list( ask.getPage(), ask.getRows());
+        System.out.print("total = "+total);
+        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
         String json = JSON.toJSONString(list);
         printJson(toJsonP(json, total));
     }
 
+    /**
+     * 新增一项
+     */
     public void add() {
 
-        Link link = (Link) getAsk(new Link());
-        link.save();
+        Job job = (Job) getAsk(new Job());
+        job.save();
     }
 
-    public void delete()
-    {
+    /**
+     * 删除一项
+     */
+    public void delete() {
 
-        String[] ids=request.getParameterValues("id[]");
-        String sql="DELETE FROM `"+Prefix+"link`  WHERE id=?";
+        String[] ids = request.getParameterValues("id[]");
+        String sql = "DELETE FROM `" + Prefix + "job`  WHERE id=?";
         Object[][] params = new Object[ids.length][1];
-        String id="";
+        String id = "";
         for (int i = 0; i < params.length; i++) {
-            if(i!=0) id+=",";
-            id+=i;
-            params[i][0]=ids[i];
+            if (i != 0) id += ",";
+            id += i;
+            params[i][0] = ids[i];
         }
         QueryHelper.batch(sql, params);
 
 
-        printJson("{\"msg\":\""+id+"\"}");
+        printJson("{\"msg\":\"" + id + "\"}");
 
     }
 
+    /**
+     * 编辑
+     */
     public void edit() {
 
-        Link bean= (Link) getAsk(new Link());
-
+        Job bean = (Job) getAsk(new Job());
         long id = bean.update();
         printJson("修改成功！");
     }

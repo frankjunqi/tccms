@@ -118,6 +118,27 @@ CREATE TABLE IF NOT EXISTS `tgcms_user` (
 INSERT INTO `tgcms_user` (`id`, `account`, `password`, `email`, `name`, `role`) VALUES
 (4, 'admin', '95ba0e0de7280c3ed0317600c874674f', 'tngoucms@tngou.net', 'tngoucms', 1);
 
+
+-- --------------------------------------------------------
+
+--
+-- 表的结构 `tgcms_job`
+--
+
+DROP TABLE IF EXISTS `tgcms_job`;
+CREATE TABLE IF NOT EXISTS `tgcms_job` (
+`id` smallint(5) unsigned NOT NULL ,
+  `title` varchar(16) NOT NULL ,
+  `desccipiton` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
+
+--
+-- 转存表中的数据 `tgcms_user`
+--
+
+INSERT INTO `tgcms_job` (`id`, `title`, `desccipiton`) VALUES
+(4, '设计师', '十年工作经验');
+
 --
 -- Indexes for dumped tables
 --
@@ -153,6 +174,11 @@ ALTER TABLE `tgcms_user`
  ADD PRIMARY KEY (`id`);
 
 --
+-- Indexes for table `tgcms_job`
+--
+ALTER TABLE `tgcms_job`
+ ADD PRIMARY KEY (`id`);
+--
 -- AUTO_INCREMENT for dumped tables
 --
 
@@ -180,6 +206,12 @@ MODIFY `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT ;
 -- AUTO_INCREMENT for table `tgcms_user`
 --
 ALTER TABLE `tgcms_user`
+MODIFY `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT ,AUTO_INCREMENT=5;
+
+--
+-- AUTO_INCREMENT for table `tgcms_job`
+--
+ALTER TABLE `tgcms_job`
 MODIFY `id` smallint(5) unsigned NOT NULL AUTO_INCREMENT ,AUTO_INCREMENT=5;
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
