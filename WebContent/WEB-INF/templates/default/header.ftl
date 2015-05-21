@@ -69,20 +69,20 @@
     <div id="header" class="clear">
         <div class="fl_left">
             <a href="index.html"><img src="${Domain.base}/images/logo_white.jpg" alt=""
-                                          style="width: 280px;height: 52px; text-align: center"/></a>
+                                      style="width: 280px;height: 52px; text-align: center"/></a>
         </div>
         <div id="topnav">
             <ul>
                 <li><a href="joinourteam.html">招聘</a></li>
-                <li><a href="portfolio.html">新闻动态</a></li>
-                <li><a href="gallery.html">动态</a></li>
-                <li><a href="listgallery.html">案例</a></li>
-                <li><a href="companyprofile.html">简介</a></li>
-                <li class="active"><a href="index.html">首页</a></li>
+                <li><a href="${Domain.base}/news/list">新闻动态</a></li>
+            <#--<li><a href="gallery.html">动态</a></li>-->
+                <li><a href="${Domain.base}/products/list">案例</a></li>
+                <li><a href="${Domain.base}/about/">简介</a></li>
+                <li class="active"><a href="${Domain.base}">首页</a></li>
             </ul>
         </div>
     </div>
 </div>
 
 <div class="wrapper col4">
-<div id="container" class="clear">
+    <div id="container" class="clear">

@@ -112,7 +112,7 @@ function editNavId()
 
 <option value="-1">隐藏导航</option>
 <option value="1">链接导航</option>
-<option value="2">资讯导航</option>
+<option value="2">新闻动态</option>
 <option value="3">产品导航</option>
 </select>
 </td>
