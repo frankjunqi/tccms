@@ -18,7 +18,7 @@ public class AboutAction extends BaseAction {
 	
 	@Override
 	public void execute() throws ServletException, IOException {
-		String sid= request.getParams()[0];
+		/*String sid= request.getParams()[0];
 		
 		Page about = new Page();
 		
@@ -39,12 +39,17 @@ public class AboutAction extends BaseAction {
 		Map<String, String> map = menuService.getMenu();
 		root.put("map", map);
 		root.put("about", about);
-		root.put("type",1);
+		root.put("type",1);*/
 		Info info = _getInfo();
-		root.put("title",about.getTitle()+"-"+ info.getName());
+		System.out.print(info.getName()+"");
+		root.put("about", info);
+		root.put("title","-"+ info.getName());
+		root.put("keywords", "-"+ info.getName());
+		root.put("description", "-"+ info.getName());
+/*		root.put("title",about.getTitle()+"-"+ info.getName());
 		root.put("keywords", about.getTitle()+"-"+ info.getName());
-		root.put("description", about.getTitle()+"-"+ info.getName());
-		
+		root.put("description", about.getTitle()+"-"+ info.getName());*/
+
 		printFreemarker("default/about.ftl", root);
 	}
 }

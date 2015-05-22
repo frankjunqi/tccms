@@ -1,48 +1,74 @@
 <#include "header.ftl">
 
-<div id="main_bg">
-  <div id="main">
-    <div id="left">
-      <div id="sort">
-        <ul><div style="background-image:url(${Domain.base}/common/default/img/title_1.gif); height:53px" width="164">
-        <span style="position:absolute; margin-top:16px; margin-left:85px; color:#FFF; font-weight:bold; font-size:16px">${map[about.menu+'']}</span>
-          </div>
-        </ul>
-        <ul class="list">
-          
-         <#list nav as item>
-          
-          <a href="${Domain.base}/about/${item.id}" class="yaheis <#if item.id=id> now </#if>">
-		    <p>${item.name}</p>
-            <p class="jt">&nbsp;</p>
-          </a>
-          </#list>
-          
-        </ul>
-      </div>
-            <div id="contact2" class="yaheis">
-	        <ul class="t1">联系方式</ul>
-	        <ul class="t2">服务时间：08:00 ~ 17:00</ul>
-	        <ul class="t2">电话：${info.tel}</ul>
-	        <ul class="t2">传真：${info.fax}</ul>
-	         <ul class="t2">邮箱：${info.email}</ul>
-	         <ul class="t2">地址：${info.address}</ul>
-      </div>
+<!-- 文化&新闻动态 -->
+<div class="wrapper col4">
+    <div id="container" class="clear">
+        <div id="compayprofiles" class="clear">
+            <!-- 文化动态 -->
+            <div class="company_content">
+                <h2>公司信息&团队${about.address}</h2>
+
+                <div id="companyprofile_hpage_slider">
+                    <!-- 代码动态添加 -->
+                    <div class="item"><a href="12"><img style="width: 940px; height: 320px;"
+                                                        src="${Domain.base}/images/pics/1.jpg"/></a></div>
+                    <div class="item"><a href="12"><img style="width: 940px; height: 320px;"
+                                                        src="${Domain.base}/images/pics/1.jpg"/></a></div>
+                </div>
+                <!-- 代码根据id动态修改显示数据 -->
+                <h2 id="cluture_title">Project Name Goes Here${about.address}</h2>
+
+                <p id="cluture_type"></p>
+
+                <p id="cluture_desc"></p>
+
+                <!--<p class="readmore"><a id="cluture_url" href="" target="_blank"><strong>查看详情 &raquo;</strong></a></p>-->
+            </div>
+        </div>
     </div>
-<div id="right">
-      <div id="sortname">
-        <ul class="name yahei">${about.title}</ul>
-        <ul class="ad yaheis"></ul>
-        <ul class="lead yaheis"><a href="/boloka">首页</a> - <a href="/boloka/sub/about-1173.html">关于我们</a> - <a href="/boloka/sub/about-1177.html">联系我们</a></ul>
-        <div class="clear"></div>
-      </div>
-      <div id="cont" class="yaheis">
-      
-      ${about.message}
-      
-      </div>
-    </div>
-  <div class="clear"></div>
-  </div>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var flashvars = {};
+            flashvars.cssSource = "${Domain.base}/scripts/piecemaker/piecemaker.css";
+            flashvars.xmlSource = "${Domain.base}/scripts/piecemaker/piecemaker.xml";
+            var params = {};
+            params.play = "false";
+            params.menu = "false";
+            params.scale = "showall";
+            params.wmode = "transparent";
+            params.allowfullscreen = "true";
+            params.allowscriptaccess = "sameDomain";
+            params.allownetworking = "all";
+            swfobject.embedSWF('${Domain.base}/scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
+            initCompanyProfileBanner();
+        });
+        /**
+         * 公司简介的banner
+         * @param newsList
+         */
+        function initCompanyProfileBanner() {
+            $('#companyprofile_hpage_slider').after('<div id="fsn"><ul id="fs_pagination">').cycle({
+                timeout: 1000, // milliseconds between slide transitions (0 to disable auto advance)
+                fx: 'fade', // choose a transition type, ex: fade, scrollUp, shuffle, etc...
+                pager: '#fs_pagination', // selector for element to use as pager container
+                pause: 1, // true to enable "pause on hover"
+                after: function (currSlideElement, nextSlideElement, options, forwardFlag) {
+                    // banner滑动事件index
+                    //alert('s' + newsList[options.currSlide]);
+                    // 根据id的显示数据
+                    alert("hello world.");
+                    $('#cluture_title').text(${about.address});
+                    //$('#cluture_type').html("<strong>类型:</strong>" + newsList[options.currSlide].typelx);
+                    //$('#cluture_desc').text(newsList[options.currSlide].desc);
+                    // 获取公司简介信息
+                    // clickShowCompanyProfile();
+                    // 赋值a标签href
+                    //$('#cluture_url').attr('href', (newsList[options.currSlide].newsId));
+                },
+                pauseOnPagerHover: 0 // true to pause when hovering over pager link
+            });
+        }
+        ;
+    </script>
 </div>
 <#include "footer.ftl">

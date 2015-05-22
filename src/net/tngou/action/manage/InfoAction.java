@@ -15,45 +15,46 @@ import net.tngou.pojo.Link;
 import net.tngou.pojo.Menu;
 import net.tngou.pojo.POJO;
 
-public class InfoAction extends BaseAction{
+/**
+ * 公司的简介页面的信息（图片预览&软文介绍）
+ */
+public class InfoAction extends BaseAction {
 
-	
-	@Override
-	public void execute() throws ServletException, IOException {
-		
-	
-		 printFreemarker("manage/info.ftl", root);
-	}
-	
-	public void add() {
-		
-		Info bean= (Info) getAsk(new Info());	
-		long id = bean.save();
-		printJson("{\"id\":"+id+"}");
-	}
-	
-	
-	
-	
-	public void edit() {
-		
-		Info bean= (Info) getAsk(new Info());
-		
-		long id = bean.update();
+
+    @Override
+    public void execute() throws ServletException, IOException {
+
+
+        printFreemarker("manage/info.ftl", root);
+    }
+
+    public void add() {
+
+        Info bean = (Info) getAsk(new Info());
+        long id = bean.save();
+        printJson("{\"id\":" + id + "}");
+    }
+
+
+    public void edit() {
+
+        Info bean = (Info) getAsk(new Info());
+
+        long id = bean.update();
 //		printJson("修改成功！");
-	}
-	
-	
-	public void json() {
-		
-		Ask ask = (Ask) getAsk( new Ask());
-		
-		Info bean = new Info();
-		int total = bean.totalCount();
-		List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
-		String json = JSON.toJSONString(list);
-		printJson(toJsonP(json, total));
-		
-		
-	}
+    }
+
+
+    public void json() {
+
+        Ask ask = (Ask) getAsk(new Ask());
+
+        Info bean = new Info();
+        int total = bean.totalCount();
+        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
+        String json = JSON.toJSONString(list);
+        printJson(toJsonP(json, total));
+
+
+    }
 }
