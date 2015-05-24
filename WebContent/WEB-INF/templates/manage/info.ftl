@@ -103,24 +103,38 @@
                     </td>
                 </tr>
                 <tr>
-                    <td>LOGO:</td>
+                    <td>宣传图片地址:</td>
+                    <td><input name="picspath" data-options="width:300" type="text"></input>
+                    </td>
+                </tr>
+                <tr>
+                    <td>企业图片宣传:</td>
                     <td><textarea id="logo" style="width:400px;height:80px;"></textarea>
                     </td>
                 </tr>
 
                 <tr>
-                    <td>图片:</td>
+                    <td>企业信息:</td>
                     <td><textarea id="img" style="width:400px;height:80px;"></textarea>
                     </td>
                 </tr>
                 <script>
                     var logo;
+                    var urlpath = '';
                     KindEditor.ready(function (K) {
                         logo = K.create('#logo', {
                             uploadJson: '${Domain.base}/common/kindeditor/jsp/upload_json.jsp',
                             fileManagerJson: '${Domain.base}/common/kindeditor/jsp/file_manager_json.jsp',
                             allowFileManager: true,
                             urlType: 'domain',
+                            afterUpload: function (url) {
+                                if (urlpath = '') {
+                                    urlpath = url;
+                                } else {
+                                    urlpath = urlpath + '|' + url;
+                                }
+//                                appendAfter('picspath', url); //添加到文本框
+                            },
                             minWidth: '400px',
                             minHeight: '50x',
                             items: ['image']
@@ -137,10 +151,30 @@
                             minWidth: '400px',
                             minHeight: '50x',
                             items: [
-                                'image']
+                                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                                'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
+                                'insertunorderedlist', '|', 'emoticons', 'image', 'link']
                         });
 
                     });
+
+                    /**
+                     * 将上传的图片的路径地址进行记录
+                     * @param nodeId id
+                     * @param str 图片url
+                     */
+                    function appendAfter(nodeId, str) {
+                        alert("start");
+                        var obj = document.getElementsByName(nodeId);
+                        var def = obj[0].value;
+                        if (def == '') {
+                            urlpath = str;
+                            obj[0].setAttribute('value', str);
+                        } else {
+                            urlpath = def + '|' + str;
+                            obj[0].setAttribute('value', def + '|' + str); //用|线隔开
+                        }
+                    }
                 </script>
 
             </table>
@@ -158,6 +192,7 @@
                     onSubmit: function (param) {
                         param.logo = logo.html();
                         param.img = img.html();
+                        param.picspath = urlpath;
                         $('#info-update').window('close');
                         $.messager.progress({title: '请稍后', msg: '数据处理中...'});
 

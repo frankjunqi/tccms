@@ -33,6 +33,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_info` (
 `id` tinyint(3) unsigned NOT NULL,
   `name` varchar(64) NOT NULL ,
   `logo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL ,
+  `picspath` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci ,
   `img` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `icp` varchar(32) DEFAULT '' ,
   `tel` varchar(20) DEFAULT '',
