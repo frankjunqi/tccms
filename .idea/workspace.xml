@@ -2,32 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/slider1-1.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/slider1-2.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/idangerous.swiper-1.9.1.min.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/idangerous.swiper.scrollbar-1.2.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/swiper-demos.js" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\240x90.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\60x60.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\3.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\4.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\480x320.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\5.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\gallery\174x150.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\gallery\572x330.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\imgl.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\imgr.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\960x360.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.xml" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\swfobject\expressinstall.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\swfobject\swfobject.js" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153340_247.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153450_119.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520160541_331.png" afterPath="" />
@@ -48,25 +22,7 @@
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\expressinstall.swf" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\swfobject.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/index.html" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/layout.css" afterPath="$PROJECT_DIR$/WebContent/styles/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tgcms.sql" afterPath="$PROJECT_DIR$/config/tgcms.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\2.jpg" afterPath="$PROJECT_DIR$/WebContent/images/2.jpg" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\3.jpg" afterPath="$PROJECT_DIR$/WebContent/images/3.jpg" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\4.jpg" afterPath="$PROJECT_DIR$/WebContent/images/4.jpg" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\5.jpg" afterPath="$PROJECT_DIR$/WebContent/images/5.jpg" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -95,11 +51,9 @@
       <file leaf-file-name="about.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="969">
+            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="969">
               <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
-              <folding>
-                <element signature="e#2493#2517#0#HTML" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -107,7 +61,7 @@
       <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="2329">
+            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2329">
               <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding />
             </state>
@@ -117,7 +71,7 @@
       <file leaf-file-name="swiperstyle.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.20173913" vertical-offset="7160" max-vertical-offset="9792">
+            <state vertical-scroll-proportion="0.13318025" vertical-offset="7160" max-vertical-offset="9792">
               <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
               <folding />
             </state>
@@ -137,7 +91,7 @@
       <file leaf-file-name="AboutAction.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
               <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding />
             </state>
@@ -227,8 +181,7 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="98" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -309,7 +262,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -318,139 +271,9 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="prettyPhoto" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -855,11 +678,12 @@
       <workItem from="1433565647989" duration="1089000" />
       <workItem from="1433566819173" duration="3983000" />
       <workItem from="1433572746812" duration="2057000" />
+      <workItem from="1433575070522" duration="111000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70277000" />
+    <option name="totallyTimeSpent" value="70388000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -882,13 +706,12 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
+    <frame x="98" y="0" width="1936" height="1056" extended-state="0" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -897,10 +720,9 @@
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3637375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3548387" sideWeight="0.92004263" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.67288136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.67288136" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25053304" sideWeight="0.32542372" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -908,11 +730,13 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47263682" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3548387" sideWeight="0.92004263" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34088334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -1059,7 +883,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1115,7 +938,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2666667" vertical-offset="0" max-vertical-offset="1326">
           <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1137,7 +959,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7939">
           <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1173,10 +994,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
           <caret line="21" column="26" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="26" />
-          <folding>
-            <element signature="e#731#732#0" expanded="true" />
-            <element signature="e#757#758#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1253,11 +1070,9 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="969">
+        <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="969">
           <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
-          <folding>
-            <element signature="e#2493#2517#0#HTML" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1265,7 +1080,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.72282606" vertical-offset="842" max-vertical-offset="1394">
           <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1279,7 +1093,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="2329">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2329">
           <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
           <folding />
         </state>
@@ -1287,7 +1101,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20173913" vertical-offset="7160" max-vertical-offset="9792">
+        <state vertical-scroll-proportion="0.13318025" vertical-offset="7160" max-vertical-offset="9792">
           <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
           <folding />
         </state>
