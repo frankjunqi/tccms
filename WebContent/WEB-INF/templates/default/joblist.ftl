@@ -15,7 +15,7 @@
                 </ul>
             </div>
             <!-- 新闻动态 -->
-            <div class="content">
+            <div id="content" class="content">
                 <p id="joinourteam_content" class="projectdescription">
                     备注：</br>
                     1、您可以通过在线填写简历来申请您应聘的职位；</br>
@@ -29,8 +29,10 @@
 </div>
 <script type="text/javascript">
     function clickChooseItemJob(item) {
+        var html = "职位职能: &nbsp;其他 &nbsp;<br />";
+        alert(html);
         alert(item);
-//        $("#joinourteam_content").html(desccipiton);
+//        $("#content").html(item);
     }
 
     function clickChooseLiuchengJob() {
