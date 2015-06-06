@@ -13,6 +13,9 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 @import url(portfolio.css);
 @import url(joinourteam.css);
 @import url(companyprofile.css);
+@import url(idangerous.swiper.css);
+@import url(swiper-demos.css);
+@import url(swiperstyle.css);
 
 body {
     margin: 0;

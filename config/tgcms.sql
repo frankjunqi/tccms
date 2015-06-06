@@ -25,7 +25,7 @@ USE `tgcms`;
 -- --------------------------------------------------------
 
 --
--- 表的结构 `tgcms_info`
+-- 表的结构 `tgcms_info` img 代表企业信息
 --
 
 DROP TABLE IF EXISTS `tgcms_info`;

@@ -2,6 +2,32 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/slider1-1.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/images/slider1-2.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/idangerous.swiper-1.9.1.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/idangerous.swiper.scrollbar-1.2.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/scripts/swiper-demos.js" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\240x90.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\60x60.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\3.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\4.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\480x320.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\featured-project\5.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\gallery\174x150.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\gallery\572x330.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\imgl.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\imgr.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\960x360.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\piecemaker.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\swfobject\expressinstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\piecemaker\swfobject\swfobject.js" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153340_247.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153450_119.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520160541_331.png" afterPath="" />
@@ -11,15 +37,36 @@
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520161411_705.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520172118_425.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150521\20150521135217_100.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" afterPath="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp" afterPath="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/file_manager_json.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/file_manager_json.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/info.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/info.ftl" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\960x360.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\expressinstall.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\swfobject.js" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/index.html" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/layout.css" afterPath="$PROJECT_DIR$/WebContent/styles/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tgcms.sql" afterPath="$PROJECT_DIR$/config/tgcms.sql" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/upload_json.jsp" afterPath="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/upload_json.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/upload_json.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/upload_json.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\2.jpg" afterPath="$PROJECT_DIR$/WebContent/images/2.jpg" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\3.jpg" afterPath="$PROJECT_DIR$/WebContent/images/3.jpg" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\4.jpg" afterPath="$PROJECT_DIR$/WebContent/images/4.jpg" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\piecemaker\5.jpg" afterPath="$PROJECT_DIR$/WebContent/images/5.jpg" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -45,84 +92,76 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="InfoAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java">
+      <file leaf-file-name="about.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
-              <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Info.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Info.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="869" max-vertical-offset="1428">
-              <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
+            <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="969">
+              <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
               <folding>
-                <element signature="imports" expanded="true" />
+                <element signature="e#2493#2517#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl">
+      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.62711865" vertical-offset="2407" max-vertical-offset="3859">
-              <caret line="122" column="31" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="31" />
+            <state vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="2329">
+              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jobslist.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl">
+      <file leaf-file-name="swiperstyle.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-36.076923" vertical-offset="2768" max-vertical-offset="4216">
-              <caret line="218" column="16" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.20173913" vertical-offset="7160" max-vertical-offset="9792">
+              <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="tgcms.sql" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
+      <file leaf-file-name="pagination.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/common/easyui/themes/metro/pagination.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.16" vertical-offset="289" max-vertical-offset="3825">
-              <caret line="41" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DHTML.js" pinned="false" current-in-tab="false">
-        <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+      <file leaf-file-name="AboutAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="28494" max-vertical-offset="81617">
-              <caret line="1687" column="0" selection-start-line="1687" selection-start-column="0" selection-end-line="1687" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="file_manager_json.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp">
+      <file leaf-file-name="JoblistAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2754">
-              <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="1258">
+              <caret line="23" column="53" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="53" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="comment.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/comment.ftl">
+      <file leaf-file-name="BaseAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/BaseAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="3678" max-vertical-offset="4964">
-              <caret line="232" column="88" selection-start-line="230" selection-start-column="32" selection-end-line="232" selection-end-column="88" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="7021">
+              <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+              <folding>
+                <element signature="e#2106#2122#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -142,24 +181,34 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/linklist.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/comment.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/Page.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/page.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/nav.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products-view.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/head.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" />
         <option value="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/upload_json.jsp" />
         <option value="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" />
-        <option value="$PROJECT_DIR$/config/tgcms.sql" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/JobListAction.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/scripts/piecemaker/piecemaker.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/styles/layout.css" />
+        <option value="D:/我的配置/桌面/多种支持手机客户端、触摸屏滑动样式幻灯片轮播/index.html" />
+        <option value="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" />
+        <option value="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/index.html" />
+        <option value="$PROJECT_DIR$/config/tgcms.sql" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" />
       </list>
     </option>
   </component>
@@ -260,6 +309,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -317,10 +367,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -343,18 +389,8 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-          </PATH>
-          <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
+              <option name="myItemId" value="default" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -369,10 +405,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="WebContent" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -390,11 +422,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="common" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="kindeditor" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -408,79 +436,20 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
+              <option name="myItemId" value="WebContent" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="tngou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemId" value="images" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tngou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tngou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="config" />
+              <option name="myItemId" value="prettyPhoto" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -506,7 +475,15 @@
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images" />
+      <recent name="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\styles" />
+      <recent name="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts" />
+      <recent name="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.tngou.action" />
+      <recent name="net.tngou.action.manage" />
       <recent name="net.tngou.pojo" />
     </key>
   </component>
@@ -870,12 +847,19 @@
       <workItem from="1432446583581" duration="5047000" />
       <workItem from="1432451787431" duration="1234000" />
       <workItem from="1432453197591" duration="1905000" />
-      <workItem from="1432455166367" duration="2964000" />
+      <workItem from="1432455166367" duration="2967000" />
+      <workItem from="1432517694070" duration="611000" />
+      <workItem from="1433480529130" duration="163000" />
+      <workItem from="1433557482492" duration="5531000" />
+      <workItem from="1433563543965" duration="2028000" />
+      <workItem from="1433565647989" duration="1089000" />
+      <workItem from="1433566819173" duration="3983000" />
+      <workItem from="1433572746812" duration="2057000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="54812000" />
+    <option name="totallyTimeSpent" value="70277000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -899,25 +883,25 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2836485" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35038933" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34371525" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3637375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.34927696" sideWeight="0.92004263" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3548387" sideWeight="0.92004263" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24840085" sideWeight="0.67330015" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24815595" sideWeight="0.32504147" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.67288136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25053304" sideWeight="0.32542372" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -929,7 +913,7 @@
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32814237" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34088334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -950,14 +934,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java</url>
-          <line>20</line>
-          <properties />
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
       <option name="time" value="2" />
     </breakpoint-manager>
     <watches-manager />
@@ -967,286 +943,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-beanutils-1.9.2.jar!/org/apache/commons/beanutils/BeanUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.52472526" vertical-offset="999" max-vertical-offset="1717">
-          <caret line="80" column="23" selection-start-line="80" selection-start-column="23" selection-end-line="80" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Ask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="731">
-          <caret line="29" column="15" selection-start-line="29" selection-start-column="15" selection-end-line="29" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang-2.6.jar!/org/apache/commons/lang/StringUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35612535" vertical-offset="27823" max-vertical-offset="36737">
-          <caret line="1719" column="25" selection-start-line="1719" selection-start-column="25" selection-end-line="1719" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/util/Inflector.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.69922876" vertical-offset="204" max-vertical-offset="765">
-          <caret line="33" column="36" selection-start-line="33" selection-start-column="36" selection-end-line="33" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/service/BaseService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="267" max-vertical-offset="3655">
-          <caret line="47" column="75" selection-start-line="47" selection-start-column="75" selection-end-line="47" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/NavAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1496">
-          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/UserAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="115" max-vertical-offset="1207">
-          <caret line="19" column="13" selection-start-line="19" selection-start-column="13" selection-end-line="19" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/LinkAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="19" max-vertical-offset="1054">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/CommentAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1513">
-          <caret line="33" column="40" selection-start-line="33" selection-start-column="40" selection-end-line="33" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Job.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.24807692" vertical-offset="41" max-vertical-offset="561">
-          <caret line="10" column="30" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/default/img/title_1.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3315">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/page.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.68653846" vertical-offset="0" max-vertical-offset="520">
-          <caret line="21" column="44" selection-start-line="21" selection-start-column="44" selection-end-line="21" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/nav.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1513" max-vertical-offset="4641">
-          <caret line="115" column="31" selection-start-line="115" selection-start-column="31" selection-end-line="115" selection-end-column="31" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/ProductsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="387" max-vertical-offset="1258">
-          <caret line="64" column="54" selection-start-line="64" selection-start-column="54" selection-end-line="64" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.423077" vertical-offset="0" max-vertical-offset="425">
-          <caret line="19" column="23" selection-start-line="19" selection-start-column="23" selection-end-line="19" selection-end-column="23" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products-view.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.7692308" vertical-offset="4" max-vertical-offset="527">
-          <caret line="6" column="43" selection-start-line="6" selection-start-column="43" selection-end-line="6" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3179">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.8846154" vertical-offset="0" max-vertical-offset="935">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/footer.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1207">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/ServletAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1373913" vertical-offset="1383" max-vertical-offset="2992">
-          <caret line="131" column="0" selection-start-line="131" selection-start-column="0" selection-end-line="131" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Link.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.20695652" vertical-offset="102" max-vertical-offset="714">
-          <caret line="13" column="13" selection-start-line="13" selection-start-column="13" selection-end-line="13" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7095652" vertical-offset="0" max-vertical-offset="969">
-          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.73077" vertical-offset="4" max-vertical-offset="935">
-          <caret line="35" column="46" selection-start-line="35" selection-start-column="46" selection-end-line="35" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="6188" max-vertical-offset="7021">
-          <caret line="427" column="23" selection-start-line="427" selection-start-column="23" selection-end-line="427" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="18" column="25" selection-start-line="18" selection-start-column="16" selection-end-line="18" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="948" max-vertical-offset="1632">
-          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Page.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.259542" vertical-offset="0" max-vertical-offset="1292">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/NewsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="13" max-vertical-offset="1394">
-          <caret line="25" column="9" selection-start-line="25" selection-start-column="9" selection-end-line="25" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="67" max-vertical-offset="833">
-          <caret line="32" column="4" selection-start-line="32" selection-start-column="4" selection-end-line="32" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.31870228" vertical-offset="734" max-vertical-offset="1258">
-          <caret line="62" column="0" selection-start-line="62" selection-start-column="0" selection-end-line="62" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="646" max-vertical-offset="884">
-          <caret line="38" column="0" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/linklist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2380" max-vertical-offset="4199">
-          <caret line="140" column="43" selection-start-line="140" selection-start-column="43" selection-end-line="140" selection-end-column="43" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/head.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="119" max-vertical-offset="391">
-          <caret line="7" column="63" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="407" max-vertical-offset="1581">
-          <caret line="48" column="144" selection-start-line="37" selection-start-column="8" selection-end-line="48" selection-end-column="144" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/piecemaker/swfobject/swfobject.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="8334" max-vertical-offset="10421">
-          <caret line="504" column="11" selection-start-line="504" selection-start-column="11" selection-end-line="504" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/images/pics/1.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9236948" vertical-offset="475" max-vertical-offset="1343">
-          <caret line="55" column="33" selection-start-line="55" selection-start-column="33" selection-end-line="55" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/comment.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="3678" max-vertical-offset="4964">
-          <caret line="232" column="88" selection-start-line="230" selection-start-column="32" selection-end-line="232" selection-end-column="88" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/lang/zh_CN.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="2035" max-vertical-offset="4114">
@@ -1263,9 +959,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1836" max-vertical-offset="2754">
+        <state vertical-scroll-proportion="-3.1374764" vertical-offset="1836" max-vertical-offset="2754">
           <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1273,14 +968,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3800813" vertical-offset="26571" max-vertical-offset="173842">
           <caret line="1574" column="24" selection-start-line="1574" selection-start-column="24" selection-end-line="1574" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="901">
-          <caret line="42" column="25" selection-start-line="42" selection-start-column="25" selection-end-line="42" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1295,23 +982,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33333334" vertical-offset="533" max-vertical-offset="1819">
           <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-36.076923" vertical-offset="2768" max-vertical-offset="4216">
-          <caret line="218" column="16" selection-start-line="218" selection-start-column="7" selection-end-line="218" selection-end-column="16" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.16" vertical-offset="289" max-vertical-offset="3825">
-          <caret line="41" column="34" selection-start-line="0" selection-start-column="0" selection-end-line="219" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1319,24 +989,306 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="28494" max-vertical-offset="81617">
           <caret line="1687" column="0" selection-start-line="1687" selection-start-column="0" selection-end-line="1687" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/ProductsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-120.30769" vertical-offset="0" max-vertical-offset="4216">
+          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/LoginAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="9" max-vertical-offset="969">
+          <caret line="33" column="56" selection-start-line="33" selection-start-column="56" selection-end-line="33" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33213645" vertical-offset="937" max-vertical-offset="1632">
+          <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/NewsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7324955" vertical-offset="204" max-vertical-offset="1394">
+          <caret line="50" column="32" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76836157" vertical-offset="0" max-vertical-offset="531">
+          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.8214285" vertical-offset="0" max-vertical-offset="2788">
+          <caret line="9" column="44" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/scripts/jquery.cycle.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.3806105" vertical-offset="1326" max-vertical-offset="14416">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/navi.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2686">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Info.java">
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/gallery.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="869" max-vertical-offset="1428">
-          <caret line="111" column="37" selection-start-line="111" selection-start-column="37" selection-end-line="111" selection-end-column="37" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state vertical-scroll-proportion="0.0" vertical-offset="58" max-vertical-offset="748">
+          <caret line="14" column="12" selection-start-line="14" selection-start-column="12" selection-end-line="14" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/slider1-2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/scripts/idangerous.swiper.scrollbar-1.2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4522">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/我的配置/桌面/多种支持手机客户端、触摸屏滑动样式幻灯片轮播/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.346154" vertical-offset="332" max-vertical-offset="901">
+          <caret line="43" column="10" selection-start-line="18" selection-start-column="4" selection-end-line="43" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/shout_bg.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/arrows.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/slider1-1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11670481" vertical-offset="0" max-vertical-offset="935">
+          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.2666667" vertical-offset="0" max-vertical-offset="1326">
+          <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/layout.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.34195933" vertical-offset="1209" max-vertical-offset="12257">
+          <caret line="82" column="0" selection-start-line="82" selection-start-column="0" selection-end-line="82" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/homepage.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33271718" vertical-offset="1758" max-vertical-offset="2567">
+          <caret line="114" column="44" selection-start-line="114" selection-start-column="44" selection-end-line="114" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/swiper-demos.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7939">
+          <caret line="0" column="63" selection-start-line="0" selection-start-column="63" selection-end-line="0" selection-end-column="63" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2549801" vertical-offset="1912" max-vertical-offset="3332">
+          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19955157" vertical-offset="370" max-vertical-offset="3825">
+          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
+          <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.62711865" vertical-offset="2407" max-vertical-offset="3859">
-          <caret line="122" column="31" selection-start-line="122" selection-start-column="24" selection-end-line="122" selection-end-column="31" />
+        <state vertical-scroll-proportion="-1.9615384" vertical-offset="1938" max-vertical-offset="3859">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Info.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1428">
+          <caret line="21" column="26" selection-start-line="21" selection-start-column="19" selection-end-line="21" selection-end-column="26" />
+          <folding>
+            <element signature="e#731#732#0" expanded="true" />
+            <element signature="e#757#758#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/demo/avatar.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/pics/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/btnNext.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/btnPrevious.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/contentPattern.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/default_thumbnail.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/loader.gif">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/prettyPhoto/dark_rounded/sprite.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="1258">
+          <caret line="23" column="53" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="7021">
+          <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
+          <folding>
+            <element signature="e#2106#2122#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/images/1.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-13.076923" vertical-offset="0" max-vertical-offset="969">
+          <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+          <folding>
+            <element signature="e#2493#2517#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72282606" vertical-offset="842" max-vertical-offset="1394">
+          <caret line="73" column="19" selection-start-line="73" selection-start-column="19" selection-end-line="73" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/common/easyui/themes/metro/pagination.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-15.692307" vertical-offset="102" max-vertical-offset="2329">
+          <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20173913" vertical-offset="7160" max-vertical-offset="9792">
+          <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
           <folding />
         </state>
       </provider>

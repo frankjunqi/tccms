@@ -13,6 +13,9 @@
     <script type="text/javascript" src="${Domain.base}/scripts/jquery.defaultvalue.js"></script>
     <script type="text/javascript" src="${Domain.base}/scripts/jquery-ui-1.8.13.custom.min.js"></script>
     <script type="text/javascript" src="${Domain.base}/scripts/jquery.scrollTo-min.js"></script>
+    <script type="text/javascript" src="${Domain.base}/scripts/idangerous.swiper.scrollbar-1.2.js"></script>
+    <script type="text/javascript" src="${Domain.base}/scripts/idangerous.swiper-1.9.1.min.js"></script>
+    <script type="text/javascript" src="${Domain.base}/scripts/swiper-demos.js"></script>
     <!-- 初始化提交信息-->
     <script type="text/javascript">
         $(document).ready(function () {
@@ -31,24 +34,6 @@
             });
         });
     </script>
-    <!-- Homepage Only Scripts -->
-    <script type="text/javascript" src="${Domain.base}/scripts/jquery.cycle.min.js"></script>
-    <script type="text/javascript" src="${Domain.base}/scripts/piecemaker/swfobject/swfobject.js"></script>
-    <script type="text/javascript">
-        var flashvars = {};
-        flashvars.cssSource = "${Domain.base}/scripts/piecemaker/piecemaker.css";
-        flashvars.xmlSource = "${Domain.base}/scripts/piecemaker/piecemaker.xml";
-        var params = {};
-        params.play = "false";
-        params.menu = "false";
-        params.scale = "showall";
-        params.wmode = "transparent";
-        params.allowfullscreen = "true";
-        params.allowscriptaccess = "sameDomain";
-        params.allownetworking = "all";
-        swfobject.embedSWF('${Domain.base}/scripts/piecemaker/piecemaker.swf', 'piecemaker', '960', '430', '10', null, flashvars, params, null);
-    </script>
-    <!-- End Homepage Only Scripts -->
 </head>
 <body id="top">
 <!--top search-->
@@ -68,12 +53,12 @@
 <div class="wrapper col2">
     <div id="header" class="clear">
         <div class="fl_left">
-            <a href="index.html"><img src="${Domain.base}/images/logo_white.jpg" alt=""
-                                      style="width: 280px;height: 52px; text-align: center"/></a>
+            <a href="${Domain.base}"><img src="${Domain.base}/images/logo_white.jpg" alt=""
+                                          style="width: 280px;height: 52px; text-align: center"/></a>
         </div>
         <div id="topnav">
             <ul>
-                <li><a href="joinourteam.html">招聘</a></li>
+                <li><a href="${Domain.base}/joblist">招聘</a></li>
                 <li><a href="${Domain.base}/news/list">新闻动态</a></li>
             <#--<li><a href="gallery.html">动态</a></li>-->
                 <li><a href="${Domain.base}/products/list">案例</a></li>
