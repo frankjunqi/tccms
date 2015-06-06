@@ -24,7 +24,7 @@
 
 
         <th data-options="field:'title',width:200">招聘职位</th>
-        <th data-options="field:'desccipiton',width:560">详细信息</th>
+        <th data-options="field:'des',width:760">缩略信息</th>
 
 
     </tr>
@@ -106,6 +106,10 @@
                     <td>名称:</td>
                     <td><input class="easyui-textbox" name="title" data-options="required:true"></td>
                 </tr>
+                <tr>
+                    <td>名称:</td>
+                    <td><input class="easyui-textbox" name="des" data-options="required:true"></td>
+                </tr>
 
                 <tr>
                     <td>详细信息:
@@ -174,6 +178,10 @@
                 <tr>
                     <td>名称:</td>
                     <td><input class="easyui-textbox" name="title" data-options="required:true"></td>
+                </tr>
+                <tr>
+                    <td>名称:</td>
+                    <td><input class="easyui-textbox" name="des" data-options="required:true"></td>
                 </tr>
 
                 <tr>

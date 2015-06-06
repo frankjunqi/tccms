@@ -20,7 +20,13 @@ public class JoblistAction extends BaseAction {
     @Override
     public void execute() throws ServletException, IOException {
 
-
+        Ask ask = (Ask) getAsk(new Ask());
+        Job bean = new Job();
+        int total = bean.totalCount();
+        System.out.print("total = " + total);
+        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
+        root.put("list", list);
+        System.out.print(((Job)list.get(0)).getTitle());
         printFreemarker("default/joblist.ftl", root);
     }
 
@@ -28,7 +34,7 @@ public class JoblistAction extends BaseAction {
         Ask ask = (Ask) getAsk(new Ask());
         Job bean = new Job();
         int total = bean.totalCount();
-        System.out.print("total = "+total);
+        System.out.print("total = " + total);
         List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
         String json = JSON.toJSONString(list);
         printJson(toJsonP(json, total));

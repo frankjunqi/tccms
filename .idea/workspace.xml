@@ -2,6 +2,569 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\META-INF\MANIFEST.MF" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\IKAnalyzer2012FF_u1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\bcprov-ext-jdk15on-147.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\bcprov-jdk15on-147.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-beanutils-1.9.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-codec-1.10.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-collections-3.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-collections4-4.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-configuration2-2.0-alpha1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-dbutils-1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-email-1.3.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-fileupload-1.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-io-2.4.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-lang-2.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\commons-lang3-3.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\druid-1.0.9.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\ehcache-2.9.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\fastjson-1.2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\freemarker.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\httpclient-4.3.5.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\httpcore-4.3.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\javassist-3.18.1-GA.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\jcaptcha-all-1.0-RC2.0.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\jcl-over-slf4j-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\json_simple-1.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\jsoup-tngou.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\juniversalchardet-1.0.3.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\log4j-over-slf4j-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\logback-classic-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\logback-core-1.1.2.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\mail-1.4.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\mariadb-java-client-1.1.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\objenesis-2.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\pinyin4j-2.5.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\prettytime-3.2.4.Final.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\quartz-all-2.1.6.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\servlet-api.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\lib\slf4j-api-1.7.7.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\about.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\footer.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\header.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\index.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\joblist.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\login.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\news-view.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\news.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\page.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\products-view.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\default\products.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\comment.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\footer.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\head.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\header.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\index.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\info.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\jobslist.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\linklist.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\menu.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\nav.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\templates\manage\userlist.ftl" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\WEB-INF\web.xml" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\contact.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\contact2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\fd.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\list_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\main_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\menu_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\more.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\newlist_img.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\sort_jt.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\img\title_1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\default\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\easyloader.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\jquery.easyui.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\locale\easyui-lang-zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\readme.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\combo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\images\validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\messager.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\panel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\slider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\black\window.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\combo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\images\validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\messager.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\panel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\slider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\bootstrap\window.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\color.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\combo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\images\validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\messager.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\panel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\slider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\default\window.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\combo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\images\validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\messager.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\panel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\slider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\gray\window.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icon.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\application_home.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\application_side_tree.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\basket_add.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\basket_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\basket_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\chart_organisation.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\cog.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\cog_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\comment.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\comment_add.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\comment_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\comment_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\comments.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\database.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\house.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\link.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\link_add.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\link_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\link_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\server_connect.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\user.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\user_add.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\user_delete.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\user_edit.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\icons\user_go.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\accordion.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\calendar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\combo.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\combobox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\datagrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\datebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\dialog.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\easyui.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\filebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\accordion_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\calendar_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\combo_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\datagrid_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\datebox_arrow.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\layout_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\linkbutton_bg.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\menu_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\messager_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\pagination_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\panel_tools.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\searchbox_button.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\slider_handle.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\spinner_arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\tabs_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\tree_icons.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\images\validatebox_warning.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\linkbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\menu.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\menubutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\messager.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\numberbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\pagination.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\panel.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\progressbar.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\propertygrid.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\searchbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\slider.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\spinner.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\splitbutton.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\tabs.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\textbox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\tooltip.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\tree.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\validatebox.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\easyui\themes\metro\window.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\hand.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\left-handing.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\left_hand.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\password.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\right_hand.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\right_handing.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\tou.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\img\username.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\js\jquery-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\jsp\file_manager_json.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\jsp\upload_json.jsp" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\kindeditor-all-min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\kindeditor-all.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\kindeditor-min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\kindeditor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\lang\ar.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\lang\en.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\lang\ko.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\lang\zh_CN.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\lang\zh_TW.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\license.txt" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\anchor\anchor.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\autoheight\autoheight.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\baidumap\baidumap.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\baidumap\index.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\baidumap\map.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\clearhtml\clearhtml.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\code\code.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\code\prettify.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\code\prettify.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\emoticons.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\0.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\10.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\100.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\101.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\102.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\103.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\104.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\105.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\106.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\107.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\108.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\109.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\11.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\110.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\111.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\112.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\113.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\114.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\115.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\116.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\117.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\118.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\119.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\12.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\120.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\121.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\122.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\123.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\124.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\125.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\126.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\127.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\128.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\129.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\13.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\130.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\131.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\132.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\133.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\134.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\14.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\15.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\16.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\17.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\18.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\19.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\20.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\21.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\22.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\23.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\24.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\25.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\26.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\27.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\28.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\29.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\3.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\30.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\31.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\32.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\33.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\34.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\35.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\36.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\37.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\38.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\39.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\4.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\40.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\41.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\42.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\43.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\44.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\45.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\46.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\47.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\48.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\49.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\5.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\50.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\51.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\52.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\53.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\54.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\55.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\56.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\57.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\58.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\59.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\6.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\60.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\61.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\62.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\63.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\64.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\65.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\66.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\67.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\68.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\69.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\7.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\70.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\71.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\72.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\73.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\74.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\75.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\76.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\77.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\78.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\79.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\8.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\80.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\81.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\82.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\83.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\84.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\85.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\86.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\87.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\88.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\89.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\9.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\90.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\91.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\92.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\93.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\94.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\95.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\96.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\97.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\98.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\99.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\emoticons\images\static.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\filemanager.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\images\file-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\images\file-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\images\folder-16.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\images\folder-64.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\filemanager\images\go-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\flash\flash.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\image\image.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\image\images\align_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\image\images\align_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\image\images\align_top.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\image\images\refresh.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\insertfile\insertfile.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\lineheight\lineheight.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\link\link.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\map\map.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\map\map.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\media\media.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\multiimage\images\image.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\multiimage\images\select-files-en.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\multiimage\images\select-files-zh_CN.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\multiimage\images\swfupload.swf" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\multiimage\multiimage.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\pagebreak\pagebreak.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\plainpaste\plainpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\preview\preview.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\quickformat\quickformat.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\table\table.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\template\html\1.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\template\html\2.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\template\html\3.html" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\template\template.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\plugins\wordpaste\wordpaste.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\anchor.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\blank.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\flash.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\loading.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\media.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\common\rm.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\default\background.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\default\default.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\default\default.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\qq\editor.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\qq\qq.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\kindeditor\themes\simple\simple.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\16163748937.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\23154030557.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\23154521691.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\23154532775.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\favicon.ico" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153340_247.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520153450_119.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520160541_331.png" afterPath="" />
@@ -11,17 +574,167 @@
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520161411_705.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150520\20150520172118_425.png" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150521\20150521135217_100.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524154133_470.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524154252_385.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524154457_141.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524154955_919.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155140_144.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155311_335.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155433_562.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155522_125.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155749_591.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155832_383.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524155950_306.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524160332_794.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524160849_579.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161029_253.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161040_973.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161328_337.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161356_639.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161445_889.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161455_555.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161713_363.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524161931_123.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524162128_751.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524162443_874.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524162718_52.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524162756_96.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524163319_57.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524163358_550.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524163429_351.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524163442_728.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164024_187.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164137_380.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164639_717.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164653_510.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164808_674.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164849_397.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524164934_226.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524165024_248.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524165135_912.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524165243_401.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\image\20150524\20150524165317_621.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\img.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\logo.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\common\upload\tngoucms-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\arrows.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\black_file.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\240x90.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\60x60.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\avatar.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\1.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\2.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\3.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\4.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\480x320.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\featured-project\5.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\gallery\174x150.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\gallery\572x330.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\imgl.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\imgr.gif" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\1.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\2.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\3.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\4.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\5.jpg" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\demo\piecemaker\960x360.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\featured_slide.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\free.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\jywh_erweima.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\logo.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\logo_black.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\logo_white.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\newsletter_form.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\4.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pics\6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\pink_file.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\contentPattern.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\dark_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\contentPatternBottom.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\contentPatternLeft.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\contentPatternRight.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\contentPatternTop.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\facebook\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_rounded\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_rounded\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_rounded\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_rounded\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_rounded\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_square\btnNext.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_square\btnPrevious.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_square\default_thumbnail.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_square\loader.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\prettyPhoto\light_square\sprite.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\quotemarks.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\readmore_left.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\readmore_right.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\search.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\search_l.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\shadow.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\shout_a_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\shout_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\sign-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\slide.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\slider1-1.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\slider1-2.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\tabs_bg.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\images\tothetop.gif" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\idangerous.swiper-1.9.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\idangerous.swiper.scrollbar-1.2.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery-1.6.3.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery-prettyPhoto.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery-ui-1.8.13.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery.cycle.min.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery.cycle.setup.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery.defaultvalue.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\jquery.scrollTo-min.js" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.css" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.swf" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\piecemaker.xml" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\expressinstall.swf" afterPath="" />
       <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\piecemaker\swfobject\swfobject.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\scripts\swiper-demos.js" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\companyprofile.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\forms.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\gallery.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\homepage.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\idangerous.swiper.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\joinourteam.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\layout.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\navi.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\portfolio.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\swiper-demos.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\swiperstyle.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\classes\artifacts\TngouCMS_war_exploded\styles\tables.css" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/pojo/Job.java" afterPath="$PROJECT_DIR$/src/net/tngou/pojo/Job.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tgcms.sql" afterPath="$PROJECT_DIR$/config/tgcms.sql" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TngouCMS.iws" />
@@ -48,74 +761,12 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="about.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl">
+      <file leaf-file-name="joblist.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="969">
-              <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
+            <state vertical-scroll-proportion="0.57984793" vertical-offset="239" max-vertical-offset="816">
+              <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
               <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2329">
-              <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="swiperstyle.css" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13318025" vertical-offset="7160" max-vertical-offset="9792">
-              <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pagination.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/common/easyui/themes/metro/pagination.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AboutAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="204" max-vertical-offset="374">
-              <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JoblistAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="1258">
-              <caret line="23" column="53" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="53" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/BaseAction.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="7021">
-              <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-              <folding>
-                <element signature="e#2106#2122#0" expanded="true" />
-              </folding>
             </state>
           </provider>
         </entry>
@@ -131,10 +782,8 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/menu.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Job.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/linklist.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/comment.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/Page.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/page.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl" />
@@ -147,8 +796,6 @@
         <option value="$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/JobListAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/products.ftl" />
         <option value="$PROJECT_DIR$/WebContent/scripts/piecemaker/piecemaker.xml" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
@@ -157,12 +804,17 @@
         <option value="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" />
         <option value="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/index.html" />
-        <option value="$PROJECT_DIR$/config/tgcms.sql" />
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/about.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl" />
         <option value="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/styles/joinourteam.css" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Job.java" />
+        <option value="$PROJECT_DIR$/config/tgcms.sql" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl" />
       </list>
     </option>
   </component>
@@ -181,7 +833,8 @@
     <option name="CUSTOM_FILTER" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="98" />
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
     <option name="width" value="1936" />
     <option name="height" value="1056" />
   </component>
@@ -262,6 +915,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
@@ -271,9 +925,32 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="config" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -678,12 +1355,15 @@
       <workItem from="1433565647989" duration="1089000" />
       <workItem from="1433566819173" duration="3983000" />
       <workItem from="1433572746812" duration="2057000" />
-      <workItem from="1433575070522" duration="111000" />
+      <workItem from="1433575070522" duration="3875000" />
+      <workItem from="1433580026248" duration="1944000" />
+      <workItem from="1433582180249" duration="1456000" />
+      <workItem from="1433583766107" duration="521000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="70388000" />
+    <option name="totallyTimeSpent" value="78073000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -706,23 +1386,25 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="0" width="1936" height="1056" extended-state="0" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2836485" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35038933" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3548387" sideWeight="0.3523454" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3637375" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3548387" sideWeight="0.6476546" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.67288136" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25053304" sideWeight="0.67288136" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25053304" sideWeight="0.32542372" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -730,14 +1412,12 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.47263682" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39933258" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3548387" sideWeight="0.92004263" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.34088334" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3403782" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -767,73 +1447,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/lang/zh_CN.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2035" max-vertical-offset="4114">
-          <caret line="131" column="20" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/jsp/upload_json.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.502008" vertical-offset="760" max-vertical-offset="2176">
-          <caret line="118" column="28" selection-start-line="118" selection-start-column="28" selection-end-line="118" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/jsp/file_manager_json.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1374764" vertical-offset="1836" max-vertical-offset="2754">
-          <caret line="10" column="36" selection-start-line="10" selection-start-column="36" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/kindeditor/kindeditor-all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.3800813" vertical-offset="26571" max-vertical-offset="173842">
-          <caret line="1574" column="24" selection-start-line="1574" selection-start-column="24" selection-end-line="1574" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.5762376" vertical-offset="3708" max-vertical-offset="8857">
-          <caret line="233" column="16" selection-start-line="233" selection-start-column="16" selection-end-line="233" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/util/JsoupUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="533" max-vertical-offset="1819">
-          <caret line="50" column="25" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="28494" max-vertical-offset="81617">
-          <caret line="1687" column="0" selection-start-line="1687" selection-start-column="0" selection-end-line="1687" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
-          <caret line="67" column="7" selection-start-line="67" selection-start-column="7" selection-end-line="67" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/tngou/action/ProductsAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1258">
           <caret line="56" column="29" selection-start-line="56" selection-start-column="29" selection-end-line="56" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-120.30769" vertical-offset="0" max-vertical-offset="4216">
-          <caret line="184" column="0" selection-start-line="184" selection-start-column="0" selection-end-line="184" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -848,20 +1465,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33213645" vertical-offset="937" max-vertical-offset="1632">
           <caret line="81" column="0" selection-start-line="81" selection-start-column="0" selection-end-line="81" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/NewsAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7324955" vertical-offset="204" max-vertical-offset="1394">
-          <caret line="50" column="32" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.76836157" vertical-offset="0" max-vertical-offset="531">
-          <caret line="24" column="6" selection-start-line="24" selection-start-column="6" selection-end-line="24" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -927,17 +1530,11 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11670481" vertical-offset="0" max-vertical-offset="935">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.2666667" vertical-offset="0" max-vertical-offset="1326">
           <caret line="60" column="64" selection-start-line="60" selection-start-column="64" selection-end-line="60" selection-end-column="64" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -962,31 +1559,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2549801" vertical-offset="1912" max-vertical-offset="3332">
-          <caret line="120" column="19" selection-start-line="120" selection-start-column="19" selection-end-line="120" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.19955157" vertical-offset="370" max-vertical-offset="3825">
-          <caret line="27" column="31" selection-start-line="27" selection-start-column="31" selection-end-line="27" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="901">
           <caret line="55" column="20" selection-start-line="55" selection-start-column="20" selection-end-line="55" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9615384" vertical-offset="1938" max-vertical-offset="3859">
-          <caret line="117" column="41" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="41" />
         </state>
       </provider>
     </entry>
@@ -1037,29 +1613,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="1258">
-          <caret line="23" column="53" selection-start-line="23" selection-start-column="7" selection-end-line="23" selection-end-column="53" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/tngou/action/BaseAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="173" max-vertical-offset="7021">
+        <state vertical-scroll-proportion="0.21125144" vertical-offset="173" max-vertical-offset="7021">
           <caret line="73" column="34" selection-start-line="73" selection-start-column="34" selection-end-line="73" selection-end-column="34" />
-          <folding>
-            <element signature="e#2106#2122#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
-          <caret line="24" column="62" selection-start-line="24" selection-start-column="62" selection-end-line="24" selection-end-column="62" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1072,7 +1629,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="340" max-vertical-offset="969">
           <caret line="20" column="103" selection-start-line="20" selection-start-column="103" selection-end-line="20" selection-end-column="103" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1087,7 +1643,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1309">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1095,14 +1650,133 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="2329">
           <caret line="30" column="49" selection-start-line="30" selection-start-column="49" selection-end-line="30" selection-end-column="49" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13318025" vertical-offset="7160" max-vertical-offset="9792">
-          <caret line="428" column="16" selection-start-line="428" selection-start-column="16" selection-end-line="428" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.69919634" vertical-offset="7160" max-vertical-offset="9792">
+          <caret line="457" column="7" selection-start-line="457" selection-start-column="7" selection-end-line="457" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62357414" vertical-offset="12" max-vertical-offset="884">
+          <caret line="20" column="33" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Ask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/AboutAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="374">
+          <caret line="20" column="12" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2128" max-vertical-offset="8857">
+          <caret line="168" column="32" selection-start-line="168" selection-start-column="32" selection-end-line="168" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/NewsAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="663" max-vertical-offset="1394">
+          <caret line="68" column="37" selection-start-line="68" selection-start-column="29" selection-end-line="68" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="76" max-vertical-offset="3332">
+          <caret line="23" column="38" selection-start-line="23" selection-start-column="38" selection-end-line="23" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/footer.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="408" max-vertical-offset="1207">
+          <caret line="49" column="74" selection-start-line="49" selection-start-column="53" selection-end-line="49" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.374502" vertical-offset="2056" max-vertical-offset="3842">
+          <caret line="132" column="30" selection-start-line="132" selection-start-column="30" selection-end-line="132" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Job.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.2771739" vertical-offset="0" max-vertical-offset="663">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19927536" vertical-offset="145" max-vertical-offset="1360">
+          <caret line="23" column="10" selection-start-line="23" selection-start-column="10" selection-end-line="23" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$APPLICATION_HOME_DIR$/lib/idea.jar!/resources/html5-schema/html5/block.rnc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="839" max-vertical-offset="4301">
+          <caret line="60" column="16" selection-start-line="60" selection-start-column="16" selection-end-line="60" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/styles/joinourteam.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.32789856" vertical-offset="261" max-vertical-offset="1105">
+          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6539855" vertical-offset="387" max-vertical-offset="1258">
+          <caret line="53" column="54" selection-start-line="53" selection-start-column="54" selection-end-line="53" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/jobslist.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.2946768" vertical-offset="3826" max-vertical-offset="4352">
+          <caret line="185" column="0" selection-start-line="185" selection-start-column="0" selection-end-line="185" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.06273764" vertical-offset="1956" max-vertical-offset="3859">
+          <caret line="117" column="41" selection-start-line="117" selection-start-column="38" selection-end-line="117" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.43664718" vertical-offset="14" max-vertical-offset="935">
+          <caret line="14" column="41" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/joblist.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.57984793" vertical-offset="239" max-vertical-offset="816">
+          <caret line="32" column="54" selection-start-line="32" selection-start-column="54" selection-end-line="32" selection-end-column="54" />
           <folding />
         </state>
       </provider>

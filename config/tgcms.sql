@@ -128,8 +128,9 @@ INSERT INTO `tgcms_user` (`id`, `account`, `password`, `email`, `name`, `role`) 
 
 DROP TABLE IF EXISTS `tgcms_job`;
 CREATE TABLE IF NOT EXISTS `tgcms_job` (
-`id` smallint(5) unsigned NOT NULL ,
+  `id` smallint(5) unsigned NOT NULL ,
   `title` varchar(16) NOT NULL ,
+  `des` varchar(16) NOT NULL ,
   `desccipiton` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
 
@@ -137,8 +138,8 @@ CREATE TABLE IF NOT EXISTS `tgcms_job` (
 -- 转存表中的数据 `tgcms_user`
 --
 
-INSERT INTO `tgcms_job` (`id`, `title`, `desccipiton`) VALUES
-(4, '设计师', '十年工作经验');
+INSERT INTO `tgcms_job` (`id`, `title`,`des`, `desccipiton`) VALUES
+(4, '设计师','中级设计师', '十年工作经验');
 
 --
 -- Indexes for dumped tables
