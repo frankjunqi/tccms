@@ -2,6 +2,7 @@
 *.iml
 .idea/
 out/
+.idea/workspace.xml
 
 # classes
 classes/
