@@ -267,7 +267,7 @@ public  abstract class BaseAction
 	 if(root.get("info")==null) root.put("info", _getInfo());
 	 if(root.get("menu")==null) root.put("menu", _getMenu());
 	 //设置默认信息
-	 if(root.get("title")==null)  root.put("title", "天狗");
+	 if(root.get("title")==null)  root.put("title", "骏燕文化");
 	 if(root.get("keywords")==null)  root.put("keywords", "");
 	 if(root.get("description")==null)  root.put("description", "");
 	 if(root.get("author")==null)  root.put("author", "tngou.com");

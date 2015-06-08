@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_info` (
 --
 
 INSERT INTO `tgcms_info` (`id`, `name`, `logo`, `img`, `icp`, `tel`, `fax`, `email`, `address`) VALUES
-(1, '天狗家具', '', '', '蜀ICP备15000924号', '13880334484', '028-88888888', 'tngou@tngou.net', '四川省-成都市-龙泉驿');
+(1, '骏燕文化', '', '', '蜀ICP备15000924号', '13880334484', '028-88888888', 'tngou@tngou.net', '四川省-成都市-龙泉驿');
 
 -- --------------------------------------------------------
 
@@ -119,7 +119,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_user` (
 --
 
 INSERT INTO `tgcms_user` (`id`, `account`, `password`, `email`, `name`, `role`) VALUES
-(4, 'admin', '95ba0e0de7280c3ed0317600c874674f', 'tngoucms@tngou.net', 'tngoucms', 1);
+(4, 'admin', '95ba0e0de7280c3ed0317600c874674f', 'szjywh@szjywh.net', 'szjywh', 1);
 
 
 -- --------------------------------------------------------

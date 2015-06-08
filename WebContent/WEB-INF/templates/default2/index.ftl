@@ -47,7 +47,7 @@
 <#list link as item>
 <a href="${item.url}" target="_blank" >${item.name}</a>
 </#list>
-<a href="http://www.tngou.net" target="_blank" style="color:#A00;">天狗农业</a>
+<a href="http://www.tngou.net" target="_blank" style="color:#A00;">骏燕文化农业</a>
 </p>
 </div>
 

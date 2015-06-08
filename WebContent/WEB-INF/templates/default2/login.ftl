@@ -174,7 +174,7 @@ ${message!"请输入验证信息"}</SPAN>
            </SPAN>         </P></DIV></DIV>
 		   <div style="text-align:center;">
 		   <br>
-<p><a href="${Domain.base}" >${info.name}首页</a>  &nbsp;技术支持:<a href="http://www.tngou.net" target="_blank">天狗内容管理-TngouCMS</a></p>
+<p><a href="${Domain.base}" >${info.name}首页</a>  &nbsp;技术支持:<a href="http://www.tngou.net" target="_blank">骏燕文化内容管理</a></p>
 </div>
 
 </form>
