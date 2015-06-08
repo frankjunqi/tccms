@@ -261,10 +261,10 @@
             <ul>
                 <li><a href="${Domain.base}/joblist">招聘</a></li>
                 <li><a href="${Domain.base}/news/list">新闻动态</a></li>
-            <#--<li><a href="gallery.html">动态</a></li>-->
+            <#--<li class="active"><a href="gallery.html">动态</a></li>-->
                 <li><a href="${Domain.base}/products/list">案例</a></li>
                 <li><a href="${Domain.base}/about/">简介</a></li>
-                <li class="active"><a href="${Domain.base}">首页</a></li>
+                <li><a href="${Domain.base}">首页</a></li>
             </ul>
         </div>
     </div>

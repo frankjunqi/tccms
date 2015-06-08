@@ -25,6 +25,7 @@
 
         <th data-options="field:'title',width:200"> 标题</th>
         <th data-options="field:'desc',width:200"> 标题</th>
+        <th data-options="field:'isshowindex',width:200"> 是否首页显示1：显示 \ 0不显示 \ 2图片显示在首页副二处</th>
         <th data-options="field:'menuName',width:200">分类</th>
 
         <th data-options="field:'message',width:200,hidden:true">内容</th>
@@ -138,6 +139,11 @@
                                data-options="required:true"></td>
                 </tr>
                 <tr>
+                    <td>是否首页显示:（1: 代表首页 0：常规信息 2：图片显示在首页副二处）</td>
+                    <td><input class="easyui-textbox" type="text" name="isshowindex" style="width:280px;"
+                               data-options="required:true"></td>
+                </tr>
+                <tr>
                     <td>分类:</td>
                     <td><input class="easyui-combobox" name="menu"
                                data-options="valueField:'id',textField:'name',url:'${Domain.base}/manage/comment/menujson'">
@@ -216,6 +222,11 @@
                 <tr>
                     <td>描述信息:</td>
                     <td><input class="easyui-textbox" type="text" name="desc" style="width:280px;"
+                               data-options="required:true"></td>
+                </tr>
+                <tr>
+                    <td>是否首页显示:（1: 代表首页 0：常规信息 2：图片显示在首页副二处）</td>
+                    <td><input class="easyui-textbox" type="text" name="isshowindex" style="width:280px;"
                                data-options="required:true"></td>
                 </tr>
                 <tr>

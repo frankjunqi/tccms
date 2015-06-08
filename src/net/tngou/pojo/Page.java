@@ -15,6 +15,16 @@ public class Page extends POJO {
     private String title;    //
     private String message;    //
 
+    public String getIsshowindex() {
+        return isshowindex;
+    }
+
+    public void setIsshowindex(String isshowindex) {
+        this.isshowindex = isshowindex;
+    }
+
+    private String isshowindex;// 是否显示在首页
+
     public String getDesc() {
         return desc;
     }

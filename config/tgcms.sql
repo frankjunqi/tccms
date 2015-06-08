@@ -91,6 +91,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_page` (
   `menu` tinyint(3) unsigned NOT NULL DEFAULT '0',
   `img` varchar(64) DEFAULT NULL ,
   `title` varchar(64) NOT NULL ,
+  `isshowindex` varchar(64) NOT NULL DEFAULT '0',
   `message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `desc` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `count` mediumint(8) unsigned NOT NULL DEFAULT '0',

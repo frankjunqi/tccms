@@ -6,7 +6,7 @@
           alt=""/> &raquo &raquo &raquo发布时间：<span id="news_author">${news.time?string("yyyy-MM-dd")}</span>
     &raquo &raquo &raquo浏览：<span
             id="news_original">${news.count}</span></div>
-<div id="news_content" style="margin-top: 40px">
+<div id="news_content" style="margin-top: 20px">
 ${news.message}
 <#if last??>
     <ul class="page">上一篇：<a href="${Domain.base}/news/${last.id}">${last.title}</a></ul>
