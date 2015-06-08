@@ -32,8 +32,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #portfolio .title {
     font-size: 18px;
-    font-style: italic;
-    margin-top: 4px;
+    font-style: italic
 }
 
 #portfolio .imgholder {
@@ -51,7 +50,7 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 
 #portfolio .projectdescription {
     line-height: 2em;
-    max-height: 80px;
+    max-height: 70px;
     margin-top: 6px;
     overflow: hidden;
 }
