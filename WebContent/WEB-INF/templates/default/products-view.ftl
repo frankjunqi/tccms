@@ -1,26 +1,15 @@
 <#include "header.ftl">
-
-<div id="main_bg">
-    <div id="main">
-        <div id="right">
-            <div id="sortname">
-                <ul class="lead yaheis"><a href="${Domain.base}">首页</a> - <a
-                        href="${Domain.base}/products/list">产品展示</a> - <a
-                        href="${Domain.base}/products/list/${products.id}">${map[products.menu+'']}</a></ul>
-                <div class="clear"></div>
-            </div>
-            <div id="pro_cont" class="yaheis">
-
-                <div class="detail">
-                    <ul><strong>产品名称</strong>&nbsp;&nbsp;&nbsp;<span>${products.title}</span></ul>
-                    <ul>
-                    ${products.message}
-                    </ul>
-                </div>
-                <div class="clear"></div>
-            </div>
-        </div>
-        <div class="clear"></div>
-    </div>
+<h1>标题:<strong></strong><span>${products.title}</span></h1>
+<#--效果开始-->
+<div class="gallery clear">
+    <ul>
+    <#list imagelist as item>
+        <li>
+            <a href="${item}" rel="lightbox[ostec]"
+               title="Image 1">
+                <img src="${item}" alt="${item}"/></a></li>
+    </#list>
+    </ul>
 </div>
+<div class="clear"></div>
 <#include "footer.ftl">

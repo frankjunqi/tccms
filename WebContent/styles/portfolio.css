@@ -52,5 +52,6 @@ Licence: <a href="http://www.os-templates.com/template-terms">Website Template L
 #portfolio .projectdescription {
     line-height: 2em;
     max-height: 80px;
+    margin-top: 6px;
     overflow: hidden;
 }

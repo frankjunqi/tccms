@@ -92,6 +92,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_page` (
   `img` varchar(64) DEFAULT NULL ,
   `title` varchar(64) NOT NULL ,
   `message` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `desc` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `count` mediumint(8) unsigned NOT NULL DEFAULT '0',
   `time` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;

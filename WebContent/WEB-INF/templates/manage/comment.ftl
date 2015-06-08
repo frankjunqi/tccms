@@ -24,6 +24,7 @@
 
 
         <th data-options="field:'title',width:200"> 标题</th>
+        <th data-options="field:'desc',width:200"> 标题</th>
         <th data-options="field:'menuName',width:200">分类</th>
 
         <th data-options="field:'message',width:200,hidden:true">内容</th>
@@ -132,6 +133,11 @@
                                data-options="required:true"></td>
                 </tr>
                 <tr>
+                    <td>描述信息:</td>
+                    <td><input class="easyui-textbox" type="text" name="desc" style="width:280px;"
+                               data-options="required:true"></td>
+                </tr>
+                <tr>
                     <td>分类:</td>
                     <td><input class="easyui-combobox" name="menu"
                                data-options="valueField:'id',textField:'name',url:'${Domain.base}/manage/comment/menujson'">
@@ -205,6 +211,11 @@
                 <tr>
                     <td>标题:</td>
                     <td><input class="easyui-textbox" type="text" name="title" style="width:280px;"
+                               data-options="required:true"></td>
+                </tr>
+                <tr>
+                    <td>描述信息:</td>
+                    <td><input class="easyui-textbox" type="text" name="desc" style="width:280px;"
                                data-options="required:true"></td>
                 </tr>
                 <tr>

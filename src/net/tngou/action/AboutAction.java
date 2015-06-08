@@ -13,6 +13,7 @@ import net.tngou.pojo.Menu;
 import net.tngou.pojo.POJO;
 import net.tngou.pojo.Page;
 import net.tngou.service.MenuService;
+import net.tngou.util.JsoupUtil;
 
 public class AboutAction extends BaseAction {
 
@@ -22,6 +23,7 @@ public class AboutAction extends BaseAction {
         root.put("about", info);
         System.out.print(info.getName() + "");
         root.put("title", String.valueOf(info.getName()));
+        root.put("loglist", JsoupUtil.Images(String.valueOf(info.getLogo())));
         root.put("description", String.valueOf(info.getImg()));
         printFreemarker("default/about.ftl", root);
     }

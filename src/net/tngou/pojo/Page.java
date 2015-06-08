@@ -14,6 +14,16 @@ public class Page extends POJO {
 
     private String title;    //
     private String message;    //
+
+    public String getDesc() {
+        return desc;
+    }
+
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
+
+    private String desc;// 描述信息
     private int menu;
     private int count;
     private String img;
@@ -89,9 +99,6 @@ public class Page extends POJO {
 
     public String Img() {
         return JsoupUtil.Image(message);
-
-
     }
-
 
 }
