@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_info` (
 --
 
 INSERT INTO `tgcms_info` (`id`, `name`, `logo`, `img`, `icp`, `tel`, `fax`, `email`, `address`) VALUES
-(1, '骏燕文化', '', '', '蜀ICP备15000924号', '13880334484', '028-88888888', 'tngou@tngou.net', '四川省-成都市-龙泉驿');
+(1, '骏燕文化', '', '', '蜀ICP备15000924号', '13880334484', '028-88888888', 'szjywh@sina.net', '四川省-成都市-龙泉驿');
 
 -- --------------------------------------------------------
 

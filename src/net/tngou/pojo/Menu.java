@@ -8,7 +8,7 @@ package net.tngou.pojo;
 
 /**
  *  
- * @author  www.tngou.net
+ * @author  kjh
  *
  */
 public class Menu extends POJO {

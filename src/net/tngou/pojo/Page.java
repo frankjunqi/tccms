@@ -7,7 +7,7 @@ import net.tngou.util.JsoupUtil;
 
 
 /**
- * @author www.tngou.net
+ * @author kjh
  */
 public class Page extends POJO {
 

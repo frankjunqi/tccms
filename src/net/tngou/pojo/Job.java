@@ -2,7 +2,7 @@ package net.tngou.pojo;
 
 
 /**
- * @author www.tngou.net
+ * @author kjh
  */
 public class Job extends POJO {
 
