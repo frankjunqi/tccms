@@ -32,9 +32,9 @@ DROP TABLE IF EXISTS `tgcms_info`;
 CREATE TABLE IF NOT EXISTS `tgcms_info` (
 `id` tinyint(3) unsigned NOT NULL,
   `name` varchar(64) NOT NULL ,
-  `logo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL ,
+  `logo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT '' ,
   `picspath` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci ,
-  `img` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `img` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT '',
   `icp` varchar(32) DEFAULT '' ,
   `tel` varchar(20) DEFAULT '',
   `fax` varchar(20) DEFAULT '',
@@ -47,7 +47,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_info` (
 --
 
 INSERT INTO `tgcms_info` (`id`, `name`, `logo`, `img`, `icp`, `tel`, `fax`, `email`, `address`) VALUES
-(1, '骏燕文化', '', '', '蜀ICP备15000924号', '13880334484', '028-88888888', 'szjywh@sina.net', '四川省-成都市-龙泉驿');
+(1, 'name', 'logo', 'img', 'icp', '13880334484', '028-88888888', 'szjywh@sina.net', 'address');
 
 -- --------------------------------------------------------
 
@@ -64,7 +64,20 @@ CREATE TABLE IF NOT EXISTS `tgcms_link` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 -- --------------------------------------------------------
+--
+-- 表的结构 `tgcms_video`PAGE_CHECKSUM=1 AUTO_INCREMENT=1
+--
 
+DROP TABLE IF EXISTS `tgcms_video`;
+CREATE TABLE IF NOT EXISTS `tgcms_video` (
+`id` tinyint(3) unsigned NOT NULL,
+  `name` varchar(128) NOT NULL,
+  `desc` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `url` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `seq` tinyint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
+
+-- --------------------------------------------------------
 --
 -- 表的结构 `tgcms_menu`
 --
@@ -141,7 +154,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_job` (
 --
 
 INSERT INTO `tgcms_job` (`id`, `title`,`des`, `desccipiton`) VALUES
-(4, '设计师','中级设计师', '十年工作经验');
+(4, 'title','des', 'desccipiton');
 
 --
 -- Indexes for dumped tables
@@ -158,6 +171,13 @@ ALTER TABLE `tgcms_info`
 --
 ALTER TABLE `tgcms_link`
  ADD PRIMARY KEY (`id`);
+
+--
+-- Indexes for table `tgcms_video`
+--
+ALTER TABLE `tgcms_video`
+ ADD PRIMARY KEY (`id`);
+
 
 --
 -- Indexes for table `tgcms_menu`
@@ -195,6 +215,11 @@ MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
 -- AUTO_INCREMENT for table `tgcms_link`
 --
 ALTER TABLE `tgcms_link`
+MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
+--
+-- AUTO_INCREMENT for table `tgcms_video`
+--
+ALTER TABLE `tgcms_video`
 MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `tgcms_menu`

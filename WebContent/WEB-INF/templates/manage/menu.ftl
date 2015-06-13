@@ -16,6 +16,8 @@
 	</li>
 	<li data-options="iconCls:'link',url:'${Domain.base}/manage/jobList'">
 	<span>招聘信息管理</span>
+	<li data-options="iconCls:'link',url:'${Domain.base}/manage/videoList'">
+	<span>视频链接管理</span>
 	</li>
     <li data-options="iconCls:'link',url:'${Domain.base}/manage/link'">
         <span>友情链接</span>

@@ -2,20 +2,20 @@ package net.tngou.pojo;
 
 
 /**
- * 友情链接地址
+ * youku视频链接地址
  *
  * @author kjh
  */
-public class Link extends POJO {
+public class Video extends POJO {
 
 
-    private String name;    //
-    private String url;    //
-    private int seq;
+    private String name;    //视频的标题
+    private String desc;// 视频的描述
+    private String url;    //视频的url链接
+    private int seq;// 视频的排序
 
     @Override
     protected boolean isObjectCachedByID() {
-        // TODO Auto-generated method stub
         return true;
     }
 
@@ -43,5 +43,11 @@ public class Link extends POJO {
         this.seq = seq;
     }
 
+    public String getDesc() {
+        return desc;
+    }
 
+    public void setDesc(String desc) {
+        this.desc = desc;
+    }
 }
