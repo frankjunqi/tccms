@@ -95,7 +95,6 @@ blockquote {
 }
 
 dfn {
-    font-style: italic;
 }
 
 hr {
@@ -116,7 +115,6 @@ ins {
 mark {
     background: #ff0;
     color: #000;
-    font-style: italic;
     font-weight: bold;
 }
 

@@ -139,7 +139,7 @@
                             minWidth: '400px',
                             minHeight: '50x',
                             items: [
-                                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold', 'italic', 'underline',
+                                'fontname', 'fontsize', '|', 'forecolor', 'hilitecolor', 'bold',  'underline',
                                 'removeformat', '|', 'justifyleft', 'justifycenter', 'justifyright', 'insertorderedlist',
                                 'insertunorderedlist', '|', 'emoticons', 'image', 'link']
                         });

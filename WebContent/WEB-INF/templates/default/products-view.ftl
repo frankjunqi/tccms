@@ -1,5 +1,5 @@
 <#include "header.ftl">
-<h1>标题:<strong></strong><span>${products.title}</span></h1>
+<h3>标题:<strong></strong><span>${products.title}</span></h3>
 <#--效果开始-->
 <div class="gallery clear">
     <ul>

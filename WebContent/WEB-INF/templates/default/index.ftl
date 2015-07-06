@@ -10,11 +10,10 @@
                 <div class="swiper-slide"><a href="${Domain.base}/products/${item.id}" target='_blank'><img
                         src="${item.Img()}"></a></div>
             </#list>
-            <#--<div class="swiper-slide"><img src="${Domain.base}/images/5.jpg"></div>-->
             </div>
-            <div class="pagination pagination1"></div>
         </div>
     </div>
+    <div class="pagination pagination1"></div>
 </div>
 <div class="clear"></div>
 <!-- 文化&新闻动态 -->
@@ -23,7 +22,7 @@
         <div id="homepage" class="clear">
             <!-- 文化动态 -->
             <div class="fl_left" class="testimonials">
-                <h2>文化动态</h2>
+                <h3>文化动态</h3>
 
                 <div class="swiper-container swiper-v">
                     <div class="pagination-v"></div>
@@ -41,7 +40,7 @@
             </div>
             <!-- 新闻动态 -->
             <div class="fl_right">
-                <h2>新闻动态</h2>
+                <h3>新闻动态</h3>
                 <ul id="newslist" class="testimonials">
                     <!-- 代码动态添加 -->
                 <#list newsPage.list as item>

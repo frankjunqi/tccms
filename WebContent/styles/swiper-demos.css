@@ -10,7 +10,6 @@
 }
 
 .swiper-v h2, .swiper-free h2, .swiper-dynamic h2 {
-    font-style: italic;
     font-size: 42px;
     margin-top: 80px;
     margin-bottom: 0;
@@ -18,7 +17,6 @@
 }
 
 .swiper-v p, .swiper-free p, .swiper-dynamic p {
-    font-style: italic;
     font-size: 25px;
 }
 
@@ -98,7 +96,6 @@
     background: #fff;
     line-height: 40px;
     font-size: 25px;
-    font-style: italic;
     text-decoration: none;
     background-image: -webkit-gradient(linear, left top, left bottom, from(#ffffff), to(#ddd)); /* Saf4+, Chrome */
     background-image: -webkit-linear-gradient(top, #ffffff, #ddd); /* Chrome 10+, Saf5.1+, iOS 5+ */

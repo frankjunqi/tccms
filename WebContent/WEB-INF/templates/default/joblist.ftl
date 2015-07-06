@@ -5,7 +5,6 @@
 <section class="hashTabber-sandstone-wrapper">
     <ol class="hashTabber-nav hashTabber-sandstone" data-hashtabber-id="dinosaurs"
         data-hashtabber-default="${defaultid}">
-        <h2>招聘信息:</h2>
     <#list list as item>
         <li data-hashtabber-pair="${item.id}" class="">
             <a href="#${item.id}">${item.title}</a>

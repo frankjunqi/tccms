@@ -240,6 +240,7 @@ ol.hashTabber-nav.hashTabber-sandstone, ol.hashTabber-data.hashTabber-sandstone 
     list-style: none;
     float: left;
     margin: 0;
+    background-color: #f2f0ef;
     padding: 0
 }
 
@@ -249,6 +250,7 @@ ol.hashTabber-nav.hashTabber-sandstone {
     box-sizing: border-box;
     display: inline-block;
     width: 20%;
+    background-color: #f2f0ef;
     vertical-align: top
 }
 

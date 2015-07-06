@@ -1,6 +1,6 @@
 <#include "header.ftl">
 
-<h1>新闻动态</h1>
+<h2>新闻动态</h2>
 <!--列表数据-->
 <div id="portfolio">
 <#list page.list as item>

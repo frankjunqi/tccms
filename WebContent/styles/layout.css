@@ -200,7 +200,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 }
 
 #header h1 a {
-    font-size: 36px;
+    font-size: 22px;
     color: #FFFFFF;
     background-color: #202020;
 }
@@ -215,8 +215,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     margin-bottom: 20px;
     color: #797979;
     background-color: #ffffff;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 18px;
+    font-family: 黑体;
 }
 
 #container a {
@@ -529,11 +529,11 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #footer h2 {
     margin-bottom: 30px;
-    font-style: italic;
-    font-size: 30px;
+    font-size: 22px;
     line-height: normal;
     color: #B86365;
     background-color: #333333;
+    font-family: 黑体;
 }
 
 #footer li {
@@ -653,8 +653,8 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #footer ul.socialize span {
     display: inline-block;
-    width: 120px;
-    font-size: 26px;
+    width: 160px;
+    font-size: 22px;
 }
 
 #footer #tabcontainer li.last {
@@ -687,9 +687,9 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 
 #backtotop {
     padding: 0 0 20px 0;
-    font-size: 22px;
-    font-style: italic;
+    font-size: 16px;
     text-align: right;
+    font-family: 黑体;
 }
 
 #backtotop a {
