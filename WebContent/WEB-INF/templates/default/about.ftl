@@ -3,9 +3,6 @@
 <#-- <h2>${title}</h2>-->
 <#--广告图-->
 <div class="home-device">
-    <a class="arrow-left" href="#"></a>
-    <a class="arrow-right" href="#"></a>
-
     <div class="swiper-main">
         <div class="swiper-container swiper1">
             <div class="swiper-wrapper">
@@ -16,6 +13,8 @@
         </div>
     </div>
     <div class="pagination pagination1"></div>
+    <a class="arrow-left" href="#"></a>
+    <a class="arrow-right" href="#"></a>
 </div>
 <div class="clear"></div>
 <!-- 代码根据id动态修改显示数据 -->
