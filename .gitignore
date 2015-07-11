@@ -4,9 +4,3 @@
 out/
 .idea/workspace.xml
 
-# classes
-classes/
-
-
-# Java class files
-*.class

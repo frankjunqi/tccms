@@ -1,0 +1,88 @@
+.user{
+	background:url('icons/user.png') no-repeat center center;
+}
+.application_home{
+	background:url('icons/application_home.png') no-repeat center center;
+}
+.cog{
+	background:url('icons/cog.png') no-repeat center center;
+}
+
+.server_connect{
+	background:url('icons/server_connect.png') no-repeat center center;
+}
+
+.comments{
+	background:url('icons/comments.png') no-repeat center center;
+}
+.comment{
+	background:url('icons/comment.png') no-repeat center center;
+}
+.comment_add{
+	background:url('icons/comment_add.png') no-repeat center center;
+}
+.comment_delete{
+	background:url('icons/comment_delete.png') no-repeat center center;
+}
+.comment_edit{
+	background:url('icons/comment_edit.png') no-repeat center center;
+}
+.chart_organisation{
+	background:url('icons/chart_organisation.png') no-repeat center center;
+}
+
+.database{
+	background:url('icons/database.png') no-repeat center center;
+}
+.application_side_tree{
+	background:url('icons/application_side_tree.png') no-repeat center center;
+}
+
+.user_go{
+	background:url('icons/user_go.png') no-repeat center center;
+}
+.user_add{
+	background:url('icons/user_add.png') no-repeat center center;
+}
+
+.user_edit{
+	background:url('icons/user_edit.png') no-repeat center center;
+}
+
+.user_delete{
+	background:url('icons/user_delete.png') no-repeat center center;
+}
+
+
+.link{
+	background:url('icons/link.png') no-repeat center center;
+}
+.link_add{
+	background:url('icons/link_add.png') no-repeat center center;
+}
+
+.link_edit{
+	background:url('icons/link_edit.png') no-repeat center center;
+}
+
+.link_delete{
+	background:url('icons/link_delete.png') no-repeat center center;
+}
+.house{
+	background:url('icons/house.png') no-repeat center center;
+}
+
+.basket_add{
+	background:url('icons/basket_add.png') no-repeat center center;
+}
+
+.basket_delete{
+	background:url('icons/basket_delete.png') no-repeat center center;
+}
+.basket_edit{
+	background:url('icons/basket_edit.png') no-repeat center center;
+}
+.cog_edit{
+	background:url('icons/cog_edit.png') no-repeat center center;
+}
+
