@@ -1,9 +1,8 @@
 # IDEA project files
 *.iml
-.idea
+.idea/
 .settings/
 classes/
-TngouCMS.iml
 .tern-project
 
 
