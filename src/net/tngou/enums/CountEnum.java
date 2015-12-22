@@ -1,8 +1,8 @@
 package net.tngou.enums;
 
 public enum CountEnum {
-	
-	count,fcount,rcount,seq
-	
+
+    count, fcount, rcount, seq
+
 
 }

@@ -1,74 +1,63 @@
 package net.tngou.pojo;
 
 
-
-
-
-
-
 /**
- *  
- * @author  kjh
- *
+ * @author kjh
  */
 public class Menu extends POJO {
 
 
-	private String name  	;	//   	
-	private int type 	;	//   
-	private int menu 	;	//
-	private String url 	;	//
-	private int seq 	;	//
-	
-	@Override
-	protected boolean isObjectCachedByID() {
-		// TODO Auto-generated method stub
-		return true;
-	}
+    private String name;    //
+    private int type;    //
+    private int menu;    //
+    private String url;    //
+    private int seq;    //
 
-	public String getName() {
-		return name;
-	}
+    @Override
+    protected boolean isObjectCachedByID() {
+        // TODO Auto-generated method stub
+        return true;
+    }
 
-	public void setName(String name) {
-		this.name = name;
-	}
+    public String getName() {
+        return name;
+    }
 
-	public int getType() {
-		return type;
-	}
+    public void setName(String name) {
+        this.name = name;
+    }
 
-	public void setType(int type) {
-		this.type = type;
-	}
+    public int getType() {
+        return type;
+    }
 
-	public int getMenu() {
-		return menu;
-	}
+    public void setType(int type) {
+        this.type = type;
+    }
 
-	public void setMenu(int menu) {
-		this.menu = menu;
-	}
+    public int getMenu() {
+        return menu;
+    }
 
-	public String getUrl() {
-		return url;
-	}
+    public void setMenu(int menu) {
+        this.menu = menu;
+    }
 
-	public void setUrl(String url) {
-		this.url = url;
-	}
+    public String getUrl() {
+        return url;
+    }
 
-	public int getSeq() {
-		return seq;
-	}
+    public void setUrl(String url) {
+        this.url = url;
+    }
 
-	public void setSeq(int seq) {
-		this.seq = seq;
-	}
-	
+    public int getSeq() {
+        return seq;
+    }
 
-	
-	
-	
-	
+    public void setSeq(int seq) {
+        this.seq = seq;
+    }
+
+
 }

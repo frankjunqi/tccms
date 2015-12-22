@@ -4,7 +4,6 @@ import com.alibaba.fastjson.JSON;
 import net.tngou.action.BaseAction;
 import net.tngou.entity.Ask;
 import net.tngou.jdbc.QueryHelper;
-import net.tngou.pojo.Link;
 import net.tngou.pojo.POJO;
 import net.tngou.pojo.Video;
 

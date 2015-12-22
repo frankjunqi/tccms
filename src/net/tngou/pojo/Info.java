@@ -1,8 +1,8 @@
 package net.tngou.pojo;
 
-import java.util.List;
-
 import net.tngou.util.JsoupUtil;
+
+import java.util.List;
 
 
 /**

@@ -1,9 +1,9 @@
 package net.tngou.pojo;
 
+import net.tngou.util.JsoupUtil;
+
 import java.sql.Timestamp;
 import java.util.Date;
-
-import net.tngou.util.JsoupUtil;
 
 
 /**

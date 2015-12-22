@@ -1,11 +1,5 @@
 package net.tngou.action;
 
-import java.io.IOException;
-import java.util.List;
-import java.util.Map;
-
-import javax.servlet.ServletException;
-
 import net.tngou.cache.VisitLogEhCache;
 import net.tngou.entity.PageUtil;
 import net.tngou.jdbc.OrderType;
@@ -16,6 +10,11 @@ import net.tngou.pojo.Page;
 import net.tngou.service.MenuService;
 import net.tngou.service.PageService;
 import net.tngou.util.JsoupUtil;
+
+import javax.servlet.ServletException;
+import java.io.IOException;
+import java.util.List;
+import java.util.Map;
 
 public class ProductsAction extends BaseAction {
 

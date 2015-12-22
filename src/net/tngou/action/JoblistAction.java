@@ -26,10 +26,10 @@ public class JoblistAction extends BaseAction {
         System.out.print("total = " + total);
         List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows());
         root.put("list", list);
-        if(list.size() > 0){
-            root.put("defaultid",((Job)list.get(0)).getId());
+        if (list.size() > 0) {
+            root.put("defaultid", ((Job) list.get(0)).getId());
         }
-        System.out.print(((Job)list.get(0)).getTitle());
+        System.out.print(((Job) list.get(0)).getTitle());
         printFreemarker("default/joblist.ftl", root);
     }
 

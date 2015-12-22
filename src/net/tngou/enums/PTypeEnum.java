@@ -1,6 +1,5 @@
 package net.tngou.enums;
 
-public enum PTypeEnum 
-{
-	news,blog
+public enum PTypeEnum {
+    news, blog
 }

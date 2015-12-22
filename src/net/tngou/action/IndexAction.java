@@ -1,10 +1,5 @@
 package net.tngou.action;
 
-import java.io.IOException;
-import java.util.List;
-
-import javax.servlet.ServletException;
-
 import net.tngou.entity.PageUtil;
 import net.tngou.jdbc.OrderType;
 import net.tngou.pojo.Info;
@@ -12,6 +7,10 @@ import net.tngou.pojo.Link;
 import net.tngou.pojo.POJO;
 import net.tngou.service.LinkService;
 import net.tngou.service.PageService;
+
+import javax.servlet.ServletException;
+import java.io.IOException;
+import java.util.List;
 
 public class IndexAction extends BaseAction {
 

@@ -1,19 +1,14 @@
 package net.tngou.action.manage;
 
-import java.io.IOException;
-import java.util.List;
-
-import javax.servlet.ServletException;
-
 import com.alibaba.fastjson.JSON;
-
 import net.tngou.action.BaseAction;
 import net.tngou.entity.Ask;
-import net.tngou.jdbc.QueryHelper;
 import net.tngou.pojo.Info;
-import net.tngou.pojo.Link;
-import net.tngou.pojo.Menu;
 import net.tngou.pojo.POJO;
+
+import javax.servlet.ServletException;
+import java.io.IOException;
+import java.util.List;
 
 /**
  * 公司的简介页面的信息（图片预览&软文介绍）
