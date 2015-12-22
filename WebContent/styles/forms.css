@@ -37,7 +37,7 @@ input, textarea, select{
 	margin:0;
 	padding:5px 5px 5px 10px;
 	color:#C7CED6;
-	background:url("../images/search_l.gif") 0 0 no-repeat #2C2C2C;
+	background:url("../images/icon/search_l.gif") 0 0 no-repeat #2C2C2C;
 	border:none;
 	}
 
@@ -134,7 +134,7 @@ input, textarea, select{
 	margin:0;
 	padding:5px 10px;
 	color:#989898;
-	background:url("../images/newsletter_form.gif") 0 0 no-repeat #FAFAFA;
+	background:url("../images/icon/newsletter_form.gif") 0 0 no-repeat #FAFAFA;
 	border:none;
 	}
 

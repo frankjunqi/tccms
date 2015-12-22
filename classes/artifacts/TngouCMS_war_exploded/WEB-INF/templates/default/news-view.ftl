@@ -2,7 +2,7 @@
 
 <h1 id="news_title">${news.title}</h1>
 <!--新闻详情信息数据-->
-<div><img src="${Domain.base}/images/demo/avatar.gif" width="32px" height="32px"
+<div><img src="${Domain.base}/images/icon/avatar.gif" width="32px" height="32px"
           alt=""/> &raquo &raquo &raquo发布时间：<span id="news_author">${news.time?string("yyyy-MM-dd")}</span>
     &raquo &raquo &raquo浏览：<span
             id="news_original">${news.count}</span></div>

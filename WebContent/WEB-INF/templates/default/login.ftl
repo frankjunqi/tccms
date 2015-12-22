@@ -7,7 +7,7 @@
     <meta name="keywords" content="${keywords}"/>
     <meta name="description" content="${description}"/>
     <link rel="icon" href="${Domain.base}/common/upload/favicon.ico" type="image/x-icon"/>
-    <SCRIPT src="${Domain.base}/common/js/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
+    <SCRIPT src="${Domain.base}/scripts/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
 
     <STYLE>
         body {

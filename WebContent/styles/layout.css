@@ -238,14 +238,14 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     display: inline-block;
     height: 33px;
     padding-left: 10px;
-    background: url("../images/readmore_left.gif") top left no-repeat;
+    background: url("../images/icon/readmore_left.gif") top left no-repeat;
 }
 
 .readmore strong {
     padding: 9px 10px 9px 0;
     line-height: 33px;
     white-space: nowrap;
-    background: url("../images/readmore_right.gif") top right no-repeat;
+    background: url("../images/icon/readmore_right.gif") top right no-repeat;
 }
 
 #shout {
@@ -255,7 +255,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     margin: 0 0 30px 0;
     padding: 25px 30px 0 30px;
     color: #E5E5E5;
-    background: url("../images/shout_bg.gif") top left no-repeat #B86365;
+    background: url("../images/icon/shout_bg.gif") top left no-repeat #B86365;
 }
 
 #shout h2, #shout p {
@@ -286,7 +286,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     text-align: center;
     text-transform: uppercase;
     color: #E5E5E5;
-    background: url("../images/shout_a_bg.gif") top left no-repeat #CB8B8C;
+    background: url("../images/icon/shout_a_bg.gif") top left no-repeat #CB8B8C;
 }
 
 #content {
@@ -594,7 +594,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
     list-style: none;
     text-transform: uppercase;
     text-align: center;
-    background: url("../images/tabs_bg.gif") top left no-repeat;
+    background: url("../images/icon/tabs_bg.gif") top left no-repeat;
 }
 
 #tabcontainer ul#tabnav li {
@@ -695,7 +695,7 @@ div.wrapper h1, div.wrapper h2, div.wrapper h3, div.wrapper h4, div.wrapper h5, 
 #backtotop a {
     padding: 8px 45px 8px 0;
     color: #FBF8CD;
-    background: url("../images/tothetop.gif") right center no-repeat #333333;
+    background: url("../images/icon/tothetop.gif") right center no-repeat #333333;
 }
 
 /* ----------------------------------------------Copyright-------------------------------------*/

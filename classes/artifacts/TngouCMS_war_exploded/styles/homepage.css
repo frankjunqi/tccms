@@ -99,11 +99,11 @@ HTML Output:
     outline: none;
     text-indent: -5000px;
     text-decoration: none;
-    background: url("../images/slide.png") 50% 50% no-repeat;
+    background: url("../images/icon/slide.png") 50% 50% no-repeat;
 }
 
 #homepage #fsn .activeSlide {
-    background: url("../images/slide.png") 0% 50% no-repeat;
+    background: url("../images/icon/slide.png") 0% 50% no-repeat;
 }
 
 /* ----------------------------------------------Right Column-------------------------------------*/

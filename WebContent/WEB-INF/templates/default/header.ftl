@@ -59,7 +59,7 @@
         }
 
         #mbCenter.mbLoading {
-            background: #fff url(${Domain.base}/images/WhiteLoading.gif) no-repeat center;
+            background: #fff url(${Domain.base}/images/icon/WhiteLoading.gif) no-repeat center;
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
         }
@@ -135,7 +135,7 @@
         #mbPrevLink {
             width: 32px;
             height: 100px;
-            background: transparent url(${Domain.base}/images/CustomBlackPrevious.gif) no-repeat center;
+            background: transparent url(${Domain.base}/images/icon/CustomBlackPrevious.gif) no-repeat center;
             position: absolute;
             top: 38%;
             left: -32px;
@@ -144,7 +144,7 @@
         #mbNextLink {
             width: 32px;
             height: 100px;
-            background: transparent url(${Domain.base}/images/CustomBlackNext.gif) no-repeat center;
+            background: transparent url(${Domain.base}/images/icon/CustomBlackNext.gif) no-repeat center;
             position: absolute;
             top: 38%;
             right: -32px;
@@ -152,7 +152,7 @@
 
         #mbCloseLink {
             width: 24px;
-            background: transparent url(${Domain.base}/images/CustomBlackClose.gif) no-repeat center;
+            background: transparent url(${Domain.base}/images/icon/CustomBlackClose.gif) no-repeat center;
             position: absolute;
             top: 10px;
             right: 10px;
@@ -245,7 +245,7 @@
                 <legend>Site Search</legend>
                 <input type="text" value="Search Our Website&hellip;"
                        onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"/>
-                <input type="image" id="go" src="${Domain.base}/images/search.gif" alt="Search"/>
+                <input type="image" id="go" src="${Domain.base}/images/icon/search.gif" alt="Search"/>
             </fieldset>
         </form>
     </div>
@@ -254,7 +254,7 @@
 <div class="wrapper col2">
     <div id="header" class="clear">
         <div class="fl_left">
-            <a href="${Domain.base}"><img src="${Domain.base}/images/logo_white.jpg" alt=""
+            <a href="${Domain.base}"><img src="${Domain.base}/images/icon/logo_white.jpg" alt=""
                                           style="width: 280px;height: 52px; text-align: center"/></a>
         </div>
         <div id="topnav">

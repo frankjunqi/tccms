@@ -3,4 +3,6 @@
 .idea/
 out/
 .idea/workspace.xml
+classes/
+.settings/
 

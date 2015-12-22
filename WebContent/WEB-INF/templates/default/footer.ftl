@@ -32,7 +32,7 @@
                 <li><span>QQ:</span> 4146361</li>
                 <li><span>QQ:</span> 896795844</li>
                 <li><span>微信公众号:</span> 骏燕文化</li>
-                <li class="last"><img style="width: 168px;height: 168px;" src="${Domain.base}/images/jywh_erweima.jpg" alt="骏燕文化"/></li>
+                <li class="last"><img style="width: 168px;height: 168px;" src="${Domain.base}/images/icon/jywh_erweima.jpg" alt="骏燕文化"/></li>
             </ul>
             <div style="margin-top: 40px">
                 <address>

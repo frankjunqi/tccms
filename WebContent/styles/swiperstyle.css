@@ -386,7 +386,7 @@ body {
 }
 
 .home-device .arrow-left {
-    background: url(../images/arrows.png) no-repeat left top;
+    background: url(../images/icon/arrows.png) no-repeat left top;
     position: absolute;
     left: 10px;
     top: 50%;
@@ -397,7 +397,7 @@ body {
 }
 
 .home-device .arrow-right {
-    background: url(../images/arrows.png) no-repeat left bottom;
+    background: url(../images/icon/arrows.png) no-repeat left bottom;
     position: absolute;
     right: 10px;
     top: 50%;
@@ -416,7 +416,7 @@ body {
 .sm-free {
     width: 105px;
     height: 61px;
-    background: url(../images/free.png);
+    background: url(../images/icon/free.png);
     position: absolute;
     right: -2px;
     top: -2px;
