@@ -1,4 +1,4 @@
-package net.tngou.action;
+package net.tngou.action.client;
 
 import net.tngou.pojo.Info;
 import net.tngou.pojo.User;

@@ -1,4 +1,4 @@
-package net.tngou.action;
+package net.tngou.action.client;
 
 import freemarker.template.Configuration;
 import freemarker.template.Template;

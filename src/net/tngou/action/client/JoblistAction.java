@@ -1,4 +1,4 @@
-package net.tngou.action;
+package net.tngou.action.client;
 
 import com.alibaba.fastjson.JSON;
 import net.tngou.entity.Ask;

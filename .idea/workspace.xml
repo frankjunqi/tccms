@@ -2,243 +2,29 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\about.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\footer.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\header.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\index.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\login.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\news-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\news.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\page.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\products-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\default2\products.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\contact.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\contact2.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\fd.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\list_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\main_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\menu_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\more.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\newlist_img.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\sort_jt.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\img\title_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\default\layout.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\bodyBg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\bodyBg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\bodyBg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\featured_slide.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\jobsliucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\logo_black.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pics\6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_rounded\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\dark_square\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\facebook\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_rounded\btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_rounded\btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_rounded\default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_rounded\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_rounded\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_square\btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_square\btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_square\default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_square\loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\prettyPhoto\light_square\sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\quotemarks.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\shadow.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\sign-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\slider1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\slider1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\jquery-prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\jquery.cycle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\scripts\jquery.cycle.setup.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\styles\prettyPhoto.css" afterPath="" />
+      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\index.html" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS/TngouCMS.war" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS/TngouCMS.war" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/1.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/1.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/2.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/2.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/3.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/3.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/META-INF/MANIFEST.MF" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/META-INF/MANIFEST.MF" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TngouCMS.iml" afterPath="$PROJECT_DIR$/TngouCMS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/about.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/about.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/anchor/anchor.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/anchor/anchor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ar.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ar.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/autoheight/autoheight.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/autoheight/autoheight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/baidumap.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/baidumap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/clearhtml/clearhtml.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/code.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/code.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/color.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/color.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/comment.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/comment.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/companyprofile.css" afterPath="$PROJECT_DIR$/WebContent/styles/companyprofile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/companyprofile.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/companyprofile.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/default/default.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/default/default.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/easyloader.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/easyloader.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/locale/easyui-lang-zh_CN.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/locale/easyui-lang-zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/emoticons.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/emoticons.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/en.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/en.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/file_manager_json.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/file_manager_json.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/filemanager.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/filemanager.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/flash/flash.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/flash/flash.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/footer.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/footer.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/footer.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/footer.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/footer.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/footer.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/footer.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/footer.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/forms.css" afterPath="$PROJECT_DIR$/WebContent/styles/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/forms.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/forms.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/gallery.css" afterPath="$PROJECT_DIR$/WebContent/styles/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/gallery.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/gallery.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/head.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/head.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/header.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/header.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/header.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/homepage.css" afterPath="$PROJECT_DIR$/WebContent/styles/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/homepage.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/homepage.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icon.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icon.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" afterPath="$PROJECT_DIR$/WebContent/styles/idangerous.swiper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/idangerous.swiper.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/idangerous.swiper.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/image.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/image.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/index.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/index.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/index.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/index.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/info.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/info.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/insertfile/insertfile.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/insertfile/insertfile.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/joblist.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/joblist.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/jobslist.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/jobslist.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/joinourteam.css" afterPath="$PROJECT_DIR$/WebContent/styles/joinourteam.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/joinourteam.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/joinourteam.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/scripts/jquery-1.6.3.min.js" afterPath="$PROJECT_DIR$/WebContent/scripts/jquery-1.6.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery-1.6.3.min.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery-1.6.3.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.min.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.setup.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.setup.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/jquery.easyui.min.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/jquery.easyui.min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/scripts/jquery.scrollTo-min.js" afterPath="$PROJECT_DIR$/WebContent/scripts/jquery.scrollTo-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.scrollTo-min.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.scrollTo-min.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor-all.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor-all.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ko.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ko.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/layout.css" afterPath="$PROJECT_DIR$/WebContent/styles/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/layout.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/license.txt" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/license.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/lineheight/lineheight.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/lineheight/lineheight.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/link/link.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/link/link.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/linklist.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/linklist.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/login.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/login.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/lrtk.css" afterPath="$PROJECT_DIR$/WebContent/styles/lrtk.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/lrtk.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/lrtk.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/map.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.html" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/media/media.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/media/media.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/menu.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/menu.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/multiimage.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/multiimage.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/nav.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/nav.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/navi.css" afterPath="$PROJECT_DIR$/WebContent/styles/navi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/navi.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/navi.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news-view.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news-view.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news-view.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news-view.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/page.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/page.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/page.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/page.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/pagebreak/pagebreak.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/plainpaste/plainpaste.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/portfolio.css" afterPath="$PROJECT_DIR$/WebContent/styles/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/portfolio.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/portfolio.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/prettyPhoto.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/prettyPhoto.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/preview/preview.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/preview/preview.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products-view.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products-view.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products-view.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products-view.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/qq/qq.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/qq/qq.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/quickformat/quickformat.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/quickformat/quickformat.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/readme.txt" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/readme.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/simple/simple.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/simple/simple.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" afterPath="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiper-demos.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiper-demos.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" afterPath="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiperstyle.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiperstyle.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/table/table.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/table/table.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/styles/tables.css" afterPath="$PROJECT_DIR$/WebContent/styles/tables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/tables.css" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/tables.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/template.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/template.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/upload_json.jsp" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/upload_json.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/userlist.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/userlist.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/videolist.ftl" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/videolist.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/wordpaste/wordpaste.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/CommentAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/CommentAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/cache/EhCacheEngine.java" afterPath="$PROJECT_DIR$/src/net/tngou/cache/EhCacheEngine.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/IndexAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/IndexAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/InfoAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/JobListAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/LinkAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/LinkAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/NavAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/NavAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/UserAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/UserAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/manage/VideoListAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/manage/VideoListAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/cache/VisitLogEhCache.java" afterPath="$PROJECT_DIR$/src/net/tngou/cache/VisitLogEhCache.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_CN.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_CN.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_TW.js" afterPath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_TW.js" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\hand.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/hand.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\left-handing.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/left-handing.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\left_hand.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/left_hand.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\password.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/password.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\right_hand.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/right_hand.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\right_handing.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/right_handing.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\tou.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/tou.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\img\username.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/username.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\common\js\jquery-1.9.1.min.js" afterPath="$PROJECT_DIR$/WebContent/scripts/jquery-1.9.1.min.js" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\CustomBlackClose.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/CustomBlackClose.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\CustomBlackNext.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/CustomBlackNext.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\CustomBlackPrevious.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/CustomBlackPrevious.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\WhiteLoading.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/WhiteLoading.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\arrows.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/arrows.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\black_file.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/black_file.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\demo\avatar.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/avatar.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\free.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/free.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\jywh_erweima.jpg" afterPath="$PROJECT_DIR$/WebContent/common/icon/jywh_erweima.jpg" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\logo_white.jpg" afterPath="$PROJECT_DIR$/WebContent/common/icon/logo_white.jpg" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\newsletter_form.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/newsletter_form.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\pink_file.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/pink_file.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\readmore_left.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/readmore_left.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\readmore_right.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/readmore_right.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\search.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/search.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\search_l.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/search_l.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\shout_a_bg.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/shout_a_bg.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\shout_bg.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/shout_bg.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\slide.png" afterPath="$PROJECT_DIR$/WebContent/common/icon/slide.png" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\tabs_bg.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/tabs_bg.gif" />
-      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\images\tothetop.gif" afterPath="$PROJECT_DIR$/WebContent/common/icon/tothetop.gif" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\AboutAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/AboutAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\BaseAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/BaseAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\IndexAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/IndexAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\JoblistAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/JoblistAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\LoginAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\NewsAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/NewsAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\ProductsAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/ProductsAction.java" />
+      <change type="MOVED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\ServletAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -264,11 +50,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+      <file leaf-file-name="RequestContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/http/RequestContext.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25904763" vertical-offset="0" max-vertical-offset="525">
-              <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="2525" max-vertical-offset="3383">
+              <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpResponse.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/http/HttpResponse.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+              <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ResponseContext.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/http/ResponseContext.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1377">
+              <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MysqlInfo.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/MysqlInfo.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1241">
+              <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DBManager.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/DBManager.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="1941" max-vertical-offset="3162">
+              <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Configurations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/Configurations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OrderType.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/OrderType.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="QueryHelper.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/QueryHelper.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.4055944" vertical-offset="3545" max-vertical-offset="4403">
+              <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Proxy.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/reflect/Proxy.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="12358" max-vertical-offset="13549">
+              <caret line="787" column="26" selection-start-line="787" selection-start-column="26" selection-end-line="787" selection-end-column="26" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="jdbc.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/jdbc.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -282,14 +158,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/config/jdbc.properties" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/AboutAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/styles/lrtk.css" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/JoblistAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/styles/gallery.css" />
-        <option value="$PROJECT_DIR$/src/net/tngou/service/PageService.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/dao/PageDao.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/IndexAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/BaseAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/manage/IndexAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default2/footer.ftl" />
@@ -333,6 +201,14 @@
         <option value="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" />
         <option value="$PROJECT_DIR$/WebContent/common/default/layout.css" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/net/tngou/quartz/JobManager.java" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/ServletAction.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/cache/EhCacheEngine.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/cache/VisitLogEhCache.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java" />
       </list>
     </option>
   </component>
@@ -433,8 +309,8 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -453,6 +329,118 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WebContent" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="META-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tngou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tngou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jdbc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
@@ -466,7 +454,7 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="D:/我的配置/桌面/HiApp-master/HiApp" />
+    <property name="last_opened_file_path" value="D:/tomcat/apache-tomcat-7.0.57/webapps/AdminLTE2" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
@@ -477,6 +465,22 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
     <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="250" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="257" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="271" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1055" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="254" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="256" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="270" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1053" />
+    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -919,11 +923,13 @@
       <workItem from="1449799641802" duration="3579000" />
       <workItem from="1449905081190" duration="6742000" />
       <workItem from="1450750419179" duration="2699000" />
+      <workItem from="1450765237123" duration="3553000" />
+      <workItem from="1451530859439" duration="4072000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="156914000" />
+    <option name="totallyTimeSpent" value="164539000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -947,15 +953,16 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.64182425" sideWeight="0.14179105" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3570634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3570634" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -966,17 +973,16 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2836485" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30144605" sideWeight="0.85820895" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80756396" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.55172414" sideWeight="0.85820895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26972282" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26972282" sideWeight="0.6730769" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23614073" sideWeight="0.32692307" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29032257" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.512792" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23614073" sideWeight="0.32692307" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
@@ -1038,328 +1044,411 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/ProductsAction.java">
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang3-3.3.2.jar!/org/apache/commons/lang3/time/DateUtils.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="405" max-vertical-offset="1326">
-          <caret line="46" column="28" selection-start-line="46" selection-start-column="28" selection-end-line="46" selection-end-column="28" />
+        <state vertical-scroll-proportion="-11.44" vertical-offset="2026" max-vertical-offset="10931">
+          <caret line="157" column="23" selection-start-line="157" selection-start-column="23" selection-end-line="157" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.87370837" vertical-offset="761" max-vertical-offset="1632">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.46995193" vertical-offset="0" max-vertical-offset="3706">
+          <caret line="23" column="0" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/ehcache.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.20731707" vertical-offset="0" max-vertical-offset="410">
+          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/META-INF/MANIFEST.MF">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5893491" vertical-offset="498" max-vertical-offset="1343">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.05944056" vertical-offset="0" max-vertical-offset="858">
+          <caret line="3" column="38" selection-start-line="3" selection-start-column="38" selection-end-line="3" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/freemarker.jar!/freemarker/template/Configuration.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="12121">
+          <caret line="61" column="13" selection-start-line="61" selection-start-column="13" selection-end-line="61" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/IndexAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
+          <caret line="14" column="35" selection-start-line="14" selection-start-column="35" selection-end-line="14" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/UserAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.09758898" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/Class.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334" vertical-offset="5086" max-vertical-offset="58412">
+          <caret line="383" column="13" selection-start-line="383" selection-start-column="13" selection-end-line="383" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/quartz.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.76119405" vertical-offset="0" max-vertical-offset="871">
+          <caret line="39" column="18" selection-start-line="39" selection-start-column="18" selection-end-line="39" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/servlet-api.jar!/javax/servlet/http/HttpServlet.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.12244898" vertical-offset="0" max-vertical-offset="4590">
+          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/quartz/JobManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="553" max-vertical-offset="1411">
+          <caret line="43" column="0" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/quartz/VisitlogJob.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tngou.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="410">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/service/BaseService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3366">
+          <caret line="40" column="52" selection-start-line="40" selection-start-column="52" selection-end-line="40" selection-end-column="52" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/cache/EhCacheEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.07347876" vertical-offset="2512" max-vertical-offset="3383">
+          <caret line="157" column="7" selection-start-line="157" selection-start-column="7" selection-end-line="157" selection-end-column="7" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/cache/VisitLogEhCache.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.58553386" vertical-offset="0" max-vertical-offset="2006">
+          <caret line="36" column="49" selection-start-line="36" selection-start-column="49" selection-end-line="36" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/cache/CacheEngine.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7529138" vertical-offset="0" max-vertical-offset="858">
+          <caret line="46" column="0" selection-start-line="46" selection-start-column="0" selection-end-line="46" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="102" max-vertical-offset="6885">
+          <caret line="54" column="27" selection-start-line="54" selection-start-column="14" selection-end-line="54" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="153" max-vertical-offset="1887">
+          <caret line="56" column="45" selection-start-line="56" selection-start-column="45" selection-end-line="56" selection-end-column="45" />
           <folding>
-            <element signature="imports" expanded="false" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1309" max-vertical-offset="4301">
-          <caret line="77" column="38" selection-start-line="77" selection-start-column="38" selection-end-line="77" selection-end-column="38" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="332" max-vertical-offset="2465">
+          <caret line="43" column="8" selection-start-line="43" selection-start-column="8" selection-end-line="43" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/avatar.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.6153846" vertical-offset="0" max-vertical-offset="425">
-          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="33" max-vertical-offset="8823">
+          <caret line="41" column="31" selection-start-line="41" selection-start-column="31" selection-end-line="41" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/arrows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/black_file.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-15.038462" vertical-offset="2091" max-vertical-offset="4743">
-          <caret line="146" column="54" selection-start-line="146" selection-start-column="54" selection-end-line="146" selection-end-column="54" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="255">
+          <caret line="4" column="15" selection-start-line="4" selection-start-column="15" selection-end-line="4" selection-end-column="15" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/free.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/jywh_erweima.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/logo_white.jpg">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/newsletter_form.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/pink_file.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/readmore_left.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/readmore_right.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/search.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/search_l.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/shout_a_bg.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/shout_bg.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/slide.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/tabs_bg.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/tothetop.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/WhiteLoading.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/portfolio.css">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/dao/PageDao.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1037">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="544">
+          <caret line="7" column="32" selection-start-line="7" selection-start-column="32" selection-end-line="7" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Domain.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="340">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/PageUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.11710677" vertical-offset="0" max-vertical-offset="1258">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Visits.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.17566016" vertical-offset="0" max-vertical-offset="871">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Ask.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/CacheEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/CookieEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="221">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/CountEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="238">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/PTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/SearchEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/TTypeEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/enums/UserEnum.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.039035592" vertical-offset="0" max-vertical-offset="1683">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="774" max-vertical-offset="1632">
+          <caret line="100" column="0" selection-start-line="100" selection-start-column="0" selection-end-line="100" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/http/HttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/http/RequestContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2525" max-vertical-offset="3383">
+          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/http/HttpResponse.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="408">
+          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/http/ResponseContext.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1377">
+          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/MysqlInfo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="1241">
+          <caret line="3" column="13" selection-start-line="3" selection-start-column="13" selection-end-line="3" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/jdbc.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/swiper-demos.css">
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/lang/reflect/Proxy.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46084338" vertical-offset="0" max-vertical-offset="7888">
-          <caret line="18" column="48" selection-start-line="18" selection-start-column="48" selection-end-line="18" selection-end-column="48" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="12358" max-vertical-offset="13549">
+          <caret line="787" column="26" selection-start-line="787" selection-start-column="26" selection-end-line="787" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/DBManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2560241" vertical-offset="6885" max-vertical-offset="9758">
-          <caret line="415" column="8" selection-start-line="415" selection-start-column="1" selection-end-line="415" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="1941" max-vertical-offset="3162">
+          <caret line="156" column="27" selection-start-line="156" selection-start-column="27" selection-end-line="156" selection-end-column="27" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/tables.css">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/Configurations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
+          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/CustomBlackClose.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/CustomBlackNext.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/CustomBlackPrevious.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/easyui/themes/black/images/accordion_arrows.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/left-handing.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/left_hand.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/password.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/right_hand.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/right_handing.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/username.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/hand.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/tou.png">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/hashtabber.js">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/OrderType.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3264">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/idangerous.swiper.scrollbar-1.2.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4726">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/idangerous.swiper-1.9.1.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/jquery-ui-1.8.13.custom.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1241">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/mootools-core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6188">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="357">
+          <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/swiper-demos.js">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/QueryHelper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3723">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/jquery.defaultvalue.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.37638375" vertical-offset="0" max-vertical-offset="1105">
-          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/jquery.scrollTo-min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/jquery-1.6.3.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="529">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/mediabox.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6834171" vertical-offset="0" max-vertical-offset="731">
-          <caret line="24" column="68" selection-start-line="24" selection-start-column="68" selection-end-line="24" selection-end-column="68" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9549904" vertical-offset="2821" max-vertical-offset="3332">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25904763" vertical-offset="0" max-vertical-offset="525">
-          <caret line="8" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="8" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.4055944" vertical-offset="3545" max-vertical-offset="4403">
+          <caret line="245" column="24" selection-start-line="245" selection-start-column="24" selection-end-line="245" selection-end-column="24" />
           <folding />
         </state>
       </provider>

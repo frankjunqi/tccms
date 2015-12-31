@@ -1,4 +1,4 @@
-package net.tngou.action;
+package net.tngou.action.client;
 
 import net.tngou.http.HttpRequest;
 import net.tngou.http.HttpResponse;
@@ -26,7 +26,7 @@ import java.io.IOException;
  * <br >
  * <servlet><br >
  * <servlet-name>servlet</servlet-name><br >
- * <servlet-class>net.tngou.action.ServletAction</servlet-class><br >
+ * <servlet-class>net.tngou.action.client.ServletAction</servlet-class><br >
  * <init-param><br >
  * <param-name>module</param-name><br >
  * <param-value>module.properties</param-value><br >
@@ -45,8 +45,8 @@ import java.io.IOException;
  *
  * @author 陈磊
  */
-@WebServlet(urlPatterns = "/action/*",
-        initParams = {@WebInitParam(name = "package", value = "net.tngou.action")})
+@WebServlet(urlPatterns = "/client/*",
+        initParams = {@WebInitParam(name = "package", value = "net.tngou.action.client")})
 public class ServletAction extends HttpServlet {
     private static final long serialVersionUID = 1L;
     private final static Logger log = LoggerFactory.getLogger(ServletAction.class);
@@ -59,10 +59,7 @@ public class ServletAction extends HttpServlet {
      */
     @Override
     public void init(ServletConfig config) throws ServletException {
-
         packages = config.getInitParameter("package");
-
-
         super.init();
     }
 
@@ -70,7 +67,6 @@ public class ServletAction extends HttpServlet {
     @Override
     protected void service(HttpServletRequest req, HttpServletResponse resp)
             throws ServletException, IOException {
-
 
         HttpRequest request = new RequestContext(req);
         HttpResponse response = new ResponseContext(resp);
@@ -80,7 +76,6 @@ public class ServletAction extends HttpServlet {
 //		  response.sendRedirect(url );
 //		  return;
 //	  }
-
         String module = request.getModule();//取得调用类
         String action = request.getAction();  //取得调方法
         BaseAction baseAction = _retrieveModule(module); //初始调用类
@@ -89,9 +84,7 @@ public class ServletAction extends HttpServlet {
             response.sendError(HttpServletResponse.SC_NOT_FOUND);//返回404
             return;
         }
-
         baseAction.init(request, response); //初始化baseAction
-
         if (StringUtils.isNotEmpty(action)) {
             baseAction.run(); //执行
         } else //默认执行
@@ -104,10 +97,7 @@ public class ServletAction extends HttpServlet {
             } finally {
                 DBManager.closeConnection(); //释放数据库连接到连接池中
             }
-
         }
-
-
     }
 
 
@@ -124,30 +114,22 @@ public class ServletAction extends HttpServlet {
     /**
      * 通过类的名称 ，返回名称对于的对象。如果没有找到该对象，返回NULL
      *
-     * @param moduleClass 类的名称 如：test.action.TestAction
+     * @param module 类的名称 如：test.action.TestAction
      * @return 返回 Object对象
      */
     private BaseAction _retrieveModule(String module) {
-
-
         module = StringUtils.capitalize(module + "Action");//module后添加Action 并且把第一个字母转为大写
         String moduleClass = packages + "." + module;
         //com.mykaoyan.action.TestAction
-
         try {
             BaseAction baseAction;
             baseAction = (BaseAction) Class.forName(moduleClass).newInstance();
             return baseAction;
         } catch (InstantiationException | IllegalAccessException | ClassNotFoundException e) {
-
             log.error("没有对用的{}类", moduleClass);
-
             e.printStackTrace();
         }
-
-
         return null;
-
     }
 
 
