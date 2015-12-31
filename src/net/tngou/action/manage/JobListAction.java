@@ -20,8 +20,6 @@ public class JobListAction extends BaseAction {
 
     @Override
     public void execute() throws ServletException, IOException {
-
-
         printFreemarker("manage/jobslist.ftl", root);
     }
 

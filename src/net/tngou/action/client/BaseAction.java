@@ -385,17 +385,14 @@ public abstract class BaseAction {
      * 404页面
      */
     public void run_false() {
-
         String json = "{\"success\": false}";
-
         printJson(json);
     }
 
 
     public String toJsonP(String json, int total) {
-
         json = "{\"total\":" + total + ",\"rows\":" + json + "}";
-
+        log.info("josn == " + json);
         return json;
     }
 

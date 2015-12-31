@@ -7,7 +7,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>市场中心 | Url规则</title>
+    <title>Url规则 | 拦截器</title>
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
@@ -295,9 +295,51 @@ desired effect
 
         <!-- Main content -->
         <section class="content">
-
-            <!-- Your Page Content Here -->
-
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="box">
+                        <div class="box-header with-border">
+                            <h3 class="box-title">Bordered Table</h3>
+                        </div>
+                        <!-- /.box-header -->
+                        <div class="box-body">
+                            <table class="table table-bordered">
+                                <tr>
+                                    <th style="width: 5%">#</th>
+                                    <th style="width: 25%">拦截器名称</th>
+                                    <th style="width: 45%">拦截器参数说明</th>
+                                    <th style="width: 25%">拦截器备注说明</th>
+                                </tr>
+                            <#list interceptorlist as item>
+                                <tr>
+                                    <td>${item.id}.</td>
+                                    <td>${item.interceptorname}</td>
+                                <#--<td>
+                                    <div class="progress progress-xs">
+                                        <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                                    </div>
+                                </td>-->
+                                    <td>${item.interceptorvalue}
+                                    </td>
+                                    <td><span class="badge bg-red">${item.interceptorremark}</span></td>
+                                </tr>
+                            </#list>
+                            </table>
+                        </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer clearfix">
+                            <ul class="pagination pagination-sm no-margin pull-right">
+                                <li><a href="#">&laquo;</a></li>
+                                <li><a href="#">1</a></li>
+                                <li><a href="#">2</a></li>
+                                <li><a href="#">3</a></li>
+                                <li><a href="#">&raquo;</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- Your Page Content Here -->
+                </div>
+            </div>
         </section>
         <!-- /.content -->
     </div>
