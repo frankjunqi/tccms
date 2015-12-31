@@ -1,6 +1,6 @@
 package net.tngou.action.manage;
 
-import net.tngou.action.BaseAction;
+import net.tngou.action.client.BaseAction;
 
 import javax.servlet.ServletException;
 import java.io.IOException;

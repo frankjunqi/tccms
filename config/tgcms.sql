@@ -150,11 +150,38 @@ CREATE TABLE IF NOT EXISTS `tgcms_job` (
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
 
 --
+-- 表 拦截器的表结构
+--
+DROP TABLE IF EXISTS `tgcms_interceptor`;
+CREATE TABLE IF NOT EXISTS `tgcms_interceptor` (
+  `id` smallint(5) unsigned NOT NULL ,
+  `interceptorname` varchar(16) NOT NULL ,
+  `interceptorvalue` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `interceptorremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
+
+--
+-- Indexes for table `tgcms_interceptor`
+--
+ALTER TABLE `tgcms_interceptor`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for table `tgcms_interceptor`
+--
+ALTER TABLE `tgcms_interceptor`
+MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
+
+INSERT INTO `tgcms_interceptor` ( `interceptorname`,`interceptorvalue`, `interceptorremark`) VALUES
+('interceptorname','interceptorvalue', 'interceptorremark');
+
+--
 -- 转存表中的数据 `tgcms_user`
 --
 
 INSERT INTO `tgcms_job` (`id`, `title`,`des`, `desccipiton`) VALUES
 (4, 'title','des', 'desccipiton');
+
 
 --
 -- Indexes for dumped tables

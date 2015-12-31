@@ -1,7 +1,7 @@
 package net.tngou.action.manage;
 
 import com.alibaba.fastjson.JSON;
-import net.tngou.action.BaseAction;
+import net.tngou.action.client.BaseAction;
 import net.tngou.entity.Ask;
 import net.tngou.pojo.Info;
 import net.tngou.pojo.POJO;

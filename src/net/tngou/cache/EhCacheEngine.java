@@ -155,7 +155,6 @@ public class EhCacheEngine implements CacheEngine {
      * 移除cache的所以key的值
      *
      * @param fullyQualifiedName
-     * @param key
      */
     public void remove(String fullyQualifiedName) {
 //		if (_cacheExists(fullyQualifiedName)) 
