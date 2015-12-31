@@ -2,688 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS/TngouCMS.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/IKAnalyzer2012FF_u1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/bcprov-ext-jdk15on-147.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/bcprov-jdk15on-147.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-beanutils-1.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-codec-1.10.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-collections4-4.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-configuration2-2.0-alpha1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-dbutils-1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-email-1.3.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-io-2.4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-lang-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/druid-1.0.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/ehcache-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/fastjson-1.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/freemarker.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/httpclient-4.3.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/httpcore-4.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/javassist-3.18.1-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/jcaptcha-all-1.0-RC2.0.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/jcl-over-slf4j-1.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/json_simple-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/jsoup-tngou.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/juniversalchardet-1.0.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/log4j-over-slf4j-1.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/logback-classic-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/logback-core-1.1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/mail-1.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/mariadb-java-client-1.1.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/objenesis-2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/pinyin4j-2.5.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/prettytime-3.2.4.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/quartz-all-2.1.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/servlet-api.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/lib/slf4j-api-1.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/about.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/footer.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/header.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/index.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/joblist.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/login.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/news.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/page.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default/products.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/about.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/footer.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/header.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/index.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/login.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/news.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/page.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products-view.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/default2/products.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/comment.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/footer.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/head.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/header.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/index.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/info.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/jobslist.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/linklist.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/menu.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/nav.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/userlist.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/templates/manage/videolist.ftl" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/contact.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/contact2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/fd.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/list_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/main_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/menu_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/more.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/newlist_img.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/sort_jt.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/img/title_1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/default/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/easyloader.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/jquery.easyui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/locale/easyui-lang-zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/black/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/bootstrap/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/color.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/default/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/gray/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icon.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/application_home.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/application_side_tree.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/basket_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/basket_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/basket_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/chart_organisation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/cog.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/cog_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/comment.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/comment_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/comment_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/comment_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/comments.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/database.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/house.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/link.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/link_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/link_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/link_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/server_connect.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/user.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/user_add.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/user_delete.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/user_edit.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/icons/user_go.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/accordion.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/calendar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/combo.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/combobox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/datagrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/datebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/easyui.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/filebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/accordion_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/calendar_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/combo_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/datagrid_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/datebox_arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/layout_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/linkbutton_bg.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/menu_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/messager_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/pagination_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/panel_tools.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/searchbox_button.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/slider_handle.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/spinner_arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/tabs_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/tree_icons.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/images/validatebox_warning.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/linkbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/menu.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/menubutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/messager.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/numberbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/pagination.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/panel.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/progressbar.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/propertygrid.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/searchbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/slider.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/spinner.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/splitbutton.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/tabs.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/textbox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/tooltip.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/tree.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/validatebox.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/easyui/themes/metro/window.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/hand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/left-handing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/left_hand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/password.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/right_hand.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/right_handing.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/tou.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/img/username.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/js/jquery-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/file_manager_json.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/jsp/upload_json.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor-all-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor-all.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/kindeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ar.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/ko.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/lang/zh_TW.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/license.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/anchor/anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/autoheight/autoheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/baidumap.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/baidumap/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/clearhtml/clearhtml.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/code.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/code/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/emoticons.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/0.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/1.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/10.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/100.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/101.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/102.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/103.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/104.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/105.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/106.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/107.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/108.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/109.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/11.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/110.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/111.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/112.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/113.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/114.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/115.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/116.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/117.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/118.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/119.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/12.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/120.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/121.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/122.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/123.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/124.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/125.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/126.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/127.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/128.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/129.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/13.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/130.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/131.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/132.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/133.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/134.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/14.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/15.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/17.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/18.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/19.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/2.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/20.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/21.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/22.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/23.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/24.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/25.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/26.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/27.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/28.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/29.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/3.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/30.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/31.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/32.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/33.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/34.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/35.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/36.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/37.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/38.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/39.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/4.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/40.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/41.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/42.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/43.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/44.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/45.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/46.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/47.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/48.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/49.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/5.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/50.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/51.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/52.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/53.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/54.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/55.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/56.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/57.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/58.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/59.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/6.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/60.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/61.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/62.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/63.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/65.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/66.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/67.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/68.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/69.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/7.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/70.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/71.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/72.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/73.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/74.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/75.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/76.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/77.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/78.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/79.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/8.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/80.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/81.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/82.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/83.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/84.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/85.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/86.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/87.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/88.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/89.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/9.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/90.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/91.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/92.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/93.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/94.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/95.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/96.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/97.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/98.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/99.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/emoticons/images/static.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/filemanager.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/images/file-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/images/file-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/images/folder-16.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/images/folder-64.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/filemanager/images/go-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/flash/flash.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/image.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/images/align_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/images/align_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/images/align_top.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/image/images/refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/insertfile/insertfile.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/lineheight/lineheight.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/link/link.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/map/map.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/media/media.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/images/select-files-en.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/images/select-files-zh_CN.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/images/swfupload.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/multiimage/multiimage.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/pagebreak/pagebreak.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/plainpaste/plainpaste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/preview/preview.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/quickformat/quickformat.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/table/table.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/1.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/2.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/html/3.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/template/template.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/plugins/wordpaste/wordpaste.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/anchor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/blank.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/flash.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/loading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/media.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/common/rm.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/default/background.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/default/default.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/default/default.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/qq/editor.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/qq/qq.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/kindeditor/themes/simple/simple.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/16163748937.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/23154030557.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/23154521691.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/23154532775.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/favicon.ico" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/img.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/logo.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/common/upload/tngoucms-logo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/CustomBlackClose.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/CustomBlackNext.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/CustomBlackPrevious.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/WhiteLoading.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/arrows.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/black_file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/bodyBg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/bodyBg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/bodyBg3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/demo/avatar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/featured_slide.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/free.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/jobsliucheng.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/jywh_erweima.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/logo.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/logo_black.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/logo_white.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/newsletter_form.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pics/6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/pink_file.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/contentPattern.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/dark_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/contentPatternBottom.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/contentPatternLeft.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/contentPatternRight.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/contentPatternTop.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/facebook/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_rounded/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_rounded/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_rounded/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_rounded/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_rounded/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_square/btnNext.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_square/btnPrevious.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_square/default_thumbnail.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_square/loader.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/prettyPhoto/light_square/sprite.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/quotemarks.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/readmore_left.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/readmore_right.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/search.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/search_l.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/shadow.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/shout_a_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/shout_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/sign-up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/slide.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/slider1-1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/slider1-2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/tabs_bg.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/images/tothetop.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/hashtabber.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/idangerous.swiper-1.9.1.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/idangerous.swiper.scrollbar-1.2.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery-1.6.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery-prettyPhoto.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery-ui-1.8.13.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.cycle.setup.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.defaultvalue.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/jquery.scrollTo-min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/mediabox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/mootools-core.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/scripts/swiper-demos.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/companyprofile.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/forms.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/gallery.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/homepage.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/idangerous.swiper.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/joinourteam.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/layout.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/lrtk.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/navi.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/portfolio.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/prettyPhoto.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiper-demos.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/swiperstyle.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded/styles/tables.css" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/TngouCMS_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/TngouCMS_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tngou.properties" afterPath="$PROJECT_DIR$/config/tngou.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -714,8 +33,8 @@
       <file leaf-file-name="tngou.properties" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/config/tngou.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="15" max-vertical-offset="105">
-              <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
+              <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
               <folding />
             </state>
           </provider>
@@ -744,8 +63,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.097087376" vertical-offset="0" max-vertical-offset="618">
-              <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+            <state vertical-scroll-proportion="0.07258064" vertical-offset="0" max-vertical-offset="620">
+              <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -818,8 +137,8 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news-view.ftl" />
         <option value="$PROJECT_DIR$/WebContent/styles/swiperstyle.css" />
         <option value="$PROJECT_DIR$/WebContent/common/default/layout.css" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/tngou.properties" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -920,7 +239,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -942,6 +260,7 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1408,11 +727,12 @@
       <workItem from="1451059135480" duration="219000" />
       <workItem from="1451059515311" duration="1698000" />
       <workItem from="1451574335514" duration="40000" />
+      <workItem from="1451575319156" duration="80000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="160889000" />
+    <option name="totallyTimeSpent" value="160969000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1469,14 +789,14 @@
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2836485" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3548387" sideWeight="0.3523454" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1495,8 +815,8 @@
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.23614073" sideWeight="0.32692307" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout-to-restore>
   </component>
@@ -1527,6 +847,14 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/DBManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="450" max-vertical-offset="2790">
+          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/common/icon/black_file.gif">
       <provider selected="true" editor-type-id="images">
         <state />
@@ -1772,13 +1100,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.9549904" vertical-offset="2821" max-vertical-offset="3332">
-          <caret line="17" column="35" selection-start-line="17" selection-start-column="35" selection-end-line="17" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/config/config.properties">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="210">
@@ -1790,14 +1111,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.61132073" vertical-offset="213" max-vertical-offset="705">
           <caret line="32" column="0" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tngou.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="105">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1825,10 +1138,18 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/config/tngou.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="620">
+          <caret line="0" column="17" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.097087376" vertical-offset="0" max-vertical-offset="618">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+        <state vertical-scroll-proportion="0.07258064" vertical-offset="0" max-vertical-offset="620">
+          <caret line="3" column="19" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
