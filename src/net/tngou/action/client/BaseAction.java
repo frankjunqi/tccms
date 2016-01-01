@@ -44,6 +44,13 @@ import java.util.Map;
  */
 public abstract class BaseAction {
 
+    // 菜单的组信息
+    public static final String FlagGroup = "FlagGroup";
+
+    // 菜单的子信息
+    public static final String FlagChild = "FlagChild";
+
+
     private static final Logger log = LoggerFactory.getLogger(BaseAction.class);
     @SuppressWarnings("rawtypes")
     private static Class[] NO_ARGS_CLASS = new Class[0];
@@ -420,9 +427,7 @@ public abstract class BaseAction {
 
 
     protected List<Menu> _getMenu() {
-
         MenuService menuService = new MenuService();
-
         String filter = "	type >-1 AND menu=0";
         List<Menu> list = (List<Menu>) menuService.getList(filter, "seq", OrderType.ASC, new Menu());
         return list;

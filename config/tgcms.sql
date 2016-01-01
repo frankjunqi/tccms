@@ -155,7 +155,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_job` (
 DROP TABLE IF EXISTS `tgcms_interceptor`;
 CREATE TABLE IF NOT EXISTS `tgcms_interceptor` (
   `id` smallint(5) unsigned NOT NULL ,
-  `interceptorname` varchar(16) NOT NULL ,
+  `interceptorname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `interceptorvalue` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `interceptorremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
@@ -169,8 +169,8 @@ ALTER TABLE `tgcms_interceptor`
 --
 -- AUTO_INCREMENT for table `tgcms_interceptor`
 --
-ALTER TABLE `tgcms_interceptor`
-MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
+  ALTER TABLE `tgcms_interceptor`
+  MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
 
 INSERT INTO `tgcms_interceptor` ( `interceptorname`,`interceptorvalue`, `interceptorremark`) VALUES
 ('interceptorname','interceptorvalue', 'interceptorremark');
