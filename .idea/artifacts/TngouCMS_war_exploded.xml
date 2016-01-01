@@ -1,6 +1,6 @@
 <component name="ArtifactManager">
-  <artifact type="exploded-war" name="TngouCMS:war exploded">
-    <output-path>$PROJECT_DIR$/classes/artifacts/TngouCMS_war_exploded</output-path>
+  <artifact type="exploded-war" build-on-make="true" name="TngouCMS:war exploded">
+    <output-path>$PROJECT_DIR$/../../apache-tomcat-8.0.21/webapps/TngouCMS</output-path>
     <root id="root">
       <element id="directory" name="WEB-INF">
         <element id="directory" name="classes">

@@ -1,6 +1,7 @@
 # IDEA project files
 *.iml
 .idea/
+.idea/workspace.xml
 .settings/
 classes/
 .tern-project
