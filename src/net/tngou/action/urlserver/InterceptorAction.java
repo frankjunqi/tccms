@@ -2,10 +2,13 @@ package net.tngou.action.urlserver;
 
 import net.tngou.action.client.BaseAction;
 import net.tngou.entity.Ask;
+import net.tngou.entity.PageUtil;
 import net.tngou.jdbc.OrderType;
 import net.tngou.jdbc.QueryHelper;
 import net.tngou.pojo.Interceptor;
 import net.tngou.pojo.POJO;
+import net.tngou.service.PageService;
+import org.apache.http.util.TextUtils;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
@@ -21,15 +24,10 @@ public class InterceptorAction extends BaseAction {
     public void execute() throws ServletException, IOException {
         root.put(FlagGroup, "Interceptor");
         root.put(FlagChild, "Interceptorlist");
-        root.put("issuccess", "");
-        // 处理拦截器列表数据
-        // 1. 查询page
-
-        // 2. 得到list
+        // 1. 得到list
         Ask ask = (Ask) getAsk(new Ask());
         Interceptor bean = new Interceptor();
-        int total = bean.totalCount();
-        System.out.print("total = " + total);
+        ask.setPage(1);
         List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
         root.put("interceptorlist", list);
         // 3. 得到页码的请求链接
@@ -37,21 +35,26 @@ public class InterceptorAction extends BaseAction {
     }
 
     public void json() {
-        String success = "";
-        try {
-            success = request.getParams()[0];
-        } catch (Exception e) {
-            success = "";
-        }
         Ask ask = (Ask) getAsk(new Ask());
         Interceptor bean = new Interceptor();
-        int total = bean.totalCount();
-        System.out.print("total = " + total);
+        // 查询count
+        int totalcount = bean.totalCount();
+        // 1. 获取page
+        String page = request.getParameter("page");
+        if (page == null || "".equals(page)) {
+            page = "1";
+        }
+        try {
+            ask.setPage(Integer.valueOf(page));
+        } catch (Exception e) {
+            ask.setPage(1);
+        }
         List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
         root.put("interceptorlist", list);
+        root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
+        root.put("page", ask.getPage());
         root.put(FlagGroup, "Interceptor");
         root.put(FlagChild, "Interceptorlist");
-        root.put("issuccess", success);
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/interceptor.ftl", root);
     }
@@ -71,7 +74,7 @@ public class InterceptorAction extends BaseAction {
         Interceptor interceptor = (Interceptor) getAsk(new Interceptor());
         long id = interceptor.save();
         if (id > 0) {
-            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json" + "/success");
+            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         } else {
             sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         }
@@ -92,7 +95,7 @@ public class InterceptorAction extends BaseAction {
         }
         int[] idss = QueryHelper.batch(sql, params);
         if (idss[0] > 0) {
-            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json" + "/success");
+            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         } else {
             sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         }
@@ -105,7 +108,7 @@ public class InterceptorAction extends BaseAction {
         Interceptor bean = (Interceptor) getAsk(new Interceptor());
         long id = bean.update();
         if (id > 0) {
-            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json" + "/success");
+            sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         } else {
             sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
         }

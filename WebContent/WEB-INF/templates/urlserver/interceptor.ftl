@@ -16,13 +16,6 @@
 
     <!-- Main content -->
     <section class="content">
-    <#if issuccess == "success">
-        <div class="alert alert-success alert-dismissible">
-            <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
-            <h4><i class="icon fa fa-check"></i> Alert!</h4>
-            Success alert preview. This alert is dismissable.
-        </div>
-    </#if>
         <div class="row">
             <div class="col-md-12">
                 <div class="box">
@@ -53,9 +46,8 @@
                                 </td>
                                 <td>${item.interceptorremark}</td>
                                 <td>
-                                    <a id="delete" href="${Domain.base}/urlserver/interceptor/delete?id=${item.id}">
-                                        <span class="badge bg-red">Delete</span>
-                                    </a>
+                                    <span class="badge bg-red"
+                                          onclick='show_confirm("${Domain.base}/urlserver/interceptor/delete?id=${item.id}")'>Delete</span>
                                     <a href="${Domain.base}/urlserver/interceptor/getInterceporById/${item.id}">
                                         <span class="badge bg-light-blue">Edit</span>
                                     </a>
@@ -67,11 +59,13 @@
                     <!-- /.box-body -->
                     <div class="box-footer clearfix">
                         <ul class="pagination pagination-sm no-margin pull-right">
-                            <li><a href="#">&laquo;</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">&raquo;</a></li>
+                        <#if totalpage &gt; 1>
+                            <#assign x=1>
+                            <#assign mx=totalpage>
+                            <#list x..mx as i>
+                                <li><a href="${Domain.base}/urlserver/interceptor/json?page=${i}">${i}</a></li>
+                            </#list>
+                        </#if>
                         </ul>
                     </div>
                 </div>
@@ -81,5 +75,15 @@
     </section>
     <!-- /.content -->
 </div>
+<script type="text/javascript">
+    function show_confirm(url) {
+        var result = confirm('您确定删除吗！');
+        if (result) {
+            window.location.href = url;
+        } else {
+
+        }
+    }
+</script>
 <!-- /.content-wrapper -->
 <#include "footermenu.ftl">

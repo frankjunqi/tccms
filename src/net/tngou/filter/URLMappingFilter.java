@@ -22,7 +22,7 @@ import java.util.List;
  * 此过滤器负责对编码进行自动处理，以及执行URL映射规则
  */
 @WebFilter(urlPatterns = "/*",
-        initParams = {@WebInitParam(name = "ignore", value = "/common,/action,/manage,/urlserver"),
+        initParams = {@WebInitParam(name = "ignore", value = "/common,/manage,/urlserver,/client"),
                 @WebInitParam(name = "ignoreExts", value = "ico,css,js,jpg,gif,png,bmp,doc,xls,pdf,txt,html,htm,zip,rar,jsp,json,apk,swf")})
 public class URLMappingFilter implements Filter {
     private final static Logger log = LoggerFactory.getLogger(URLMappingFilter.class);
@@ -48,7 +48,7 @@ public class URLMappingFilter implements Filter {
 
         //项目名跳转
         if (req_uri.equals(request.getContextPath() + "/")) {
-            request.getRequestDispatcher("/action/index/execute").forward(request, response);
+            request.getRequestDispatcher("/client/index/execute").forward(request, response);
             return;
         }
         if (req_uri.startsWith(request.getContextPath())) {
@@ -72,7 +72,7 @@ public class URLMappingFilter implements Filter {
 
         String vm = null;
 
-        vm = "/action" + req_uri;
+        vm = "/client" + req_uri;
 
         String[] spart = StringUtils.split(vm, "/");
         if (spart.length == 2)

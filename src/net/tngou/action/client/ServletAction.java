@@ -45,7 +45,7 @@ import java.io.IOException;
  *
  * @author 陈磊
  */
-@WebServlet(urlPatterns = "/client/*",
+@WebServlet(urlPatterns = {"/client/*", "/client"},
         initParams = {@WebInitParam(name = "package", value = "net.tngou.action.client")})
 public class ServletAction extends HttpServlet {
     private static final long serialVersionUID = 1L;

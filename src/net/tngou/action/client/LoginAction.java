@@ -41,13 +41,8 @@ public class LoginAction extends BaseAction {
         }
     }
 
-
     public void exit() {
-
         session.removeAttribute("user");
-        sendRedirect(getDomain().getBase() + "/login");
-
+        sendRedirect(getDomain().getBase() + "/client" + "/login");
     }
-
-
 }
