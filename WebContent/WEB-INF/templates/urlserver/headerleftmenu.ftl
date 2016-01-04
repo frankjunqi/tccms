@@ -266,14 +266,24 @@ desired effect
             <ul class="sidebar-menu">
                 <li class="header">Url Rule</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li <#if FlagGroup == "Interceptor">class="treeview active"<#else >class="treeview "</#if>>
+                <li <#if FlagGroup == "interceptor">class="treeview active"<#else >class="treeview "</#if>>
                     <a href="#"><i class="fa fa-link"></i> <span>Interceptor</span> <i
                             class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
-                        <li <#if FlagChild == "Interceptorlist">class="active"</#if>><a
+                        <li <#if FlagChild == "interceptorlist">class="active"</#if>><a
                                 href="${Domain.base}/urlserver/interceptor/json">Interceptor List</a></li>
-                        <li <#if FlagChild == "Interceptoradd">class="active"</#if>><a
+                        <li <#if FlagChild == "interceptoradd">class="active"</#if>><a
                                 href="${Domain.base}/urlserver/interceptor/add">Interceptor Add</a></li>
+                    </ul>
+                </li>
+                <li <#if FlagGroup == "project">class="treeview active"<#else >class="treeview "</#if>>
+                    <a href="#"><i class="fa fa-link"></i> <span>Project</span> <i
+                            class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li <#if FlagChild == "projectlist">class="active"</#if>><a
+                                href="${Domain.base}/urlserver/interceptor/json">Project List</a></li>
+                        <li <#if FlagChild == "projectadd">class="active"</#if>><a
+                                href="${Domain.base}/urlserver/interceptor/add">Project Add</a></li>
                     </ul>
                 </li>
 

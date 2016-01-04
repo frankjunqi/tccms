@@ -2,14 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f72ab5e-0f18-4a47-8003-2edbab524d72" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\.idea\artifacts\TngouCMS_war_exploded.xml" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/TngouCMS.iml" afterPath="$PROJECT_DIR$/TngouCMS.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java" afterPath="$PROJECT_DIR$/src/net/tngou/filter/URLMappingFilter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -42,8 +36,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/styles/swiper-demos.css" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/comment.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/info.ftl" />
         <option value="$PROJECT_DIR$/WebContent/styles/homepage.css" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/news.ftl" />
@@ -82,7 +74,6 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl" />
         <option value="$PROJECT_DIR$/config/tgcms.sql" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
         <option value="$PROJECT_DIR$/WebContent/plugins/font-awesome.min.css" />
         <option value="$PROJECT_DIR$/.idea/workspace.xml" />
         <option value="$PROJECT_DIR$/WebContent/clientjs/UrlInterceptorAction.js" />
@@ -93,6 +84,9 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/entity/Ask.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Project.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" />
       </list>
     </option>
   </component>
@@ -290,10 +284,6 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="manage" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -309,15 +299,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WEB-INF" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="templates" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="default" />
+              <option name="myItemId" value="dist" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -336,6 +318,28 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="tngou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="TngouCMS" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tngou" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="pojo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -384,32 +388,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="tngou" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="action" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -474,6 +452,7 @@
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="net.tngou.pojo" />
+      <recent name="net.tngou.action.urlserver" />
       <recent name="net.tngou.action.manage" />
       <recent name="net.tngou.action" />
     </key>
@@ -898,12 +877,12 @@
       <workItem from="1451622251744" duration="22077000" />
       <workItem from="1451874193170" duration="5800000" />
       <workItem from="1451880606160" duration="1308000" />
-      <workItem from="1451885479660" duration="18816000" />
+      <workItem from="1451885479660" duration="21105000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="226546000" />
+    <option name="totallyTimeSpent" value="228835000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -933,7 +912,7 @@
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2925473" sideWeight="0.22121535" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.38375974" sideWeight="0.77878463" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Application Servers" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.38375974" sideWeight="0.77878463" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.12579957" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -950,7 +929,7 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.80756396" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.46051168" sideWeight="0.85820895" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2707889" sideWeight="0.4868421" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2707889" sideWeight="0.4868421" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2707889" sideWeight="0.5131579" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.40934372" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1044,20 +1023,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/plugins/font-awesome.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.40520447" vertical-offset="29209" max-vertical-offset="43367">
-          <caret line="1731" column="7" selection-start-line="1731" selection-start-column="7" selection-end-line="1731" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/tables/simple.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0714285" vertical-offset="11930" max-vertical-offset="17476">
-          <caret line="712" column="38" selection-start-line="712" selection-start-column="22" selection-end-line="712" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/pages/UI/buttons.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.3372781" vertical-offset="19282" max-vertical-offset="28594">
@@ -1119,16 +1084,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-5.0384617" vertical-offset="1229" max-vertical-offset="1904">
           <caret line="80" column="14" selection-start-line="80" selection-start-column="14" selection-end-line="80" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ServletUrlManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="938" max-vertical-offset="1972">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1221,7 +1176,7 @@
         <state vertical-scroll-proportion="0.2911184" vertical-offset="10" max-vertical-offset="3417">
           <caret line="21" column="0" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
           <folding>
-            <element signature="e#680#681#0" expanded="true" />
+            <element signature="e#680#681#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1254,14 +1209,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.555921" vertical-offset="214" max-vertical-offset="2465">
           <caret line="120" column="0" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-13.076923" vertical-offset="153" max-vertical-offset="4981">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
           <folding />
         </state>
       </provider>
@@ -1302,14 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33223686" vertical-offset="19722" max-vertical-offset="81617">
           <caret line="1172" column="17" selection-start-line="1172" selection-start-column="17" selection-end-line="1172" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="527">
-          <caret line="6" column="35" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
           <folding />
         </state>
       </provider>
@@ -1391,8 +1330,8 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="2399" max-vertical-offset="8857">
           <caret line="191" column="32" selection-start-line="191" selection-start-column="32" selection-end-line="191" selection-end-column="32" />
           <folding>
-            <element signature="e#7719#7720#0" expanded="true" />
-            <element signature="e#7803#7804#0" expanded="true" />
+            <element signature="e#7719#7720#0" expanded="false" />
+            <element signature="e#7803#7804#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1426,20 +1365,10 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="918">
           <caret line="33" column="0" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
           <folding>
-            <element signature="e#618#619#0" expanded="true" />
-            <element signature="e#645#646#0" expanded="true" />
-            <element signature="e#1150#1151#0" expanded="true" />
-            <element signature="e#1177#1178#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2329">
-          <caret line="20" column="42" selection-start-line="20" selection-start-column="42" selection-end-line="20" selection-end-column="42" />
-          <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#618#619#0" expanded="false" />
+            <element signature="e#645#646#0" expanded="false" />
+            <element signature="e#1150#1151#0" expanded="false" />
+            <element signature="e#1177#1178#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1449,8 +1378,58 @@
         <state vertical-scroll-proportion="0.43589744" vertical-offset="2040" max-vertical-offset="6919">
           <caret line="177" column="33" selection-start-line="177" selection-start-column="33" selection-end-line="177" selection-end-column="33" />
           <folding>
-            <element signature="e#2148#2164#0" expanded="true" />
+            <element signature="e#2148#2164#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ServletUrlManage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032319393" vertical-offset="714" max-vertical-offset="1683">
+          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.704" vertical-offset="4595" max-vertical-offset="5151">
+          <caret line="291" column="17" selection-start-line="291" selection-start-column="17" selection-end-line="291" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19391635" vertical-offset="0" max-vertical-offset="527">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.19391635" vertical-offset="0" max-vertical-offset="527">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1458" max-vertical-offset="2329">
+          <caret line="125" column="30" selection-start-line="125" selection-start-column="30" selection-end-line="125" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.581749" vertical-offset="51" max-vertical-offset="2125">
+          <caret line="31" column="55" selection-start-line="31" selection-start-column="55" selection-end-line="31" selection-end-column="55" />
+          <folding />
         </state>
       </provider>
     </entry>
