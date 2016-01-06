@@ -201,6 +201,34 @@ INSERT INTO `tgcms_project` ( `projectname`, `projectremark`) VALUES
 ('projectrname', 'projectremark');
 
 
+
+--
+-- 表 URL rule的表结构
+--
+DROP TABLE IF EXISTS `tgcms_urlrule`;
+CREATE TABLE IF NOT EXISTS `tgcms_urlrule` (
+  `id` smallint(5) unsigned NOT NULL ,
+  `projectname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `projectremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
+
+--
+-- Indexes for table `tgcms_urlrule`
+--
+ALTER TABLE `tgcms_urlrule`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for table `tgcms_urlrule`
+--
+  ALTER TABLE `tgcms_urlrule`
+  MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
+
+INSERT INTO `tgcms_urlrule` ( `projectname`, `projectremark`) VALUES
+('urlrule', 'urlrole');
+
+
+
 --
 -- 转存表中的数据 `tgcms_user`
 --

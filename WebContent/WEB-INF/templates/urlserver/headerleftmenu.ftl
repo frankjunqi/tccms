@@ -286,6 +286,16 @@ desired effect
                                 href="${Domain.base}/urlserver/project/add">Project Add</a></li>
                     </ul>
                 </li>
+                <li <#if FlagGroup == "urlrule">class="treeview active"<#else >class="treeview "</#if>>
+                    <a href="#"><i class="fa fa-link"></i> <span>Urlrule</span> <i
+                            class="fa fa-angle-left pull-right"></i></a>
+                    <ul class="treeview-menu">
+                        <li <#if FlagChild == "urlrulelist">class="active"</#if>><a
+                                href="${Domain.base}/urlserver/urlrule/json">UrlRule List</a></li>
+                        <li <#if FlagChild == "urlruleadd">class="active"</#if>><a
+                                href="${Domain.base}/urlserver/urlrule/add">UrlRule Add</a></li>
+                    </ul>
+                </li>
 
                 <li><a href="#"><i class="fa fa-link"></i> <span>Link</span></a></li>
                 <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
