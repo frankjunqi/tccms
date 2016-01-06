@@ -98,6 +98,9 @@
 <script src="${Domain.base}/dist/js/app.min.js"></script>
 <!-- PACE -->
 <script src="${Domain.base}/plugins/pace/pace.min.js"></script>
+<!-- Qrcode -->
+<script src="${Domain.base}/scripts/qrcode.js"></script>
+
 <!-- Optionally, you can add Slimscroll and FastClick plugins.
      Both of these plugins are recommended to enhance the
      user experience. Slimscroll is required when using the

@@ -20,25 +20,120 @@
             <div class="box-header with-border">
                 <h3 class="box-title">Urlrule Add</h3>
             </div>
+
             <!-- /.box-header -->
             <div class="box-body">
-                <form id="urlruleadd" role="form" method="post"
+                <form class="form-horizontal" id="urlruleadd" role="form" method="post"
                       action="${Domain.base}/urlserver/urlrule/addUrlrule">
                     <!-- text input -->
-                    <div class="form-group">
-                        <label>Project Text</label>
-                        <input name="projectname" type="text" class="form-control" placeholder="Enter ...">
-                    </div>
-
-                    <!-- textarea -->
                 <#--<div class="form-group">
-                    <label>InterceptorValue Textarea</label>
-                    <textarea name="interceptorvalue" class="form-control" rows="3"
-                              placeholder="Enter ..."></textarea>
+                    <label class="col-sm-2 control-label">projectid Text</label>
+                    <input name="projectid" type="text" class="form-control" style="width: 20%;"
+                           placeholder="Enter ...">
                 </div>-->
                     <div class="form-group">
-                        <label>Projectremark Textarea</label>
-                        <textarea name="projectremark" class="form-control" rows="8"
+                        <label class="col-sm-2 control-label">projectname Text</label>
+                        <select name="projectname" class="form-control select2" style="width: 20%;">
+                        <#list projectlist as item>
+                            <option value="${item.projectname}|${item.id}">${item.projectname}</option>
+                        </#list>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlfunctionname Text</label>
+                        <input name="urlfunctionname" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlroletips Text</label>
+                        <input name="urlroletips" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">androidactivity Text</label>
+                        <input name="androidactivity" type="text" class="form-control" style="width: 20%;"
+                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label">ioscontrolname Text</label>
+                        <input name="ioscontrolname" type="text" class="form-control" style="width: 20%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlprotocol Text</label>
+                        <input name="urlprotocol" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urldesc Text</label>
+                        <input name="urldesc" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlparameter Text</label>
+                        <input name="urlparameter" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlinterceptor Text</label>
+                        <input name="urlinterceptor" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlinterceptor Text</label>
+
+                        <div class="box-body">
+                            <!-- Minimal style -->
+                            <!-- checkbox -->
+                            <div class="form-group">
+                            <#list interceptorlist as item>
+                                <label>
+                                    <input type="checkbox" class="minimal">
+                                    <span class="badge bg-light-blue">${item.interceptorname} + ${item.id}</span>
+                                </label>
+                            </#list>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlshow Text</label>
+                        <input name="urlshow" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urldemo Text</label>
+                        <input id="urldemostr" name="urldemo" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urldemo Pic</label>
+
+                        <div id="urldemoimg" style="width: 30%;height: 200px;"></div>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlremark Text</label>
+                        <input name="urlremark" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">urlupdatetime Text</label>
+                        <input name="urlupdatetime" type="text" class="form-control" style="width: 30%;"
+                               placeholder="Enter ...">
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Projectremark Textarea</label>
+                        <textarea name="projectremark" class="form-control" rows="8" style="width: 30%;"
                                   placeholder="Enter ..."></textarea>
                     </div>
                     <div class="box-footer">
@@ -52,7 +147,18 @@
     <!-- /.content -->
 </div>
 <script>
+    window.onload = function () {
+        var qrcode = new QRCode(document.getElementById("urldemoimg"), {
+            width: 196,//设置宽高
+            height: 196
+        });
+        qrcode.makeCode("");
+        document.getElementById("urldemostr").onchange = function () {
+            qrcode.makeCode(document.getElementById("urldemostr").value);
+        }
+    }
 
 </script>
+
 <!-- /.content-wrapper -->
 <#include "footermenu.ftl">

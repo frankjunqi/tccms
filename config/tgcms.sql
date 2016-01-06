@@ -208,7 +208,20 @@ INSERT INTO `tgcms_project` ( `projectname`, `projectremark`) VALUES
 DROP TABLE IF EXISTS `tgcms_urlrule`;
 CREATE TABLE IF NOT EXISTS `tgcms_urlrule` (
   `id` smallint(5) unsigned NOT NULL ,
+  `projectid` smallint(5) unsigned NOT NULL ,
   `projectname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlfunctionname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlroletips` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `androidactivity` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `ioscontrolname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urldesc` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlprotocol` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlparameter` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlinterceptor` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlshow` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urldemo` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `urlupdatetime` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
   `projectremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
 
@@ -224,8 +237,13 @@ ALTER TABLE `tgcms_urlrule`
   ALTER TABLE `tgcms_urlrule`
   MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
 
-INSERT INTO `tgcms_urlrule` ( `projectname`, `projectremark`) VALUES
-('urlrule', 'urlrole');
+INSERT INTO `tgcms_urlrule` (`projectid`, `projectname`,`urlfunctionname`,
+`urlroletips`,`androidactivity`,`ioscontrolname`,`urldesc`,`urlprotocol`,
+`urlparameter`,`urlinterceptor`,`urlshow`,`urldemo`,`urlremark`,
+ `urlupdatetime`,`projectremark`) VALUES(11, 'projectname','urlfunctionname',
+'urlroletips','androidactivity','ioscontrolname','urldesc','urlprotocol',
+'urlparameter','urlinterceptor','urlshow','urldemo','urlremark',
+'urlupdatetime','projectremark');
 
 
 

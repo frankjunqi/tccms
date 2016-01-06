@@ -24,6 +24,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     -->
     <link rel="stylesheet" href="${Domain.base}/dist/css/skins/skin-blue.min.css">
     <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/all.css">
+    <!-- iCheck for checkboxes and radio inputs -->
+    <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/all.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
     <!-- Ionicons -->

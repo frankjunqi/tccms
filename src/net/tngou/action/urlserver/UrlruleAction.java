@@ -4,7 +4,9 @@ import net.tngou.action.client.BaseAction;
 import net.tngou.entity.Ask;
 import net.tngou.jdbc.OrderType;
 import net.tngou.jdbc.QueryHelper;
+import net.tngou.pojo.Interceptor;
 import net.tngou.pojo.POJO;
+import net.tngou.pojo.Project;
 import net.tngou.pojo.Urlrule;
 
 import javax.servlet.ServletException;
@@ -62,13 +64,29 @@ public class UrlruleAction extends BaseAction {
      * form 表单的控件的name必须是Interceptor对象的属性
      */
     public void add() {
+        // 项目的list
+        Project bean = new Project();
+        List<? extends POJO> list = bean.list("id", OrderType.ASC);
+        root.put("projectlist", list);
+
+        // 拦截器的list
+        Interceptor intercepor = new Interceptor();
+        List<? extends POJO> interceporlist = intercepor.list("id", OrderType.ASC);
+        root.put("interceptorlist", interceporlist);
+
+        // 默认选中
         root.put(FlagGroup, "urlrule");
         root.put(FlagChild, "urlruleadd");
+
         printFreemarker("urlserver/urlruleadd.ftl", root);
     }
 
     public void addUrlrule() {
         Urlrule urlrule = (Urlrule) getAsk(new Urlrule());
+        String projectnameid = urlrule.getProjectname();
+        String[] splits = projectnameid.split("\\|");
+        urlrule.setProjectname(splits[0]);
+        urlrule.setProjectid(splits[1]);
         long id = urlrule.save();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");
