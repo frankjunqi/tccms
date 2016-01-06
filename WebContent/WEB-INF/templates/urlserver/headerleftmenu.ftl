@@ -281,9 +281,9 @@ desired effect
                             class="fa fa-angle-left pull-right"></i></a>
                     <ul class="treeview-menu">
                         <li <#if FlagChild == "projectlist">class="active"</#if>><a
-                                href="${Domain.base}/urlserver/interceptor/json">Project List</a></li>
+                                href="${Domain.base}/urlserver/project/json">Project List</a></li>
                         <li <#if FlagChild == "projectadd">class="active"</#if>><a
-                                href="${Domain.base}/urlserver/interceptor/add">Project Add</a></li>
+                                href="${Domain.base}/urlserver/project/add">Project Add</a></li>
                     </ul>
                 </li>
 

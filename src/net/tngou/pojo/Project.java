@@ -6,32 +6,22 @@ package net.tngou.pojo;
  */
 public class Project extends POJO {
 
-    private String interceptorname;//拦截器名称；
-    private String interceptorvalue;//拦截器参数说明；
-    private String interceptorremark;//拦截器备注说明；
+    private String projectname;//项目名称；
+    private String projectremark;//项目参数说明；
 
-    public String getInterceptorname() {
-        return interceptorname;
+    public String getProjectname() {
+        return projectname;
     }
 
-    public String getInterceptorvalue() {
-        return interceptorvalue;
+    public String getProjectremark() {
+        return projectremark;
     }
 
-    public String getInterceptorremark() {
-        return interceptorremark;
+    public void setProjectremark(String projectremark) {
+        this.projectremark = projectremark;
     }
 
-    public void setInterceptorname(String interceptorname) {
-        this.interceptorname = interceptorname;
+    public void setProjectname(String projectname) {
+        this.projectname = projectname;
     }
-
-    public void setInterceptorvalue(String interceptorvalue) {
-        this.interceptorvalue = interceptorvalue;
-    }
-
-    public void setInterceptorremark(String interceptorremark) {
-        this.interceptorremark = interceptorremark;
-    }
-
 }

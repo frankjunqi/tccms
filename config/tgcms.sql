@@ -176,6 +176,32 @@ INSERT INTO `tgcms_interceptor` ( `interceptorname`,`interceptorvalue`, `interce
 ('interceptorname','interceptorvalue', 'interceptorremark');
 
 --
+-- 表 项目的表结构
+--
+DROP TABLE IF EXISTS `tgcms_project`;
+CREATE TABLE IF NOT EXISTS `tgcms_project` (
+  `id` smallint(5) unsigned NOT NULL ,
+  `projectname` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `projectremark` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8  AUTO_INCREMENT=5 ;
+
+--
+-- Indexes for table `tgcms_project`
+--
+ALTER TABLE `tgcms_project`
+ ADD PRIMARY KEY (`id`);
+
+--
+-- AUTO_INCREMENT for table `tgcms_project`
+--
+  ALTER TABLE `tgcms_project`
+  MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
+
+INSERT INTO `tgcms_project` ( `projectname`, `projectremark`) VALUES
+('projectrname', 'projectremark');
+
+
+--
 -- 转存表中的数据 `tgcms_user`
 --
 

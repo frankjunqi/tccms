@@ -68,7 +68,7 @@ public class ProjectAction extends BaseAction {
         printFreemarker("urlserver/projectadd.ftl", root);
     }
 
-    public void addIntercepor() {
+    public void addProject() {
         Project project = (Project) getAsk(new Project());
         long id = project.save();
         if (id > 0) {
@@ -102,7 +102,7 @@ public class ProjectAction extends BaseAction {
     /**
      * 编辑
      */
-    public void editProduct() {
+    public void editProject() {
         Project bean = (Project) getAsk(new Project());
         long id = bean.update();
         if (id > 0) {
@@ -112,7 +112,7 @@ public class ProjectAction extends BaseAction {
         }
     }
 
-    public void getInterceporById() {
+    public void getProjectById() {
         String sid = request.getParams()[0];
         Project project = new Project();
         project = project.get(Long.parseLong(sid));

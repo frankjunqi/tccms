@@ -22,16 +22,7 @@ public class InterceptorAction extends BaseAction {
 
     @Override
     public void execute() throws ServletException, IOException {
-        root.put(FlagGroup, "interceptor");
-        root.put(FlagChild, "interceptorlist");
-        // 1. 得到list
-        Ask ask = (Ask) getAsk(new Ask());
-        Interceptor bean = new Interceptor();
-        ask.setPage(1);
-        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
-        root.put("interceptorlist", list);
-        // 3. 得到页码的请求链接
-        printFreemarker("urlserver/interceptor.ftl", root);
+        json();
     }
 
     public void json() {
