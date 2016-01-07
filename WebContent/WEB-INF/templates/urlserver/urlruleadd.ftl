@@ -81,23 +81,19 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">urlinterceptor Text</label>
-                        <input name="urlinterceptor" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label id="urlinterceptor" style="width: 40%;"></label>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">urlinterceptor Text</label>
 
-                        <div class="box-body">
+                        <div class="box-body col-sm-2" style="width: 60%;">
                             <!-- Minimal style -->
-                            <!-- checkbox -->
-                            <div class="form-group">
                             <#list interceptorlist as item>
                                 <label>
-                                    <input type="checkbox" class="minimal">
+                                    <input name="iterceptorgroup" type="checkbox" value="${item.interceptorname} + ${item.id}" class="minimal" onclick="checkIterceptor()">
                                     <span class="badge bg-light-blue">${item.interceptorname} + ${item.id}</span>
                                 </label>
                             </#list>
-                            </div>
                         </div>
                     </div>
 
@@ -116,7 +112,7 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">urldemo Pic</label>
 
-                        <div id="urldemoimg" style="width: 30%;height: 200px;"></div>
+                        <div id="urldemoimg" style="height: 200px;"></div>
                     </div>
 
                     <div class="form-group">
@@ -157,6 +153,16 @@
             qrcode.makeCode(document.getElementById("urldemostr").value);
         }
     }
+
+    function checkIterceptor(){
+        //获取选中项
+            $('#urlinterceptor').html("");
+            $("input[name='iterceptorgroup']:checked").each(function () {
+                //alert(this.value);
+                $('#urlinterceptor').append(this.value + "  ");
+            });
+    }
+
 
 </script>
 
