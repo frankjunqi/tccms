@@ -18,7 +18,7 @@
     <section class="content">
         <div class="box box-warning">
             <div class="box-header with-border">
-                <h3 class="box-title">Urlrule Add</h3>
+                <h3 class="box-title">Url规则添加</h3>
             </div>
 
             <!-- /.box-header -->
@@ -32,7 +32,17 @@
                            placeholder="Enter ...">
                 </div>-->
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">projectname Text</label>
+                        <label class="col-sm-2 control-label">是否对外开放</label>
+                        <label>
+                            <input id="urlshow" name="urlshow" type="checkbox" class="minimal" value="1"
+                                   onclick="checkUrlShow();">
+                            <span class="badge bg-yellow">是否对外开放</span>
+                        </label>
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">项目名称</label>
                         <select name="projectname" class="form-control select2" style="width: 20%;">
                         <#list projectlist as item>
                             <option value="${item.projectname}|${item.id}">${item.projectname}</option>
@@ -41,97 +51,110 @@
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urlfunctionname Text</label>
-                        <input name="urlfunctionname" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label">规则协议前缀</label>
+                        <input name="urlprotocol" type="text" class="form-control" style="width: 35%;"
+                               placeholder="http://shouji.17u.cn/XXX/XXX... or tctclient://XXX/XXX... Enter.....">
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urlroletips Text</label>
-                        <input name="urlroletips" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label">规则描述</label>
+                        <textarea name="urldesc" class="form-control" rows="3" style="width: 35%;"
+                                  placeholder="Enter ..."></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">androidactivity Text</label>
+                        <label class="col-sm-2 control-label">规则页面功能</label>
+                        <textarea name="urlfunctionname" class="form-control" rows="2" style="width: 35%;"
+                                  placeholder="Enter ..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">规则重要提示</label>
+                        <textarea name="urlroletips" class="form-control" rows="2" style="width: 35%;"
+                                  placeholder="Enter ..."></textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">Android Activity</label>
                         <input name="androidactivity" type="text" class="form-control" style="width: 20%;"
-                               placeholder="Enter ...">
-                        <label class="col-sm-2 control-label">ioscontrolname Text</label>
+                               placeholder="XXXActivity Enter ...">
+                        <label class="col-sm-2 control-label">iOS Controller</label>
                         <input name="ioscontrolname" type="text" class="form-control" style="width: 20%;"
-                               placeholder="Enter ...">
+                               placeholder="XXXController Enter ...">
+                    </div>
+
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">规则参数说明</label>
+                        <table id="urlparametertable" style="width: 58%;" border='1' cellspacing="1"
+                               class="table table-bordered ">
+                            <tr>
+                                <th style="width: 20%">
+                                    参数key
+                                </th>
+                                <th style="width: 20%">
+                                    参数value
+                                </th>
+                                <th style="width: 20%">
+                                    参数说明
+                                </th>
+                                <th style="width: 20%">
+                                    参数版本信息
+                                </th>
+                                <th style="width: 10%">
+                                    操作
+                                </th>
+                            </tr>
+                        </table>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urlprotocol Text</label>
-                        <input name="urlprotocol" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label"></label>
+
+                        <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info" onclick="addRow();"
+                               style="width: 140px; "/>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">拦截器添加</label>
+
+                        <div id="urlinterceptor" class="box-body col-sm-2" style="width: 60%;"></div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urldesc Text</label>
-                        <input name="urldesc" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">urlparameter Text</label>
-                        <input name="urlparameter" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">urlinterceptor Text</label>
-                        <label id="urlinterceptor" style="width: 40%;"></label>
-                    </div>
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">urlinterceptor Text</label>
+                        <label class="col-sm-2 control-label"></label>
 
                         <div class="box-body col-sm-2" style="width: 60%;">
                             <!-- Minimal style -->
-                            <#list interceptorlist as item>
-                                <label>
-                                    <input name="iterceptorgroup" type="checkbox" value="${item.interceptorname} + ${item.id}" class="minimal" onclick="checkIterceptor()">
-                                    <span class="badge bg-light-blue">${item.interceptorname} + ${item.id}</span>
-                                </label>
-                            </#list>
+                        <#list interceptorlist as item>
+                            <label>
+                                <input name="iterceptorgroup" type="checkbox"
+                                       value="${item.interceptorname} + ${item.id}" class="minimal"
+                                       onclick="checkIterceptor()">
+                                <span class="badge bg-light-blue">${item.interceptorname} + ${item.id}</span>
+                            </label>
+                        </#list>
                         </div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urlshow Text</label>
-                        <input name="urlshow" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label">规则示例链接</label>
+                        <textarea name="urldemostr" class="form-control" rows="3" style="width: 35%;"
+                                  placeholder="http://shouji.17u.cn/... or tctclient:... Enter....."></textarea>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urldemo Text</label>
-                        <input id="urldemostr" name="urldemo" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">urldemo Pic</label>
+                        <label class="col-sm-2 control-label"></label>
 
                         <div id="urldemoimg" style="height: 200px;"></div>
                     </div>
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">urlremark Text</label>
-                        <input name="urlremark" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
+                        <label class="col-sm-2 control-label">规则备注信息</label>
+                        <textarea name="urlremark" class="form-control" rows="4" style="width: 35%;"
+                                  placeholder="规则Android & iOS 对接人  AND  版本说明  AND　特殊说明　等 Enter ..."></textarea>
+
                     </div>
 
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">urlupdatetime Text</label>
-                        <input name="urlupdatetime" type="text" class="form-control" style="width: 30%;"
-                               placeholder="Enter ...">
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">Projectremark Textarea</label>
-                        <textarea name="projectremark" class="form-control" rows="8" style="width: 30%;"
-                                  placeholder="Enter ..."></textarea>
-                    </div>
                     <div class="box-footer">
                         <button type="submit" class="btn btn-primary">Submit</button>
                     </div>
@@ -143,6 +166,8 @@
     <!-- /.content -->
 </div>
 <script>
+
+    // 处理二维码的信息
     window.onload = function () {
         var qrcode = new QRCode(document.getElementById("urldemoimg"), {
             width: 196,//设置宽高
@@ -154,15 +179,61 @@
         }
     }
 
-    function checkIterceptor(){
+    // 遍历获取checkbox的list的选中的值
+    function checkIterceptor() {
+        var htmlItemStr = "";
         //获取选中项
-            $('#urlinterceptor').html("");
-            $("input[name='iterceptorgroup']:checked").each(function () {
-                //alert(this.value);
-                $('#urlinterceptor').append(this.value + "  ");
-            });
+        $('#urlinterceptor').html("");
+        $("input[name='iterceptorgroup']:checked").each(function () {
+            htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
+        });
+        $('#urlinterceptor').html(htmlItemStr);
     }
 
+    // 定义list保存序列
+    var arrayObj = new Array();
+
+    // add 参数的列表row
+    function addRow() {
+        var rowLength = document.getElementById("urlparametertable").rows.length;
+        arrayObj.push(rowLength);
+        var newTR = document.getElementById("urlparametertable").insertRow(rowLength);
+        var newNameTD = newTR.insertCell(0);
+        newNameTD.innerHTML = "<input name='key' id='key' type='text'/>";
+        var newNameTD = newTR.insertCell(1);
+        newNameTD.innerHTML = "<input name='value' id='value' type='text'/>";
+        var newNameTD = newTR.insertCell(2);
+        newNameTD.innerHTML = "<input name='remark' id='remark' type='text'/>";
+        var newNameTD = newTR.insertCell(3);
+        newNameTD.innerHTML = "<input name='version' id='version' type='text'/>";
+        var newNameTD = newTR.insertCell(4);
+        newNameTD.innerHTML = "<span class='badge bg-light-blue' onclick='removeRow(" + rowLength + ")'>Delete</span>";
+    }
+
+    //  处理参数的removed的操作
+    function removeRow(indexItem) {
+        //document.getElementById("testTable").insertRow(document.getElementById("testTable").rows.length);
+        for (var i = 0; i <= arrayObj.length - 1; i++) {
+            if (indexItem == arrayObj[i]) {
+                document.getElementById("urlparametertable").deleteRow(i + 1);
+                arrayObj.splice(i, 1);
+                break;
+            }
+        }
+
+    }
+
+    // 处理urlshow checkbox的选中与未选中的状态的赋值
+    function checkUrlShow() {
+        if ($('input[name="urlshow"]').prop("checked")) {
+            alert("选中");
+            $('#urlshow').attr("value", "1");
+        }
+        else {
+            alert('未选中');
+            $('#urlshow').attr("value", "0");
+        }
+    }
 
 </script>
 
