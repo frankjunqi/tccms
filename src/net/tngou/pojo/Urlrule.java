@@ -7,14 +7,12 @@ package net.tngou.pojo;
 public class Urlrule extends POJO {
 
     private String projectname;//项目名称；
-    private String projectremark;//项目参数说明；
-
     private String projectid;//项目id；
     private String urlfunctionname;//规则设计的页面，或者功能；
+    private String urldesc;//规则的描述信息；
     private String urlroletips;// 针对规则的重要提示信息；如：警告栏形式
     private String androidactivity;//规则对应的Android的activity的名称；
     private String ioscontrolname;// 规则对应的ios的control页面的名称；
-    private String urldesc;//规则的描述信息；
     private String urlprotocol;//规则的协议前缀；
     private String urlparameter;//规则的参数列表Json list字符串；
     private String urlinterceptor;//规则的拦截器说明 josn list字符串；（拦截器table显示并且高亮）
@@ -129,14 +127,6 @@ public class Urlrule extends POJO {
 
     public String getProjectname() {
         return projectname;
-    }
-
-    public String getProjectremark() {
-        return projectremark;
-    }
-
-    public void setProjectremark(String projectremark) {
-        this.projectremark = projectremark;
     }
 
     public void setProjectname(String projectname) {

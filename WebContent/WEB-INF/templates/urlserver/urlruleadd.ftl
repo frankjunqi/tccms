@@ -23,8 +23,7 @@
 
             <!-- /.box-header -->
             <div class="box-body">
-                <form class="form-horizontal" id="urlruleadd" role="form" method="post"
-                      action="${Domain.base}/urlserver/urlrule/addUrlrule">
+                <form id="urlruleadd" name="urlruleadd" class="form-horizontal" role="form" method="post" action="">
                     <!-- text input -->
                 <#--<div class="form-group">
                     <label class="col-sm-2 control-label">projectid Text</label>
@@ -34,7 +33,8 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">是否对外开放</label>
                         <label>
-                            <input id="urlshow" name="urlshow" type="checkbox" class="minimal" value="1"
+                            <input id="urlshow" name="urlshow" type="text" class="minimal" value="0" hidden="hidden">
+                            <input id="urlshowcheck" name="urlshowcheck" type="checkbox" class="minimal" value="0"
                                    onclick="checkUrlShow();">
                             <span class="badge bg-yellow">是否对外开放</span>
                         </label>
@@ -52,34 +52,37 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则协议前缀</label>
-                        <input name="urlprotocol" type="text" class="form-control" style="width: 35%;"
+                        <input id="urlprotocol" name="urlprotocol" type="text" class="form-control" style="width: 35%;"
                                placeholder="http://shouji.17u.cn/XXX/XXX... or tctclient://XXX/XXX... Enter.....">
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则描述</label>
-                        <textarea name="urldesc" class="form-control" rows="3" style="width: 35%;"
+                        <textarea id="urldesc" name="urldesc" class="form-control" rows="3" style="width: 35%;"
                                   placeholder="Enter ..."></textarea>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则页面功能</label>
-                        <textarea name="urlfunctionname" class="form-control" rows="2" style="width: 35%;"
+                        <textarea id="urlfunctionname" name="urlfunctionname" class="form-control" rows="2"
+                                  style="width: 35%;"
                                   placeholder="Enter ..."></textarea>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则重要提示</label>
-                        <textarea name="urlroletips" class="form-control" rows="2" style="width: 35%;"
+                        <textarea id="urlroletips" name="urlroletips" class="form-control" rows="2" style="width: 35%;"
                                   placeholder="Enter ..."></textarea>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Android Activity</label>
-                        <input name="androidactivity" type="text" class="form-control" style="width: 20%;"
+                        <input id="androidactivity" name="androidactivity" type="text" class="form-control"
+                               style="width: 20%;"
                                placeholder="XXXActivity Enter ...">
                         <label class="col-sm-2 control-label">iOS Controller</label>
-                        <input name="ioscontrolname" type="text" class="form-control" style="width: 20%;"
+                        <input id="ioscontrolname" name="ioscontrolname" type="text" class="form-control"
+                               style="width: 20%;"
                                placeholder="XXXController Enter ...">
                     </div>
 
@@ -110,27 +113,28 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
-
+                        <input id="urlparameter" name="urlparameter" hidden="hidden"/>
                         <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info" onclick="addRow();"
                                style="width: 140px; "/>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">拦截器添加</label>
 
-                        <div id="urlinterceptor" class="box-body col-sm-2" style="width: 60%;"></div>
+                        <div id="showurlinterceptor" class="box-body col-sm-2" style="width: 60%;"></div>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
+                        <input id="urlinterceptor" name="urlinterceptor" style="width: 0px; height: 0px;"/>
 
                         <div class="box-body col-sm-2" style="width: 60%;">
                             <!-- Minimal style -->
                         <#list interceptorlist as item>
                             <label>
                                 <input name="iterceptorgroup" type="checkbox"
-                                       value="${item.interceptorname} + ${item.id}" class="minimal"
+                                       value="${item.id}+${item.interceptorname}" class="minimal"
                                        onclick="checkIterceptor()">
-                                <span class="badge bg-light-blue">${item.interceptorname} + ${item.id}</span>
+                                <span class="badge bg-light-blue">${item.interceptorname}</span>
                             </label>
                         </#list>
                         </div>
@@ -138,7 +142,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则示例链接</label>
-                        <textarea name="urldemostr" class="form-control" rows="3" style="width: 35%;"
+                        <textarea id="urldemo" name="urldemo" class="form-control" rows="3" style="width: 35%;"
                                   placeholder="http://shouji.17u.cn/... or tctclient:... Enter....."></textarea>
                     </div>
 
@@ -150,13 +154,15 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">规则备注信息</label>
-                        <textarea name="urlremark" class="form-control" rows="4" style="width: 35%;"
+                        <textarea id="urlremark" name="urlremark" class="form-control" rows="4" style="width: 35%;"
                                   placeholder="规则Android & iOS 对接人  AND  版本说明  AND　特殊说明　等 Enter ..."></textarea>
 
                     </div>
 
                     <div class="box-footer">
-                        <button type="submit" class="btn btn-primary">Submit</button>
+                        <button type="button" class="btn btn-primary"
+                                onclick='handleParamtes("${Domain.base}/urlserver/urlrule/addUrlrule")'>Submit
+                        </button>
                     </div>
                 </form>
             </div>
@@ -174,20 +180,31 @@
             height: 196
         });
         qrcode.makeCode("");
-        document.getElementById("urldemostr").onchange = function () {
-            qrcode.makeCode(document.getElementById("urldemostr").value);
+        document.getElementById("urldemo").onchange = function () {
+            qrcode.makeCode(document.getElementById("urldemo").value);
         }
     }
 
     // 遍历获取checkbox的list的选中的值
     function checkIterceptor() {
+        // 显示选中html
         var htmlItemStr = "";
-        //获取选中项
-        $('#urlinterceptor').html("");
+
+        // 提交到接口的数据
+        var submitServerInterceporStr = "";
+        $('#urlinterceptor').attr("value", "");
+
+        // 显示获取选中项
+        $('#showurlinterceptor').html("");
         $("input[name='iterceptorgroup']:checked").each(function () {
             htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
+            submitServerInterceporStr = submitServerInterceporStr + $(this).val() + "|";
         });
-        $('#urlinterceptor').html(htmlItemStr);
+        $('#showurlinterceptor').html(htmlItemStr);
+
+        // 提交到后台的数据
+        $('#urlinterceptor').attr("value", submitServerInterceporStr);
+
     }
 
     // 定义list保存序列
@@ -223,16 +240,103 @@
 
     }
 
+    // 参数对象
+    function Paramte(key, value, remark, version) {
+        this.key = key;
+        this.value = value;
+        this.remark = remark;
+        this.version = version;
+    }
+
+    // 获取参数的列表
+    function handleParamtes(actionname) {
+        // 校验参数
+        if (!checkInput()) {
+            return;
+        }
+
+        //  key的数据源
+        var keylist = new Array();
+        $("input[name='key']").each(function () {
+            keylist.push($(this).val());
+        });
+
+        // value的数据源
+        var valuelist = new Array();
+        $("input[name='value']").each(function () {
+            valuelist.push($(this).val());
+        });
+
+        // remark的数据源
+        var remarklist = new Array();
+        $("input[name='remark']").each(function () {
+            remarklist.push($(this).val());
+        });
+
+        // version的数据源
+        var versionlist = new Array();
+        $("input[name='version']").each(function () {
+            versionlist.push($(this).val());
+        });
+
+        // 对象list
+        var parameterlist = new Array();
+        for (var i = 0; i < keylist.length; i++) {
+            var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], versionlist[i]);
+            parameterlist.push(paramte);
+        }
+
+        // 将list进行json序列化
+        var urlparameter = JSON.stringify(parameterlist);
+        $('#urlparameter').attr("value", urlparameter);
+
+
+        // 执行action
+        $("#urlruleadd").attr("action", actionname).submit();
+    }
+
+
     // 处理urlshow checkbox的选中与未选中的状态的赋值
     function checkUrlShow() {
-        if ($('input[name="urlshow"]').prop("checked")) {
-            alert("选中");
+        if ($('input[name="urlshowcheck"]').prop("checked")) {
             $('#urlshow').attr("value", "1");
         }
         else {
-            alert('未选中');
             $('#urlshow').attr("value", "0");
         }
+    }
+
+    // 做表单的验证
+    function checkInput() {
+        if ($("#urlprotocol").val() == "") {
+            alert("URl规则的协议不能为null");
+            return false;
+        }
+        if ($("#urldesc").val() == "") {
+            alert("URl规则的描述信息不能为null");
+            return false;
+        }
+        if ($("#urlroletips").val() == "") {
+            alert("URl规则的重要提示不能为null");
+            return false;
+        }
+        if ($("#androidactivity").val() == "") {
+            alert("URl规则的Activity页面不能为null");
+            return false;
+        }
+        if ($("#ioscontrolname").val() == "") {
+            alert("URl规则的iOS Controler不能为null");
+            return false;
+        }
+        if ($("#urldemo").val() == "") {
+            alert("URl规则Demo不能为null");
+            return false;
+        }
+        if ($("#urlremark").val() == "") {
+            alert("URl规则备注不能为null");
+            return false;
+        }
+        return true;
     }
 
 </script>

@@ -8,9 +8,11 @@ import net.tngou.pojo.Interceptor;
 import net.tngou.pojo.POJO;
 import net.tngou.pojo.Project;
 import net.tngou.pojo.Urlrule;
+import net.tngou.util.DateUtil;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -84,14 +86,19 @@ public class UrlruleAction extends BaseAction {
     public void addUrlrule() {
         Urlrule urlrule = (Urlrule) getAsk(new Urlrule());
         String projectnameid = urlrule.getProjectname();
+        // 处理projectname & Projectid
         String[] splits = projectnameid.split("\\|");
         urlrule.setProjectname(splits[0]);
         urlrule.setProjectid(splits[1]);
+
+        // 新增的时间
+        urlrule.setUrlupdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+
         long id = urlrule.save();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");
         } else {
-            sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");
+            run_404();
         }
     }
 

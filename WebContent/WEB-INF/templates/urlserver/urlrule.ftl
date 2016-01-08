@@ -41,7 +41,7 @@
                                     <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
                                 </div>
                             </td>-->
-                                <td>${item.projectremark}</td>
+                                <td>${item.urldemo}</td>
                                 <td>
                                     <span class="badge bg-red"
                                           onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
