@@ -57,19 +57,10 @@
 
 
 <script type="text/javascript">
-
-
     $(document).ready(function () {
         // 在这里写你的代码...
-
-
-
-
-
     <#if user??>
-
         $("#userShow").text('${user.account}');
-
     <#else>
         window.location.href = "${Domain.base}/login";
     </#if>
@@ -77,7 +68,6 @@
         $("#todayDate").html(getToday());
 
     });
-
 
     /**
      * 分时问候

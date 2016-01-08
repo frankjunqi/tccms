@@ -1,23 +1,14 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <title>${title}</title>
-    <!-- Tell the browser to be responsive to screen width -->
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
-    <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="${Domain.base}/bootstrap/css/bootstrap.min.css">
-    <!-- Theme style -->
-    <link rel="stylesheet" href="${Domain.base}/dist/css/AdminLTE.min.css">
-    <!-- iCheck -->
-    <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/square/blue.css">
-    <!-- jQuery 2.1.4 -->
-    <script src="${Domain.base}/plugins/jQuery/jQuery-2.1.4.min.js"></script>
-    <!-- Bootstrap 3.3.5 -->
-    <script src="${Domain.base}/bootstrap/js/bootstrap.min.js"></script>
-    <!-- iCheck -->
-    <script src="${Domain.base}/plugins/iCheck/icheck.min.js"></script>
+    <meta name="keywords" content="${keywords}"/>
+    <meta name="description" content="${description}"/>
+    <link rel="icon" href="${Domain.base}/common/upload/favicon.ico" type="image/x-icon"/>
+    <SCRIPT src="${Domain.base}/scripts/jquery-1.9.1.min.js" type="text/javascript"></SCRIPT>
+
     <STYLE>
         body {
             background: #ebebeb;
@@ -142,6 +133,7 @@
         }
 
     </STYLE>
+
     <SCRIPT type="text/javascript">
         $(function () {
             //得到焦点
@@ -176,63 +168,45 @@
             });
         });
     </SCRIPT>
-    <script>
-        $(function () {
-            $('input').iCheck({
-                checkboxClass: 'icheckbox_square-blue',
-                radioClass: 'iradio_square-blue',
-                increaseArea: '20%' // optional
-            });
-        });
-    </script>
+
 </head>
-<body class="hold-transition login-page">
-<div class="login-box">
-    <div class="login-logo" style="margin-bottom: 120px;">
-        <a><b>TC-PDC</b>为极致而生</a>
-    </div>
+<BODY>
+<form action="${Domain.base}/login" method="post">
+    <DIV class="top_div"></DIV>
+    <DIV style="background: rgb(255, 255, 255); margin: -100px auto auto; border: 1px solid rgb(231, 231, 231); border-image: none; width: 400px; height: 200px; text-align: center;">
+        <DIV style="width: 165px; height: 96px; position: absolute;">
+            <DIV class="tou"></DIV>
+            <DIV class="initial_left_hand" id="left_hand"></DIV>
+            <DIV class="initial_right_hand" id="right_hand"></DIV>
+        </DIV>
+        <P style="padding: 30px 0px 10px; position: relative;"><SPAN
+                class="u_logo"></SPAN>
+            <INPUT class="ipt" type="text" name="account" placeholder="请输入用户名或邮箱" value="">
+        </P>
 
-    <DIV style="width: 160px; height: 96px; position: absolute;">
-        <DIV class="tou"></DIV>
-        <DIV class="initial_left_hand" id="left_hand"></DIV>
-        <DIV class="initial_right_hand" id="right_hand"></DIV>
+        <P style="position: relative;"><SPAN class="p_logo"></SPAN>
+            <INPUT class="ipt" id="password" name="password" type="password" placeholder="请输入密码" value="">
+        </P>
+
+        <DIV style="height: 50px; line-height: 50px; margin-top: 30px; border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;">
+            <P style="margin: 0px 35px 20px 45px;"><SPAN style="float: left;color: red;">
+            ${message!"请输入验证信息"}</SPAN>
+           <SPAN style="float: right;">
+         
+         <input id="sub" name="sub" value="现在登录"
+                style="background: rgb(0, 142, 173); padding: 7px 10px; border-radius: 4px; border: 1px solid rgb(26, 117, 152); border-image: none; color: rgb(255, 255, 255); font-weight: bold;"
+                type="submit">
+           
+         
+           </SPAN></P></DIV>
     </DIV>
-    <!-- /.login-logo -->
-    <div class="login-box-body">
-        <p class="login-box-msg">Sign in to start your session</p>
+    <div style="text-align:center;">
+        <br>
 
-        <form action="${Domain.base}/login" method="post" role="form">
-            <div class="form-group has-feedback">
-                <input name="account" type="email" class="form-control" placeholder="Email">
-                <span class="glyphicon glyphicon-envelope form-control-feedback"></span>
-            </div>
-            <div class="form-group has-feedback">
-                <input id="password" name="password" type="password" class="form-control" placeholder="Password">
-                <span class="glyphicon glyphicon-lock form-control-feedback"></span>
-            </div>
-            <div class="row">
-                <div class="col-xs-8">
-                    <div class="checkbox icheck">
-                        <label>
-                        ${message!"请输入验证信息"}
-                        </label>
-                    </div>
-                </div>
-                <!-- /.col -->
-                <div class="col-xs-4">
-                    <button id="sub" name="sub" type="submit" class="btn btn-primary btn-block btn-flat">Sign In
-                    </button>
-                </div>
-                <!-- /.col -->
-            </div>
-        </form>
-
-        <a href="#">I forgot my password</a><br>
-        <a href="register.html" class="text-center">Register a new membership</a>
-
+        <p><a href="${Domain.base}">${info.name}首页</a> &nbsp;技术支持:<a href="http://www.szjywh.net" target="_blank">骏燕文化内容管理</a>
+        </p>
     </div>
-    <!-- /.login-box-body -->
-</div>
-<!-- /.login-box -->
-</body>
-</html>
+
+</form>
+</BODY>
+</HTML>

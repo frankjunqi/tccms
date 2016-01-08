@@ -132,7 +132,7 @@ CREATE TABLE IF NOT EXISTS `tgcms_user` (
 --
 
 INSERT INTO `tgcms_user` (`id`, `account`, `password`, `email`, `name`, `role`) VALUES
-(4, 'admin', '95ba0e0de7280c3ed0317600c874674f', 'szjywh@szjywh.net', 'szjywh', 1);
+(5, '123@qq.com', '123', '123@qq.com', '123', 1);
 
 
 -- --------------------------------------------------------

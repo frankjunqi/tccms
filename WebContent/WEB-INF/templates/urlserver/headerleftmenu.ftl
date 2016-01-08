@@ -21,10 +21,10 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/all.css">
     <!-- iCheck for checkboxes and radio inputs -->
     <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/all.css">
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-    <!-- Ionicons -->
-    <link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+<#--<!-- Font Awesome &ndash;&gt;
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+<!-- Ionicons &ndash;&gt;
+<link rel="stylesheet" href="https://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">-->
     <!-- Pace style -->
     <link rel="stylesheet" href="${Domain.base}/plugins/pace/pace.min.css">
 
@@ -39,28 +39,65 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="${Domain.base}/plugins/pace/pace.min.js"></script>
     <!-- Qrcode -->
     <script src="${Domain.base}/scripts/qrcode.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            // 在这里写你的代码...
+        <#if user??>
+            $("#userShow1").text(sayHello() + '  ' + '${user.account}');
+            $("#userShow2").text(sayHello() + '  ' + '${user.account}');
+            $("#userShow3").text(sayHello() + '  ' + '${user.account}');
+        <#else>
+            window.location.href = "${Domain.base}/login";
+        </#if>
+            $("#sayHelloSpan").text(sayHello());
+            $("#todayDate").html(getToday());
+
+        });
+
+        /**
+         * 分时问候
+         */
+        function sayHello() {
+            var hour = new Date().getHours();
+            var hello = '';
+            if (hour < 6) {
+                hello = '凌晨好';
+            } else if (hour < 9) {
+                hello = '早上好';
+            } else if (hour < 12) {
+                hello = '上午好';
+            } else if (hour < 14) {
+                hello = '中午好';
+            } else if (hour < 17) {
+                hello = '下午好';
+            } else if (hour < 19) {
+                hello = '傍晚好';
+            } else if (hour < 22) {
+                hello = '晚上好';
+            } else {
+                hello = '夜里好';
+            }
+            return hello;
+        }
+        /**
+         * 获得当天日期和星期
+         */
+        function getToday() {
+            WEEK_DATA_CN = ["星期日", "星期一", "星期二", "星期三", "星期四", "星期五", "星期六"];
+            var today = new Date();
+            var year = today.getFullYear();
+            var month = today.getMonth() + 1;
+            month = month < 10 ? '0' + month : month;
+            var date = today.getDate();
+            date = date < 10 ? '0' + date : date;
+            var day = WEEK_DATA_CN[today.getDay()];
+            return year + "年" + month + "月" + date + "日 " + day;
+        }
+
+
+    </script>
     <![endif]-->
 </head>
-<!--
-BODY TAG OPTIONS:
-=================
-Apply one or more of the following classes to get the
-desired effect
-|---------------------------------------------------------|
-| SKINS         | skin-blue                               |
-|               | skin-black                              |
-|               | skin-purple                             |
-|               | skin-yellow                             |
-|               | skin-red                                |
-|               | skin-green                              |
-|---------------------------------------------------------|
-|LAYOUT OPTIONS | fixed                                   |
-|               | layout-boxed                            |
-|               | layout-top-nav                          |
-|               | sidebar-collapse                        |
-|               | sidebar-mini                            |
-|---------------------------------------------------------|
--->
 <body class="hold-transition skin-blue sidebar-mini">
 <div class="wrapper">
 
@@ -78,9 +115,9 @@ desired effect
         <!-- Header Navbar -->
         <nav class="navbar navbar-static-top" role="navigation">
             <!-- Sidebar toggle button-->
-            <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
-                <span class="sr-only">Toggle navigation</span>
-            </a>
+        <#--<a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
+            <span class="sr-only">Toggle navigation</span>
+        </a>-->
             <!-- Navbar Right Menu -->
             <div class="navbar-custom-menu">
                 <ul class="nav navbar-nav">
@@ -91,17 +128,19 @@ desired effect
                             <!-- The user image in the navbar-->
                             <img src="${Domain.base}/common/icon/logo.png" class="user-image" alt="User Image">
                             <!-- hidden-xs hides the username on small devices so only the image appears. -->
-                            <span class="hidden-xs">Alexander Pierce</span>
+                            <span id="userShow1" class="hidden-xs"">Alexander</span>
                         </a>
                         <ul class="dropdown-menu">
                             <!-- The user image in the menu -->
                             <li class="user-header">
-                                <img src="${Domain.base}/common/icon/logo.png" class="img-circle"
-                                     alt="User Image">
+                                <img src="${Domain.base}/common/icon/logo.png" class="img-circle" alt="User Image">
+
+                                <p id="userShow2">
+                                    Alexander
+                                </p>
 
                                 <p>
-                                    Alexander Pierce - Web Developer
-                                    <small>Member since Nov. 2012</small>
+                                    <small>PDC--为极致而生</small>
                                 </p>
                             </li>
                             <!-- Menu Footer-->
@@ -110,7 +149,7 @@ desired effect
                                     <a href="#" class="btn btn-default btn-flat">Profile</a>
                                 </div>
                                 <div class="pull-right">
-                                    <a href="#" class="btn btn-default btn-flat">Sign out</a>
+                                    <a class="btn btn-default btn-flat" href="${Domain.base}/login/exit">Sign out</a>
                                 </div>
                             </li>
                         </ul>
@@ -131,9 +170,11 @@ desired effect
                     <img src="${Domain.base}/common/icon/logo.png" class="img-circle" alt="User Image">
                 </div>
                 <div class="pull-left info">
-                    <p>Alexander Pierce</p>
+                    <p id="userShow3">Alexander</p>
                     <!-- Status -->
-                    <a><i class="fa fa-circle text-success"></i> Online</a>
+                    <a><i class="fa fa-circle text-success"></i>
+                        <small>PDC--为极致而生</small>
+                    </a>
                 </div>
             </div>
 

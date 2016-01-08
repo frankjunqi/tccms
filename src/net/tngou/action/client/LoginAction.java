@@ -1,7 +1,9 @@
 package net.tngou.action.client;
 
+import net.tngou.action.client.BaseAction;
 import net.tngou.pojo.Info;
 import net.tngou.pojo.User;
+import net.tngou.util.DigestMD;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
@@ -12,7 +14,6 @@ public class LoginAction extends BaseAction {
 
     @Override
     public void execute() throws ServletException, IOException {
-
         // test
         if (!request.isSubmit()) {
             Info info = _getInfo();
@@ -26,11 +27,11 @@ public class LoginAction extends BaseAction {
             Map<String, Object> map = new HashMap<String, Object>();
             map.put("account", account);
             map.put("password", password);
-//			map.put("password", DigestMD.MD5(password));
+            //map.put("password", DigestMD.MD5(password));
             User user = bean.get(map);
             if (user != null) {
                 session.setAttribute("user", user);
-                sendRedirect(getDomain().getBase() + "/manage");
+                sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
             } else {
                 Info info = _getInfo();
                 root.put("message", "登录失败：请确认账户或者密码的准确性！");
@@ -43,6 +44,6 @@ public class LoginAction extends BaseAction {
 
     public void exit() {
         session.removeAttribute("user");
-        sendRedirect(getDomain().getBase() + "/client" + "/login");
+        sendRedirect(getDomain().getBase() + "/login");
     }
 }
