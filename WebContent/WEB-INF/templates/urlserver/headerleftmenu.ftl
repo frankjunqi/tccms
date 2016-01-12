@@ -132,7 +132,6 @@ scratch. This page gets rid of all links and provides the needed markup only.
                                 <img src="${Domain.base}/common/icon/logo.png" class="img-circle" alt="User Image">
 
                                 <p id="userShow2">
-                                    Alexander
                                 </p>
 
                                 <p>

@@ -26,12 +26,11 @@
                     <div class="box-body">
                         <table class="table table-bordered">
                             <tr>
-                                <th style="width: 50px">#</th>
-                                <th style="width: 50px">项目名称</th>
-                                <th style="width: 200px">页面功能</th>
-                                <th style="width: 100px">示例url</th>
-                                <th style="width: 100px">url二维码</th>
-                                <th style="width: 100px">#</th>
+                                <th style="width: 5%">#</th>
+                                <th style="width: 10%">项目名称</th>
+                                <th style="width: 15%">页面功能</th>
+                                <th style="width: 15%">示例url</th>
+                                <th style="width: 20%">#</th>
                             </tr>
                         <#list urlrulelist as item>
                             <tr>
@@ -44,14 +43,37 @@
                                     <div onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>${item.urldemo}</div>
                                 </td>
                                 <td>
-                                    <div id="urldemoimg${item.id}" style="height: 100px;"></div>
-                                </td>
-                                <td>
                                     <span class="badge bg-red"
                                           onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
                                     <a href="${Domain.base}/urlserver/urlrule/getUrlruleById/${item.id}">
                                         <span class="badge bg-light-blue">Edit</span>
                                     </a>
+
+                                    <nav role="navigation">
+                                        <!-- Navbar Right Menu -->
+                                        <div>
+                                            <ul class="nav navbar-nav">
+                                                <!-- User Account Menu -->
+                                                <li>
+                                                    <!-- Menu Toggle Button -->
+                                                    <a data-toggle="dropdown"
+                                                       onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>
+                                                        <!-- The user image in the navbar-->
+                                                        <span id="userShow1"
+                                                              class="badge bg-light-blue">查看二维码</span>
+                                                    </a>
+                                                    <ul class="dropdown-menu">
+                                                        <!-- The user image in the menu -->
+                                                        <li class="user-header">
+                                                            <div id="urldemoimg${item.id}"
+                                                                 style="height: 196px;width: 196px;">
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </nav>
                                 </td>
                             </tr>
                         </#list>
@@ -87,9 +109,10 @@
     }
 
     function show_QRImg(urlStr, urldivid) {
+        $("#" + urldivid).empty();
         var qrcode = new QRCode(document.getElementById(urldivid), {
-            width: 100,//设置宽高
-            height: 100
+            width: 196,//设置宽高
+            height: 196
         });
         qrcode.makeCode(urlStr);
     }

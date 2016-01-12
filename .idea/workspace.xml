@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -35,16 +30,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="footermenu.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="255" max-vertical-offset="357">
-              <caret line="15" column="0" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="usermanageredit.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl">
           <provider selected="true" editor-type-id="text-editor">
@@ -58,8 +43,8 @@
       <file leaf-file-name="headerleftmenu.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-23.346153" vertical-offset="1739" max-vertical-offset="4063">
-              <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
+            <state vertical-scroll-proportion="-37.076923" vertical-offset="1637" max-vertical-offset="4046">
+              <caret line="153" column="14" selection-start-line="111" selection-start-column="8" selection-end-line="153" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -75,39 +60,50 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="widgets.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="widgets.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/pages/widgets.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.33333334" vertical-offset="3672" max-vertical-offset="29920">
+            <state vertical-scroll-proportion="-6.678571" vertical-offset="3264" max-vertical-offset="29920">
               <caret line="225" column="28" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="28" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urlrule.ftl" pinned="false" current-in-tab="false">
+      <file leaf-file-name="urlrule.ftl" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.461538" vertical-offset="345" max-vertical-offset="1768">
-              <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+            <state vertical-scroll-proportion="0.60341555" vertical-offset="464" max-vertical-offset="2159">
+              <caret line="46" column="135" selection-start-line="46" selection-start-column="135" selection-end-line="46" selection-end-column="135" />
               <folding>
-                <element signature="e#983#1002#0#HTML" expanded="true" />
-                <element signature="e#1046#1065#0#HTML" expanded="true" />
-                <element signature="e#1112#1132#0#HTML" expanded="true" />
-                <element signature="e#1179#1199#0#HTML" expanded="true" />
-                <element signature="e#1247#1267#0#HTML" expanded="true" />
-                <element signature="e#1316#1336#0#HTML" expanded="true" />
-                <element signature="e#2048#2070#0#HTML" expanded="true" />
+                <element signature="e#983#1000#0#HTML" expanded="true" />
+                <element signature="e#1044#1062#0#HTML" expanded="true" />
+                <element signature="e#1109#1127#0#HTML" expanded="true" />
+                <element signature="e#1174#1192#0#HTML" expanded="true" />
+                <element signature="e#1240#1258#0#HTML" expanded="true" />
+                <element signature="e#3725#3760#0#HTML" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UrlruleAction.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java">
+      <file leaf-file-name="qrcode.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/scripts/qrcode.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2482">
-              <caret line="29" column="12" selection-start-line="29" selection-start-column="12" selection-end-line="29" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="14946" max-vertical-offset="15912">
+              <caret line="896" column="21" selection-start-line="896" selection-start-column="21" selection-end-line="896" selection-end-column="21" />
+              <folding>
+                <marker date="1452064686617" expanded="true" signature="29260:29294" placeholder="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="bootstrap.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="111123" max-vertical-offset="115702">
+              <caret line="6547" column="0" selection-start-line="6547" selection-start-column="0" selection-end-line="6547" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -126,21 +122,11 @@
       <file leaf-file-name="urlruleadd.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-3.1190476" vertical-offset="2305" max-vertical-offset="5950">
+            <state vertical-scroll-proportion="3.5595238" vertical-offset="2866" max-vertical-offset="5950">
               <caret line="151" column="74" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="74" />
               <folding>
                 <marker date="1452240988590" expanded="true" signature="9282:9300" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AdminLTE.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/dist/css/AdminLTE.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="73094" max-vertical-offset="83504">
-              <caret line="4310" column="0" selection-start-line="4310" selection-start-column="0" selection-end-line="4310" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -176,12 +162,12 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/register.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UserManagerAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/User.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UsermanagerAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" />
       </list>
     </option>
@@ -922,12 +908,12 @@
       <workItem from="1452245176387" duration="9036000" />
       <workItem from="1452474827262" duration="6454000" />
       <workItem from="1452494976046" duration="15294000" />
-      <workItem from="1452566890302" duration="3628000" />
+      <workItem from="1452566890302" duration="7922000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="74687000" />
+    <option name="totallyTimeSpent" value="78981000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -953,35 +939,35 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.36484984" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28921023" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.33926585" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59621805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16950959" sideWeight="0.83264464" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21970496" sideWeight="0.16528925" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.516129" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.59621805" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16950959" sideWeight="0.83264464" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21970496" sideWeight="0.16528925" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6062291" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.6062291" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1037,24 +1023,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/search_l.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/common/icon/search.gif">
-      <provider selected="true" editor-type-id="images">
-        <state />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.min.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="120831" max-vertical-offset="122468">
-          <caret line="7119" column="4" selection-start-line="7119" selection-start-column="4" selection-end-line="7119" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="1007" max-vertical-offset="1598">
@@ -1365,24 +1333,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.1190476" vertical-offset="2305" max-vertical-offset="5950">
-          <caret line="151" column="74" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="74" />
-          <folding>
-            <marker date="1452240988590" expanded="true" signature="9282:9300" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-23.346153" vertical-offset="1739" max-vertical-offset="4063">
-          <caret line="138" column="19" selection-start-line="138" selection-start-column="19" selection-end-line="138" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.5" vertical-offset="583" max-vertical-offset="1445">
@@ -1399,27 +1349,70 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/pages/widgets.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.461538" vertical-offset="345" max-vertical-offset="1768">
-          <caret line="47" column="37" selection-start-line="47" selection-start-column="37" selection-end-line="47" selection-end-column="37" />
+        <state vertical-scroll-proportion="-6.678571" vertical-offset="3264" max-vertical-offset="29920">
+          <caret line="225" column="28" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-37.076923" vertical-offset="1637" max-vertical-offset="4046">
+          <caret line="153" column="14" selection-start-line="111" selection-start-column="8" selection-end-line="153" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/bootstrap/css/bootstrap.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="111123" max-vertical-offset="115702">
+          <caret line="6547" column="0" selection-start-line="6547" selection-start-column="0" selection-end-line="6547" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="3.5595238" vertical-offset="2866" max-vertical-offset="5950">
+          <caret line="151" column="74" selection-start-line="151" selection-start-column="23" selection-end-line="151" selection-end-column="74" />
           <folding>
-            <element signature="e#983#1002#0#HTML" expanded="true" />
-            <element signature="e#1046#1065#0#HTML" expanded="true" />
-            <element signature="e#1112#1132#0#HTML" expanded="true" />
-            <element signature="e#1179#1199#0#HTML" expanded="true" />
-            <element signature="e#1247#1267#0#HTML" expanded="true" />
-            <element signature="e#1316#1336#0#HTML" expanded="true" />
-            <element signature="e#2048#2070#0#HTML" expanded="true" />
+            <marker date="1452240988590" expanded="true" signature="9282:9300" placeholder="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/pages/widgets.html">
+    <entry file="file://$PROJECT_DIR$/WebContent/scripts/qrcode.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.33333334" vertical-offset="3672" max-vertical-offset="29920">
-          <caret line="225" column="28" selection-start-line="225" selection-start-column="24" selection-end-line="225" selection-end-column="28" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="14946" max-vertical-offset="15912">
+          <caret line="896" column="21" selection-start-line="896" selection-start-column="21" selection-end-line="896" selection-end-column="21" />
+          <folding>
+            <marker date="1452064686617" expanded="true" signature="29260:29294" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.36" vertical-offset="878" max-vertical-offset="21522">
+          <caret line="58" column="41" selection-start-line="58" selection-start-column="31" selection-end-line="58" selection-end-column="41" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.60341555" vertical-offset="464" max-vertical-offset="2159">
+          <caret line="46" column="135" selection-start-line="46" selection-start-column="135" selection-end-line="46" selection-end-column="135" />
+          <folding>
+            <element signature="e#983#1000#0#HTML" expanded="true" />
+            <element signature="e#1044#1062#0#HTML" expanded="true" />
+            <element signature="e#1109#1127#0#HTML" expanded="true" />
+            <element signature="e#1174#1192#0#HTML" expanded="true" />
+            <element signature="e#1240#1258#0#HTML" expanded="true" />
+            <element signature="e#3725#3760#0#HTML" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
