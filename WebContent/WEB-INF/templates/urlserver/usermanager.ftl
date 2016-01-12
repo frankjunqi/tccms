@@ -20,36 +20,34 @@
             <div class="col-md-12">
                 <div class="box">
                     <div class="box-header with-border">
-                        <h3 class="box-title">Urlrule Table</h3>
+                        <h3 class="box-title">项目 Table</h3>
                     </div>
                     <!-- /.box-header -->
                     <div class="box-body">
                         <table class="table table-bordered">
                             <tr>
-                                <th style="width: 50px">#</th>
-                                <th style="width: 50px">项目名称</th>
-                                <th style="width: 200px">页面功能</th>
-                                <th style="width: 100px">示例url</th>
-                                <th style="width: 100px">url二维码</th>
-                                <th style="width: 100px">#</th>
+                                <th style="width: 5%">#</th>
+                                <th style="width: 15%">用户名</th>
+                                <th style="width: 20%">用户email</th>
+                                <th style="width: 12%">用户权限 [1：管理员 0：浏览者] </th>
+                                <th style="width: 20%">#</th>
                             </tr>
-                        <#list urlrulelist as item>
+                        <#list userlist as item>
                             <tr>
                                 <td>${item.id}.</td>
-                                <td><strong>${item.projectname}</strong>
+                                <td><strong>${item.account}</strong>
                                 </td>
-                                <td><strong>${item.urlfunctionname}</strong>
-                                </td>
-                                <td>
-                                    <div onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>${item.urldemo}</div>
-                                </td>
-                                <td>
-                                    <div id="urldemoimg${item.id}" style="height: 100px;"></div>
-                                </td>
+                            <#--<td>
+                                <div class="progress progress-xs">
+                                    <div class="progress-bar progress-bar-danger" style="width: 55%"></div>
+                                </div>
+                            </td>-->
+                                <td>${item.email}</td>
+                                <td>${item.role}</td>
                                 <td>
                                     <span class="badge bg-red"
-                                          onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
-                                    <a href="${Domain.base}/urlserver/urlrule/getUrlruleById/${item.id}">
+                                          onclick='show_confirm("${Domain.base}/urlserver/usermanager/delete?id=${item.id}")'>Delete</span>
+                                    <a href="${Domain.base}/urlserver/usermanager/getUserById?id=${item.id}">
                                         <span class="badge bg-light-blue">Edit</span>
                                     </a>
                                 </td>
@@ -64,7 +62,7 @@
                             <#assign x=1>
                             <#assign mx=totalpage>
                             <#list x..mx as i>
-                                <li><a href="${Domain.base}/urlserver/urlrule/json?page=${i}">${i}</a></li>
+                                <li><a href="${Domain.base}/urlserver/usermanager/list?page=${i}">${i}</a></li>
                             </#list>
                         </#if>
                         </ul>
@@ -85,15 +83,6 @@
 
         }
     }
-
-    function show_QRImg(urlStr, urldivid) {
-        var qrcode = new QRCode(document.getElementById(urldivid), {
-            width: 100,//设置宽高
-            height: 100
-        });
-        qrcode.makeCode(urlStr);
-    }
-
 </script>
 <!-- /.content-wrapper -->
 <#include "footermenu.ftl">

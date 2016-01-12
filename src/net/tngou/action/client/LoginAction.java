@@ -26,8 +26,7 @@ public class LoginAction extends BaseAction {
             User bean = new User();
             Map<String, Object> map = new HashMap<String, Object>();
             map.put("account", account);
-            map.put("password", password);
-            //map.put("password", DigestMD.MD5(password));
+            map.put("password", DigestMD.MD5(password));
             User user = bean.get(map);
             if (user != null) {
                 session.setAttribute("user", user);
