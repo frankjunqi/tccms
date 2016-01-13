@@ -30,7 +30,7 @@
                                 <th style="width: 10%">项目名称</th>
                                 <th style="width: 15%">页面功能</th>
                                 <th style="width: 15%">示例url</th>
-                                <th style="width: 20%">#</th>
+                                <th style="width: 10%">#</th>
                             </tr>
                         <#list urlrulelist as item>
                             <tr>
@@ -43,37 +43,38 @@
                                     <div onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>${item.urldemo}</div>
                                 </td>
                                 <td>
-                                    <span class="badge bg-red"
-                                          onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
-                                    <a href="${Domain.base}/urlserver/urlrule/getUrlruleById/${item.id}">
-                                        <span class="badge bg-light-blue">Edit</span>
-                                    </a>
-
-                                    <nav role="navigation">
-                                        <!-- Navbar Right Menu -->
-                                        <div>
-                                            <ul class="nav navbar-nav">
-                                                <!-- User Account Menu -->
-                                                <li>
-                                                    <!-- Menu Toggle Button -->
-                                                    <a data-toggle="dropdown"
-                                                       onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>
-                                                        <!-- The user image in the navbar-->
+                                    <!-- Navbar Right Menu -->
+                                    <ul class="nav">
+                                        <!-- User Account Menu -->
+                                        <li>
+                                            <span class="badge bg-red"
+                                                  onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
+                                        </li>
+                                        <li>
+                                            <a style="background-color: transparent; padding: 0px;"
+                                               href="${Domain.base}/urlserver/urlrule/getUrlruleById/${item.id}">
+                                                <span class="badge bg-light-blue">Edit</span>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <!-- Menu Toggle Button -->
+                                            <a data-toggle="dropdown"
+                                               style="background-color: transparent; padding: 0px;"
+                                               onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>
+                                                <!-- The user image in the navbar-->
                                                         <span id="userShow1"
-                                                              class="badge bg-light-blue">查看二维码</span>
-                                                    </a>
-                                                    <ul class="dropdown-menu">
-                                                        <!-- The user image in the menu -->
-                                                        <li class="user-header">
-                                                            <div id="urldemoimg${item.id}"
-                                                                 style="height: 196px;width: 196px;">
-                                                            </div>
-                                                        </li>
-                                                    </ul>
+                                                              class="badge bg-yellow">查看二维码进行扫描</span>
+                                            </a>
+                                            <ul class="dropdown-menu">
+                                                <!-- The user image in the menu -->
+                                                <li class="user-header">
+                                                    <div id="urldemoimg${item.id}"
+                                                         style="height: 210px;width: 210px; padding: 6px;">
+                                                    </div>
                                                 </li>
                                             </ul>
-                                        </div>
-                                    </nav>
+                                        </li>
+                                    </ul>
                                 </td>
                             </tr>
                         </#list>
