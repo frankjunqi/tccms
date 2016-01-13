@@ -138,6 +138,16 @@ public class UrlruleAction extends BaseAction {
 
     public void getUrlruleById() {
         String sid = request.getParams()[0];
+        // 项目的list
+        Project bean = new Project();
+        List<? extends POJO> list = bean.list("id", OrderType.ASC);
+        root.put("projectlist", list);
+
+        // 拦截器的list
+        Interceptor intercepor = new Interceptor();
+        List<? extends POJO> interceporlist = intercepor.list("id", OrderType.ASC);
+        root.put("interceptorlist", interceporlist);
+
         Urlrule urlrule = new Urlrule();
         urlrule = urlrule.get(Long.parseLong(sid));
         if (urlrule == null) {
