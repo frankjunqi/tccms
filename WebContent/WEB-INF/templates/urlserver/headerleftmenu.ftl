@@ -33,6 +33,8 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <script src="${Domain.base}/dist/js/app.min.js"></script>
     <!-- PACE -->
     <script src="${Domain.base}/plugins/pace/pace.min.js"></script>
+    <!-- JSfile  -->
+    <script src="${Domain.base}/jsfile/Object.js"></script>
     <!-- Qrcode -->
     <script src="${Domain.base}/scripts/qrcode.js"></script>
     <script type="text/javascript">

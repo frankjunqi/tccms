@@ -240,14 +240,6 @@
 
     }
 
-    // 参数对象
-    function Paramte(key, value, remark, version) {
-        this.key = key;
-        this.value = value;
-        this.remark = remark;
-        this.version = version;
-    }
-
     // 获取参数的列表
     function handleParamtes(actionname) {
         // 校验参数

@@ -90,7 +90,7 @@
 
 
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">规则参数说明${urlrule.urlparameter}</label>
+                        <label class="col-sm-2 control-label">规则参数说明</label>
                         <table id="urlparametertable" style="width: 58%;" border='1' cellspacing="1"
                                class="table table-bordered ">
                             <tr>
@@ -120,7 +120,7 @@
                                style="width: 140px;"/>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">拦截器添加</label>
+                        <label class="col-sm-2 control-label">拦截器添加${urlrule.urlinterceptor}+</label>
 
                         <div id="showurlinterceptor" class="box-body col-sm-2"
                              style="width: 60%;"></div>
@@ -195,6 +195,18 @@
             $('#urlshowcheck').attr("checked", false);
         }
 
+        // 处理拦截器
+        /*var urlinterceptor = ${urlrule.urlinterceptor};
+        for (var i = 0; i < urlinterceptor.length; i++) {
+            alert(urlinterceptor[i]);
+        }*/
+
+        // 处理参数列表
+        var urlparameter = ${urlrule.urlparameter};
+        for (var i = 0; i < urlparameter.length; i++) {
+            addRow(urlparameter[i]);
+        }
+
 
     }
     // 处理urlshow checkbox的选中与未选中的状态的赋值
@@ -209,9 +221,9 @@
 
     // 遍历获取checkbox的list的选中的值
     function checkIterceptor() {
+
         // 显示选中html
         var htmlItemStr = "";
-
         // 提交到接口的数据
         var submitServerInterceporStr = "";
         $('#urlinterceptor').attr("value", "");
@@ -229,7 +241,85 @@
     }
 
     // 参数列表的初始化
+    // 定义list保存序列
+    var arrayObj = new Array();
 
+    // add 参数的列表row
+    function addRow(paramte) {
+        var rowLength = document.getElementById("urlparametertable").rows.length;
+        arrayObj.push(rowLength);
+        var newTR = document.getElementById("urlparametertable").insertRow(rowLength);
+        var newNameTD = newTR.insertCell(0);
+        newNameTD.innerHTML = "<input name='key' id='key' type='text' value='" + paramte.key + "'/>";
+        var newNameTD = newTR.insertCell(1);
+        newNameTD.innerHTML = "<input name='value' id='value' type='text' value='" + paramte.value + "'/>";
+        var newNameTD = newTR.insertCell(2);
+        newNameTD.innerHTML = "<input name='remark' id='remark' type='text' value='" + paramte.remark + "'/>";
+        var newNameTD = newTR.insertCell(3);
+        newNameTD.innerHTML = "<input name='version' id='version' type='text' value='" + paramte.version + "'/>";
+        var newNameTD = newTR.insertCell(4);
+        newNameTD.innerHTML = "<span class='badge bg-light-blue' onclick='removeRow(" + rowLength + ")'>Delete</span>";
+    }
+
+    //  处理参数的removed的操作
+    function removeRow(indexItem) {
+        //document.getElementById("testTable").insertRow(document.getElementById("testTable").rows.length);
+        for (var i = 0; i <= arrayObj.length - 1; i++) {
+            if (indexItem == arrayObj[i]) {
+                document.getElementById("urlparametertable").deleteRow(i + 1);
+                arrayObj.splice(i, 1);
+                break;
+            }
+        }
+
+    }
+
+    // 获取参数的列表
+    function handleParamtes(actionname) {
+        // 校验参数
+        if (!checkInput()) {
+            return;
+        }
+
+        //  key的数据源
+        var keylist = new Array();
+        $("input[name='key']").each(function () {
+            keylist.push($(this).val());
+        });
+
+        // value的数据源
+        var valuelist = new Array();
+        $("input[name='value']").each(function () {
+            valuelist.push($(this).val());
+        });
+
+        // remark的数据源
+        var remarklist = new Array();
+        $("input[name='remark']").each(function () {
+            remarklist.push($(this).val());
+        });
+
+        // version的数据源
+        var versionlist = new Array();
+        $("input[name='version']").each(function () {
+            versionlist.push($(this).val());
+        });
+
+        // 对象list
+        var parameterlist = new Array();
+        for (var i = 0; i < keylist.length; i++) {
+            var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], versionlist[i]);
+            parameterlist.push(paramte);
+        }
+
+        // 将list进行json序列化
+        var urlparameter = JSON.stringify(parameterlist);
+        $('#urlparameter').attr("value", urlparameter);
+
+
+        // 执行action
+        $("#urlruleadd").attr("action", actionname).submit();
+    }
 </script>
 <!-- /.content-wrapper -->
 <#include "footermenu.ftl">

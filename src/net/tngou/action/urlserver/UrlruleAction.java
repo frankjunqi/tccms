@@ -127,12 +127,17 @@ public class UrlruleAction extends BaseAction {
      * 编辑
      */
     public void editUrlrule() {
-        Urlrule bean = (Urlrule) getAsk(new Urlrule());
-        long id = bean.update();
+        Urlrule urlrule = (Urlrule) getAsk(new Urlrule());
+        String projectnameid = urlrule.getProjectname();
+        // 处理projectname & Projectid
+        String[] splits = projectnameid.split("\\|");
+        urlrule.setProjectname(splits[0]);
+        urlrule.setProjectid(splits[1]);
+        long id = urlrule.update();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");
         } else {
-            sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");
+            run_500();
         }
     }
 
