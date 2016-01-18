@@ -120,11 +120,6 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label">拦截器添加</label>
 
-                        <div id="showurlinterceptor" class="box-body col-sm-2" style="width: 60%;"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label"></label>
                         <input id="urlinterceptor" name="urlinterceptor" style="width: 0px; height: 0px;"/>
 
                         <div class="box-body col-sm-2" style="width: 60%;">
@@ -187,21 +182,21 @@
 
     // 遍历获取checkbox的list的选中的值
     function checkIterceptor() {
-        // 显示选中html
-        var htmlItemStr = "";
-
         // 提交到接口的数据
-        var submitServerInterceporStr = "";
+        //var submitServerInterceporStr = "";
         $('#urlinterceptor').attr("value", "");
-
+        // 拦截器list
+        var iterceptorlist = new Array();
         // 显示获取选中项
-        $('#showurlinterceptor').html("");
         $("input[name='iterceptorgroup']:checked").each(function () {
-            htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
-            submitServerInterceporStr = submitServerInterceporStr + $(this).val() + "|";
+            // htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
+            //submitServerInterceporStr = submitServerInterceporStr + $(this).val() + "|";
+            var splits = $(this).val().split("+");
+            var iterceptor = new Iterceptor(splits[0], splits[1]);
+            iterceptorlist.push(iterceptor);
         });
-        $('#showurlinterceptor').html(htmlItemStr);
-
+        // 将list进行json序列化
+        var submitServerInterceporStr = JSON.stringify(iterceptorlist);
         // 提交到后台的数据
         $('#urlinterceptor').attr("value", submitServerInterceporStr);
 

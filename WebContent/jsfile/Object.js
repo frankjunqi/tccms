@@ -10,6 +10,7 @@ function Paramte(key, value, remark, version) {
 }
 
 // 拦截器的对象
-function Iterceptor(iterceptorid) {
+function Iterceptor(iterceptorid, iterceptorname) {
     this.iterceptorid = iterceptorid;
+    this.iterceptorname = iterceptorname;
 }

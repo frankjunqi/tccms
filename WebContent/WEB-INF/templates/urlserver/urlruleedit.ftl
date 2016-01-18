@@ -116,19 +116,14 @@
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
                         <input id="urlparameter" name="urlparameter" hidden="hidden"/>
-                        <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info" onclick="addRow();"
+                        <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info" onclick="addRow(new Paramte());"
                                style="width: 140px;"/>
                     </div>
                     <div class="form-group">
                         <label class="col-sm-2 control-label">拦截器添加${urlrule.urlinterceptor}+</label>
 
-                        <div id="showurlinterceptor" class="box-body col-sm-2"
-                             style="width: 60%;"></div>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label"></label>
-                        <input id="urlinterceptor" name="urlinterceptor" style="width: 0px; height: 0px;"/>
+                        <input id="urlinterceptor" name="urlinterceptor" style="width: 0px; height: 0px;"
+                               value="${urlrule.urlinterceptor}"/>
 
                         <div class="box-body col-sm-2" style="width: 60%;">
                             <!-- Minimal style -->
@@ -195,18 +190,17 @@
             $('#urlshowcheck').attr("checked", false);
         }
 
-        // 处理拦截器
-        /*var urlinterceptor = ${urlrule.urlinterceptor};
-        for (var i = 0; i < urlinterceptor.length; i++) {
-            alert(urlinterceptor[i]);
-        }*/
-
         // 处理参数列表
         var urlparameter = ${urlrule.urlparameter};
         for (var i = 0; i < urlparameter.length; i++) {
             addRow(urlparameter[i]);
         }
 
+        // 处理拦截器
+        /*var urlinterceptor = ${urlrule.urlinterceptor};
+        for (var i = 0; i < urlinterceptor.length; i++) {
+            alert(urlinterceptor[i]);
+        }*/
 
     }
     // 处理urlshow checkbox的选中与未选中的状态的赋值
@@ -221,25 +215,25 @@
 
     // 遍历获取checkbox的list的选中的值
     function checkIterceptor() {
-
-        // 显示选中html
-        var htmlItemStr = "";
         // 提交到接口的数据
-        var submitServerInterceporStr = "";
+        //var submitServerInterceporStr = "";
         $('#urlinterceptor').attr("value", "");
-
+        // 拦截器list
+        var iterceptorlist = new Array();
         // 显示获取选中项
-        $('#showurlinterceptor').html("");
         $("input[name='iterceptorgroup']:checked").each(function () {
-            htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
-            submitServerInterceporStr = submitServerInterceporStr + $(this).val() + "|";
+            // htmlItemStr = htmlItemStr + "<span class='badge bg-green' style='margin-right: 8px;'>" + $(this).val() + "</span>";
+            //submitServerInterceporStr = submitServerInterceporStr + $(this).val() + "|";
+            var splits = $(this).val().split("+");
+            var iterceptor = new Iterceptor(splits[0], splits[1]);
+            iterceptorlist.push(iterceptor);
         });
-        $('#showurlinterceptor').html(htmlItemStr);
-
+        // 将list进行json序列化
+        var submitServerInterceporStr = JSON.stringify(iterceptorlist);
         // 提交到后台的数据
         $('#urlinterceptor').attr("value", submitServerInterceporStr);
-    }
 
+    }
     // 参数列表的初始化
     // 定义list保存序列
     var arrayObj = new Array();
