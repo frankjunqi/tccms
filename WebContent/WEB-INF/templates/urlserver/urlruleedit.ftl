@@ -59,24 +59,21 @@
                     </div>
 
                     <div class="form-group">
+                        <label class="col-sm-2 control-label">页面</label>
+                        <textarea id="urlfunctionname" name="urlfunctionname" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ...">${urlrule.urlfunctionname}</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">规则版本支持</label>
+                        <textarea id="urlroletips" name="urlroletips" class="form-control" rows="1" style="width: 35%;"
+                                  placeholder="Enter ...">${urlrule.urlroletips}</textarea>
+                    </div>
+                    <div class="form-group">
                         <label class="col-sm-2 control-label">规则描述</label>
                         <textarea id="urldesc" name="urldesc" class="form-control" rows="3" style="width: 35%;"
                                   placeholder="Enter ...">${urlrule.urldesc}</textarea>
                     </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">规则页面功能</label>
-                        <textarea id="urlfunctionname" name="urlfunctionname" class="form-control" rows="2"
-                                  style="width: 35%;"
-                                  placeholder="Enter ...">${urlrule.urlfunctionname}</textarea>
-                    </div>
-
-                    <div class="form-group">
-                        <label class="col-sm-2 control-label">规则重要提示</label>
-                        <textarea id="urlroletips" name="urlroletips" class="form-control" rows="2" style="width: 35%;"
-                                  placeholder="Enter ...">${urlrule.urlroletips}</textarea>
-                    </div>
-
                     <div class="form-group">
                         <label class="col-sm-2 control-label">Android Activity</label>
                         <input id="androidactivity" name="androidactivity" type="text" class="form-control"
@@ -102,6 +99,9 @@
                                 </th>
                                 <th style="width: 20%">
                                     参数说明
+                                </th>
+                                <th style="width: 20%">
+                                    是否必填:1: 必填；否则0
                                 </th>
                                 <th style="width: 20%">
                                     参数版本信息
@@ -208,7 +208,6 @@
         var urlinterceptor = new Array();
         urlinterceptor = ${urlrule.urlinterceptor};
         for (var i = 0; i < urlinterceptor.length; i++) {
-            alert(urlinterceptor[i].iterceptorname);
             initInterceptorChecked(urlinterceptor[i].iterceptorid, urlinterceptor[i].iterceptorname);
         }
 
@@ -279,8 +278,10 @@
         var newNameTD = newTR.insertCell(2);
         newNameTD.innerHTML = "<input name='remark' id='remark' type='text' value='" + paramte.remark + "'/>";
         var newNameTD = newTR.insertCell(3);
-        newNameTD.innerHTML = "<input name='version' id='version' type='text' value='" + paramte.version + "'/>";
+        newNameTD.innerHTML = "<input name='ismust' id='ismust' type='text' value='" + paramte.ismust + "'/>";
         var newNameTD = newTR.insertCell(4);
+        newNameTD.innerHTML = "<input name='version' id='version' type='text' value='" + paramte.version + "'/>";
+        var newNameTD = newTR.insertCell(5);
         newNameTD.innerHTML = "<span class='badge bg-light-blue' onclick='removeRow(" + rowLength + ")'>Delete</span>";
     }
 
@@ -321,6 +322,11 @@
         $("input[name='remark']").each(function () {
             remarklist.push($(this).val());
         });
+        // ismust的数据源
+        var ismustlist = new Array();
+        $("input[name='ismust']").each(function () {
+            ismustlist.push($(this).val());
+        });
 
         // version的数据源
         var versionlist = new Array();
@@ -331,12 +337,12 @@
         // 对象list
         var parameterlist = new Array();
         for (var i = 0; i < keylist.length; i++) {
-            var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], versionlist[i]);
+            var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], ismustlist[i], versionlist[i]);
             parameterlist.push(paramte);
         }
         // 如果size==0默认出一个define
         if (parameterlist.length == 0) {
-            var paramte = new Paramte("", "", "", "");
+            var paramte = new Paramte("", "", "", "", "");
             parameterlist.push(paramte);
         }
 

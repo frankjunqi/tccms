@@ -10,7 +10,7 @@ public class Urlrule extends POJO {
     private String projectid;//项目id；
     private String urlfunctionname;//规则设计的页面，或者功能；
     private String urldesc;//规则的描述信息；
-    private String urlroletips;// 针对规则的重要提示信息；如：警告栏形式
+    private String urlroletips;// 规则版本支持；如：1.0~2.0
     private String androidactivity;//规则对应的Android的activity的名称；
     private String ioscontrolname;// 规则对应的ios的control页面的名称；
     private String urlprotocol;//规则的协议前缀；

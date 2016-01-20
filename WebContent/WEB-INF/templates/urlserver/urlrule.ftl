@@ -27,8 +27,9 @@
                         <table class="table table-bordered">
                             <tr>
                                 <th style="width: 5%">#</th>
-                                <th style="width: 10%">项目名称</th>
-                                <th style="width: 15%">页面功能</th>
+                                <th style="width: 8%">项目名称</th>
+                                <th style="width: 8%">页面</th>
+                                <th style="width: 8%">规则版本支持</th>
                                 <th style="width: 15%">示例url</th>
                                 <th style="width: 10%">#</th>
                             </tr>
@@ -38,6 +39,8 @@
                                 <td><strong>${item.projectname}</strong>
                                 </td>
                                 <td><strong>${item.urlfunctionname}</strong>
+                                </td>
+                                <td><strong>${item.urlroletips}</strong>
                                 </td>
                                 <td>
                                     <div onclick='show_QRImg("${item.urldemo}","urldemoimg${item.id}");'>${item.urldemo}</div>

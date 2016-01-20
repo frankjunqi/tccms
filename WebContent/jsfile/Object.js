@@ -2,10 +2,11 @@
  * Created by kjh08490 on 2016/1/14.
  */
 // 参数对象
-function Paramte(key, value, remark, version) {
+function Paramte(key, value, remark, ismust, version) {
     this.key = key;
     this.value = value;
     this.remark = remark;
+    this.ismust = ismust;
     this.version = version;
 }
 
