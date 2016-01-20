@@ -195,6 +195,13 @@
             var iterceptor = new Iterceptor(splits[0], splits[1]);
             iterceptorlist.push(iterceptor);
         });
+
+        // 如果size==0默认define一个
+        if (iterceptorlist.length == 0) {
+            var iterceptor = new Iterceptor("", "");
+            iterceptorlist.push(iterceptor);
+        }
+
         // 将list进行json序列化
         var submitServerInterceporStr = JSON.stringify(iterceptorlist);
         // 提交到后台的数据
@@ -270,6 +277,12 @@
         var parameterlist = new Array();
         for (var i = 0; i < keylist.length; i++) {
             var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], versionlist[i]);
+            parameterlist.push(paramte);
+        }
+
+        // 如果size==0默认出一个define
+        if (parameterlist.length == 0) {
+            var paramte = new Paramte("", "", "", "");
             parameterlist.push(paramte);
         }
 

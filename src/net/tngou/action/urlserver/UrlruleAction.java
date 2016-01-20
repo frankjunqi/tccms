@@ -133,6 +133,8 @@ public class UrlruleAction extends BaseAction {
         String[] splits = projectnameid.split("\\|");
         urlrule.setProjectname(splits[0]);
         urlrule.setProjectid(splits[1]);
+        urlrule.setUrlupdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+
         long id = urlrule.update();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/urlrule/json");

@@ -22,8 +22,8 @@
             </div>
 
             <div class="box-body">
-                <form id="urlruleadd" name="urlruleadd" class="form-horizontal" role="form" method="post"
-                      action="${Domain.base}/urlserver/urlrule/editUrlrule">
+                <form id="urlruleedit" name="urlruleedit" class="form-horizontal" role="form" method="post"
+                      action="">
                     <div class="form-group">
                         <label class="col-sm-2 control-label">urlrule Id</label>
                         <input name="id" type="text" class="form-control select2" style="width: 20%;"
@@ -44,7 +44,7 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">项目名称</label>
-                        <select name="projectname" class="form-control select2" style="width: 20%;">
+                        <select id="projectname" name="projectname" class="form-control select2" style="width: 20%;">
                         <#list projectlist as item>
                             <option value="${item.projectname}|${item.id}">${item.projectname}</option>
                         </#list>
@@ -115,21 +115,22 @@
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label"></label>
-                        <input id="urlparameter" name="urlparameter" hidden="hidden"/>
-                        <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info" onclick="addRow(new Paramte());"
+                        <input id="urlparameter" name="urlparameter" hidden="hidden" value='${urlrule.urlparameter}'/>
+                        <input type="button" value="添加参数" class="box-body col-sm-2 btn btn-info"
+                               onclick="addRow(new Paramte());"
                                style="width: 140px;"/>
                     </div>
                     <div class="form-group">
-                        <label class="col-sm-2 control-label">拦截器添加${urlrule.urlinterceptor}+</label>
+                        <label class="col-sm-2 control-label">拦截器添加</label>
 
                         <input id="urlinterceptor" name="urlinterceptor" style="width: 0px; height: 0px;"
-                               value="${urlrule.urlinterceptor}"/>
+                               value='${urlrule.urlinterceptor}'/>
 
                         <div class="box-body col-sm-2" style="width: 60%;">
                             <!-- Minimal style -->
                         <#list interceptorlist as item>
                             <label>
-                                <input name="iterceptorgroup" type="checkbox"
+                                <input id="iterceptorgroup" name="iterceptorgroup" type="checkbox"
                                        value="${item.id}+${item.interceptorname}" class="minimal"
                                        onclick="checkIterceptor()">
                                 <span class="badge bg-light-blue">${item.interceptorname}</span>
@@ -158,7 +159,9 @@
 
                     </div>
                     <div class="box-footer">
-                        <button type="submit" class="btn btn-primary">Update</button>
+                        <button type="button" class="btn btn-primary"
+                                onclick='handleParamtes("${Domain.base}/urlserver/urlrule/editUrlrule")'>Update
+                        </button>
                     </div>
                 </form>
             </div>
@@ -172,7 +175,7 @@
 </div>
 <script>
     window.onload = function () {
-        // 处理二维码
+        // init处理二维码
         var qrcode = new QRCode(document.getElementById("urldemoimg"), {
             width: 196,//设置宽高
             height: 196
@@ -183,26 +186,44 @@
             qrcode.makeCode(document.getElementById("urldemo").value);
         }
 
-        // 是否对外开放的选中
+        // init是否对外开放的选中
         if ("${urlrule.urlshow}" == "1") {
             $('#urlshowcheck').attr("checked", true);
         } else {
             $('#urlshowcheck').attr("checked", false);
         }
 
-        // 处理参数列表
-        var urlparameter = ${urlrule.urlparameter};
+        // init选中的项目
+        var project = "${urlrule.projectname}" + "|" + "${urlrule.projectid}";
+        $("#projectname option[value='" + project + "']").attr("selected", true);
+
+        // init处理参数列表
+        var urlparameter = new Array();
+        urlparameter = ${urlrule.urlparameter};
         for (var i = 0; i < urlparameter.length; i++) {
             addRow(urlparameter[i]);
         }
 
-        // 处理拦截器
-        /*var urlinterceptor = ${urlrule.urlinterceptor};
+        // init处理拦截器
+        var urlinterceptor = new Array();
+        urlinterceptor = ${urlrule.urlinterceptor};
         for (var i = 0; i < urlinterceptor.length; i++) {
-            alert(urlinterceptor[i]);
-        }*/
+            alert(urlinterceptor[i].iterceptorname);
+            initInterceptorChecked(urlinterceptor[i].iterceptorid, urlinterceptor[i].iterceptorname);
+        }
 
     }
+
+    // 默认拦截器的勾选
+    function initInterceptorChecked(iterceptorid, iterceptorname) {
+        $("input[name='iterceptorgroup']").each(function () {
+            if ($(this).val() == iterceptorid + "+" + iterceptorname) {
+                $(this).attr("checked", true);
+            }
+        });
+    }
+
+
     // 处理urlshow checkbox的选中与未选中的状态的赋值
     function checkUrlShow() {
         if ($('input[name="urlshowcheck"]').prop("checked")) {
@@ -229,6 +250,14 @@
             iterceptorlist.push(iterceptor);
         });
         // 将list进行json序列化
+
+        // 如果size==0默认define一个
+        if (iterceptorlist.length == 0) {
+            var iterceptor = new Iterceptor("", "");
+            iterceptorlist.push(iterceptor);
+        }
+
+
         var submitServerInterceporStr = JSON.stringify(iterceptorlist);
         // 提交到后台的数据
         $('#urlinterceptor').attr("value", submitServerInterceporStr);
@@ -305,6 +334,11 @@
             var paramte = new Paramte(keylist[i], valuelist[i], remarklist[i], versionlist[i]);
             parameterlist.push(paramte);
         }
+        // 如果size==0默认出一个define
+        if (parameterlist.length == 0) {
+            var paramte = new Paramte("", "", "", "");
+            parameterlist.push(paramte);
+        }
 
         // 将list进行json序列化
         var urlparameter = JSON.stringify(parameterlist);
@@ -312,8 +346,43 @@
 
 
         // 执行action
-        $("#urlruleadd").attr("action", actionname).submit();
+        $("#urlruleedit").attr("action", actionname).submit();
     }
+
+    // 做表单的验证
+    function checkInput() {
+        if ($("#urlprotocol").val() == "") {
+            alert("URl规则的协议不能为null");
+            return false;
+        }
+        if ($("#urldesc").val() == "") {
+            alert("URl规则的描述信息不能为null");
+            return false;
+        }
+        if ($("#urlroletips").val() == "") {
+            alert("URl规则的重要提示不能为null");
+            return false;
+        }
+        if ($("#androidactivity").val() == "") {
+            alert("URl规则的Activity页面不能为null");
+            return false;
+        }
+        if ($("#ioscontrolname").val() == "") {
+            alert("URl规则的iOS Controler不能为null");
+            return false;
+        }
+        if ($("#urldemo").val() == "") {
+            alert("URl规则Demo不能为null");
+            return false;
+        }
+        if ($("#urlremark").val() == "") {
+            alert("URl规则备注不能为null");
+            return false;
+        }
+        return true;
+    }
+
+
 </script>
 <!-- /.content-wrapper -->
 <#include "footermenu.ftl">
