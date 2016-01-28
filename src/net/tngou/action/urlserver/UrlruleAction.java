@@ -9,11 +9,14 @@ import net.tngou.pojo.POJO;
 import net.tngou.pojo.Project;
 import net.tngou.pojo.Urlrule;
 import net.tngou.util.DateUtil;
+import org.apache.http.util.TextUtils;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
 import java.util.Date;
+import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 /**
  * Created by kjh08490 on 2015/12/31.
@@ -31,6 +34,12 @@ public class UrlruleAction extends BaseAction {
         ask.setPage(1);
         List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
         root.put("urlrulelist", list);
+
+        // 查询count
+        int totalcount = bean.totalCount();
+        root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
+        root.put("page", ask.getPage());
+
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/urlrule.ftl", root);
     }
@@ -81,6 +90,41 @@ public class UrlruleAction extends BaseAction {
         root.put(FlagChild, "urlruleadd");
 
         printFreemarker("urlserver/urlruleadd.ftl", root);
+    }
+
+
+    /**
+     * 对外公开的url的搜索页面
+     */
+    public void search() {
+        // 项目的list
+        Project project = new Project();
+        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
+        projectlist.add(0, null);
+        root.put("projectlist", projectlist);
+
+        Urlrule bean = new Urlrule();
+        // 2. 保存select的字符
+        Map<String, Object> map = new HashMap<>();
+        // 1. 获取projectid searchkey
+        String projectnameid = request.getParameter("projectname");
+        if (TextUtils.isEmpty(projectnameid)) {
+            printFreemarker("urlserver/search.ftl", root);
+            return;
+        } else if ("-1".equals(projectnameid)) {
+
+        } else {
+            map.put("projectid", projectnameid);
+        }
+        String searchkey = request.getParameter("searchkey");
+        if (!TextUtils.isEmpty(searchkey)) {
+            map.put("urlfunctionname", "%" + searchkey + "%");
+        }
+        List<? extends POJO> list = bean.listLike(map);
+        root.put("urlrulelist", list);
+        root.put("projectid", projectnameid);
+        root.put("searchkey", searchkey);
+        printFreemarker("urlserver/search.ftl", root);
     }
 
     public void addUrlrule() {
@@ -166,5 +210,28 @@ public class UrlruleAction extends BaseAction {
         root.put("urlrule", urlrule);
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/urlruleedit.ftl", root);
+    }
+
+    public void getUrlruleDetailById() {
+        String sid = request.getParams()[0];
+        // 项目的list
+        Project bean = new Project();
+        List<? extends POJO> list = bean.list("id", OrderType.ASC);
+        root.put("projectlist", list);
+
+        // 拦截器的list
+        Interceptor intercepor = new Interceptor();
+        List<? extends POJO> interceporlist = intercepor.list("id", OrderType.ASC);
+        root.put("interceptorlist", interceporlist);
+
+        Urlrule urlrule = new Urlrule();
+        urlrule = urlrule.get(Long.parseLong(sid));
+        if (urlrule == null) {
+            run_404();
+            return;
+        }//如果不存在就返回404页面
+        root.put("urlrule", urlrule);
+        // 3. 得到页码的请求链接
+        printFreemarker("urlserver/urlruledetail.ftl", root);
     }
 }

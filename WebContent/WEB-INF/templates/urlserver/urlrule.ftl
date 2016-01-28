@@ -53,6 +53,12 @@
                                     <ul class="nav">
                                         <!-- User Account Menu -->
                                         <li>
+                                            <a target="_blank" style="background-color: transparent; padding: 0px;"
+                                               href="${Domain.base}/urlserver/urlrule/getUrlruleDetailById/${item.id}">
+                                                <span class="badge bg-light-blue">See Detail</span>
+                                            </a>
+                                        </li>
+                                        <li>
                                             <span class="badge bg-red"
                                                   onclick='show_confirm("${Domain.base}/urlserver/urlrule/delete?id=${item.id}")'>Delete</span>
                                         </li>

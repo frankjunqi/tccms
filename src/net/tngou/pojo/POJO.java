@@ -222,6 +222,28 @@ public class POJO implements Serializable {
 
     }
 
+    public List<? extends POJO> listLike(Map<String, Object> map) {
+        String sql = "";
+        if (map != null && map.size() > 0) {
+            sql = "SELECT * FROM  " + tableName() + " where ";
+            Set<String> sets = map.keySet();
+            int i = 0;
+            for (String string : sets) {
+                i++;
+                sql = sql + string + " like ?";
+                if (sets.size() > i) {
+                    sql = sql + " and ";
+                } else {
+                    sql = sql + " ORDER BY id DESC";
+                }
+            }
+        } else {
+            sql = "SELECT * FROM  " + tableName() + "";
+        }
+        return QueryHelper.query(getClass(), sql, map.values().toArray());
+
+    }
+
 
     public List<? extends POJO> list(Map<String, Object> map, String order, OrderType orderType) {
         String sql = "SELECT * FROM  " + tableName() + " where ";
