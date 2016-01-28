@@ -120,6 +120,9 @@ public class UrlruleAction extends BaseAction {
         if (!TextUtils.isEmpty(searchkey)) {
             map.put("urlfunctionname", "%" + searchkey + "%");
         }
+        // 默认选取可对外开放的规则
+        map.put("urlshow", "1");
+
         List<? extends POJO> list = bean.listLike(map);
         root.put("urlrulelist", list);
         root.put("projectid", projectnameid);
