@@ -126,4 +126,17 @@ public class ProjectAction extends BaseAction {
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/projectedit.ftl", root);
     }
+
+    public void getProjectDetailById() {
+        String sid = request.getParams()[0];
+        Project project = new Project();
+        project = project.get(Long.parseLong(sid));
+        if (project == null) {
+            run_404();
+            return;
+        }//如果不存在就返回404页面
+        root.put("project", project);
+        // 3. 得到页码的请求链接
+        printFreemarker("urlserver/projectdetail.ftl", root);
+    }
 }

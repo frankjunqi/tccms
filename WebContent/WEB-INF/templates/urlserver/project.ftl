@@ -43,6 +43,9 @@
                             </td>-->
                                 <td>${item.projectremark}</td>
                                 <td>
+                                    <a target="_blank" href="${Domain.base}/urlserver/project/getProjectDetailById/${item.id}">
+                                        <span class="badge bg-light-blue">See Detail</span>
+                                    </a>
                                     <span class="badge bg-red"
                                           onclick='show_confirm("${Domain.base}/urlserver/project/delete?id=${item.id}")'>Delete</span>
                                     <a href="${Domain.base}/urlserver/project/getProjectById/${item.id}">

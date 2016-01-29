@@ -127,7 +127,9 @@
                                         <input id="iterceptorgroup" name="iterceptorgroup" type="checkbox"
                                                value="${item.id}+${item.interceptorname}" class="minimal"
                                                onclick="checkIterceptor()">
-                                        <span class="badge bg-light-blue">${item.interceptorname}</span>
+                                        <a target="_blank" href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
+                                            <span class="badge bg-light-blue">${item.interceptorname}</span>
+                                        </a>
                                     </label>
                                 </#list>
                                 </div>

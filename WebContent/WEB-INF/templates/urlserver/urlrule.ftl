@@ -37,7 +37,11 @@
                         <#list urlrulelist as item>
                             <tr>
                                 <td>${item.id}.</td>
-                                <td><strong>${item.projectname}</strong>
+                                <td>
+                                    <a target="_blank"
+                                       href="${Domain.base}/urlserver/project/getProjectDetailById/${item.projectid}">
+                                        <span class="badge bg-light-blue">${item.projectname}</span>
+                                    </a>
                                 </td>
                                 <td><strong>${item.urlfunctionname}</strong>
                                 </td>

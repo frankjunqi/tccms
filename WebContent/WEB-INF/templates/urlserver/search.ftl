@@ -70,7 +70,11 @@
                                 <#list urlrulelist as item>
                                     <tr>
                                         <td>${item.id}.</td>
-                                        <td><strong>${item.projectname}</strong>
+                                        <td>
+                                            <a target="_blank"
+                                               href="${Domain.base}/urlserver/project/getProjectDetailById/${item.projectid}">
+                                                <span class="badge bg-light-blue">${item.projectname}</span>
+                                            </a>
                                         </td>
                                         <td><strong>${item.urlfunctionname}</strong>
                                         </td>
@@ -86,7 +90,8 @@
                                             <ul class="nav">
                                                 <!-- User Account Menu -->
                                                 <li>
-                                                    <a target="_blank" style="background-color: transparent; padding: 0px;"
+                                                    <a target="_blank"
+                                                       style="background-color: transparent; padding: 0px;"
                                                        href="${Domain.base}/urlserver/urlrule/getUrlruleDetailById/${item.id}">
                                                         <span class="badge bg-light-blue">查看详情</span>
                                                     </a>

@@ -46,11 +46,15 @@
                                 </td>
                                 <td>${item.interceptorremark}</td>
                                 <td>
+                                    <a target="_blank" href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
+                                        <span class="badge bg-light-blue">See Detail</span>
+                                    </a>
                                     <span class="badge bg-red"
                                           onclick='show_confirm("${Domain.base}/urlserver/interceptor/delete?id=${item.id}")'>Delete</span>
                                     <a href="${Domain.base}/urlserver/interceptor/getInterceporById/${item.id}">
                                         <span class="badge bg-light-blue">Edit</span>
                                     </a>
+
                                 </td>
                             </tr>
                         </#list>

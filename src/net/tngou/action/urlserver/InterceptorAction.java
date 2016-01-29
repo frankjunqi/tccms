@@ -119,4 +119,17 @@ public class InterceptorAction extends BaseAction {
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/interceptoredit.ftl", root);
     }
+
+    public void getInterceporDetailById() {
+        String sid = request.getParams()[0];
+        Interceptor interceptor = new Interceptor();
+        interceptor = interceptor.get(Long.parseLong(sid));
+        if (interceptor == null) {
+            run_404();
+            return;
+        }//如果不存在就返回404页面
+        root.put("interceptor", interceptor);
+        // 3. 得到页码的请求链接
+        printFreemarker("urlserver/interceptordetail.ftl", root);
+    }
 }
