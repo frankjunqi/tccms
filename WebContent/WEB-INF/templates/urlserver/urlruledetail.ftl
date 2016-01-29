@@ -127,7 +127,8 @@
                                         <input id="iterceptorgroup" name="iterceptorgroup" type="checkbox"
                                                value="${item.id}+${item.interceptorname}" class="minimal"
                                                onclick="checkIterceptor()">
-                                        <a target="_blank" href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
+                                        <a target="_blank"
+                                           href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
                                             <span class="badge bg-light-blue">${item.interceptorname}</span>
                                         </a>
                                     </label>
@@ -154,6 +155,36 @@
                                   placeholder="规则Android & iOS 对接人  AND  版本说明  AND　特殊说明　等 Enter ...">${urlrule.urlremark}</textarea>
 
                             </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">创建时间</label>
+                        <textarea id="createtime" name="createtime" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.createtime!"null"}</textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">创建人</label>
+                        <textarea id="createauthor" name="createauthor" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.createauthor!"null"}</textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">最近修改时间</label>
+                        <textarea id="updatetime" name="updatetime" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.updatetime!"null"}</textarea>
+                            </div>
+
+                            <div class="form-group">
+                                <label class="col-sm-2 control-label">最近修改人</label>
+                        <textarea id="updateauthor" name="updateauthor" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.updateauthor!"null"}</textarea>
+                            </div>
+
+
                         </form>
                     </div>
 

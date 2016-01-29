@@ -46,6 +46,31 @@
                         <textarea name="interceptorremark" class="form-control" rows="8"
                                   placeholder="Enter ...">${interceptor.interceptorremark}</textarea>
                         </div>
+
+                        <div class="form-group">
+                            <label>Interceptor createtime</label>
+                            <input name="createtime" type="text" class="form-control" value="${interceptor.createtime!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+                        <div class="form-group">
+                            <label>Interceptor createauthor</label>
+                            <input name="createauthor" type="text" class="form-control" value="${interceptor.createauthor!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Interceptor updatetime</label>
+                            <input name="updatetime" type="text" class="form-control" value="${interceptor.updatetime!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+                        <div class="form-group">
+                            <label>Interceptor updateauthor</label>
+                            <input name="updateauthor" type="text" class="form-control" value="${interceptor.updateauthor!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+
+
+
                     </form>
                 </div>
                 <!-- /.box-body -->

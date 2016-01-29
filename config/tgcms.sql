@@ -175,6 +175,16 @@ ALTER TABLE `tgcms_interceptor`
 INSERT INTO `tgcms_interceptor` ( `interceptorname`,`interceptorvalue`, `interceptorremark`) VALUES
 ('interceptorname','interceptorvalue', 'interceptorremark');
 
+
+--
+-- 拦截器表新增列：创建时间，创建人，最后一次修改时间，最后一次修改人
+--
+alter table tgcms_interceptor add column createtime varchar(60);
+alter table tgcms_interceptor add column createauthor varchar(60);
+alter table tgcms_interceptor add column updatetime varchar(60);
+alter table tgcms_interceptor add column updateauthor varchar(60);
+
+
 --
 -- 表 项目的表结构
 --
@@ -200,7 +210,13 @@ ALTER TABLE `tgcms_project`
 INSERT INTO `tgcms_project` ( `projectname`, `projectremark`) VALUES
 ('projectrname', 'projectremark');
 
-
+--
+-- 项目表新增列：创建时间，创建人，最后一次修改时间，最后一次修改人
+--
+alter table tgcms_project add column createtime varchar(60);
+alter table tgcms_project add column createauthor varchar(60);
+alter table tgcms_project add column updatetime varchar(60);
+alter table tgcms_project add column updateauthor varchar(60);
 
 --
 -- 表 URL rule的表结构
@@ -244,7 +260,13 @@ INSERT INTO `tgcms_urlrule` (`projectid`, `projectname`,`urlfunctionname`,
 'urlparameter','urlinterceptor','urlshow','urldemo','urlremark',
 'urlupdatetime');
 
-
+--
+-- 规则表新增列：创建时间，创建人，最后一次修改时间，最后一次修改人
+--
+alter table tgcms_urlrule add column createtime varchar(60);
+alter table tgcms_urlrule add column createauthor varchar(60);
+alter table tgcms_urlrule add column updatetime varchar(60);
+alter table tgcms_urlrule add column updateauthor varchar(60);
 
 --
 -- 转存表中的数据 `tgcms_user`

@@ -2,16 +2,16 @@
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <#--<section class="content-header">
-        <h1>
-            Page Header
-            <small>Optional description</small>
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-            <li class="active">Here</li>
-        </ol>
-    </section>-->
+<#--<section class="content-header">
+    <h1>
+        Page Header
+        <small>Optional description</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>
+</section>-->
 
 
     <!-- Main content -->
@@ -133,7 +133,8 @@
                                 <input id="iterceptorgroup" name="iterceptorgroup" type="checkbox"
                                        value="${item.id}+${item.interceptorname}" class="minimal"
                                        onclick="checkIterceptor()">
-                                <a target="_blank" href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
+                                <a target="_blank"
+                                   href="${Domain.base}/urlserver/interceptor/getInterceporDetailById/${item.id}">
                                     <span class="badge bg-light-blue">${item.interceptorname}</span>
                                 </a>
                             </label>
@@ -165,6 +166,22 @@
                                 onclick='handleParamtes("${Domain.base}/urlserver/urlrule/editUrlrule")'>Update
                         </button>
                     </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">创建时间</label>
+                        <textarea id="createtime" name="createtime" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.createtime}</textarea>
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-sm-2 control-label">创建人</label>
+                        <textarea id="createauthor" name="createauthor" class="form-control" rows="1"
+                                  style="width: 35%;"
+                                  placeholder="Enter ..." readonly>${urlrule.createauthor}</textarea>
+                    </div>
+
+
                 </form>
             </div>
 

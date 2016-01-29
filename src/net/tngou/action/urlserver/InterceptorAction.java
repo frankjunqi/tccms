@@ -7,11 +7,14 @@ import net.tngou.jdbc.OrderType;
 import net.tngou.jdbc.QueryHelper;
 import net.tngou.pojo.Interceptor;
 import net.tngou.pojo.POJO;
+import net.tngou.pojo.User;
 import net.tngou.service.PageService;
+import net.tngou.util.DateUtil;
 import org.apache.http.util.TextUtils;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -63,6 +66,11 @@ public class InterceptorAction extends BaseAction {
 
     public void addIntercepor() {
         Interceptor interceptor = (Interceptor) getAsk(new Interceptor());
+        interceptor.setCreatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        interceptor.setCreateauthor(((User)session.getAttribute("user")).getEmail());
+        interceptor.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        interceptor.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
+
         long id = interceptor.save();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
@@ -97,6 +105,9 @@ public class InterceptorAction extends BaseAction {
      */
     public void editIntercepor() {
         Interceptor bean = (Interceptor) getAsk(new Interceptor());
+        // 编辑时候修改信息
+        bean.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        bean.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
         long id = bean.update();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");

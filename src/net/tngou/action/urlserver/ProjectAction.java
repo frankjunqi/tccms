@@ -7,9 +7,12 @@ import net.tngou.jdbc.QueryHelper;
 import net.tngou.pojo.Interceptor;
 import net.tngou.pojo.POJO;
 import net.tngou.pojo.Project;
+import net.tngou.pojo.User;
+import net.tngou.util.DateUtil;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
+import java.util.Date;
 import java.util.List;
 
 /**
@@ -70,6 +73,10 @@ public class ProjectAction extends BaseAction {
 
     public void addProject() {
         Project project = (Project) getAsk(new Project());
+        project.setCreatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        project.setCreateauthor(((User)session.getAttribute("user")).getEmail());
+        project.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        project.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
         long id = project.save();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/project/json");
@@ -104,6 +111,9 @@ public class ProjectAction extends BaseAction {
      */
     public void editProject() {
         Project bean = (Project) getAsk(new Project());
+        // 编辑时候修改信息
+        bean.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        bean.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
         long id = bean.update();
         if (id > 0) {
             sendRedirect(getDomain().getBase() + "/urlserver/project/json");

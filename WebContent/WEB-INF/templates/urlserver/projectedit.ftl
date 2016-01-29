@@ -47,6 +47,16 @@
                         <textarea name="projectremark" class="form-control" rows="8"
                                   placeholder="Enter ...">${project.projectremark}</textarea>
                     </div>
+                    <div class="form-group">
+                        <label>Project createtime</label>
+                        <input name="createtime" type="text" class="form-control" value="${project.createtime!"null"}"
+                               placeholder="Enter ..." readonly></input>
+                    </div>
+                    <div class="form-group">
+                        <label>Project createauthor</label>
+                        <input name="createauthor" type="text" class="form-control" value="${project.createauthor!"null"}"
+                               placeholder="Enter ..." readonly></input>
+                    </div>
                     <div class="box-footer">
                         <button type="submit" class="btn btn-primary">Update</button>
                     </div>

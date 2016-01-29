@@ -19,7 +19,45 @@ public class Urlrule extends POJO {
     private String urlshow;//规则是否对外开放；
     private String urldemo;//规则的默认链接示例；
     private String urlremark;//规则的备注信息；
-    private String urlupdatetime;//规则上次修改时间；
+    private String urlupdatetime;//规则上次修改时间；-- 字段废弃
+
+
+    private String createtime;// 创建时间
+    private String createauthor;// 创建人
+    private String updatetime;// 修改时间
+    private String updateauthor;// 修改人
+
+    public String getCreatetime() {
+        return createtime;
+    }
+
+    public String getCreateauthor() {
+        return createauthor;
+    }
+
+    public String getUpdatetime() {
+        return updatetime;
+    }
+
+    public String getUpdateauthor() {
+        return updateauthor;
+    }
+
+    public void setCreatetime(String createtime) {
+        this.createtime = createtime;
+    }
+
+    public void setCreateauthor(String createauthor) {
+        this.createauthor = createauthor;
+    }
+
+    public void setUpdatetime(String updatetime) {
+        this.updatetime = updatetime;
+    }
+
+    public void setUpdateauthor(String updateauthor) {
+        this.updateauthor = updateauthor;
+    }
 
     public void setProjectid(String projectid) {
         this.projectid = projectid;

@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoradd.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoradd.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java" afterPath="$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/pojo/Project.java" afterPath="$PROJECT_DIR$/src/net/tngou/pojo/Project.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java" afterPath="$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java" afterPath="$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tgcms.sql" afterPath="$PROJECT_DIR$/config/tgcms.sql" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" />
     </list>
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,91 +41,34 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="project.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl">
+      <file leaf-file-name="ProjectAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1598">
-              <caret line="14" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2465">
+              <caret line="75" column="24" selection-start-line="75" selection-start-column="8" selection-end-line="78" selection-end-column="81" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectadd.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl">
+      <file leaf-file-name="Project.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Project.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1071">
-              <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-              <folding />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+              <caret line="14" column="31" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="31" />
+              <folding>
+                <element signature="e#692#693#0" expanded="true" />
+                <element signature="e#736#737#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projectedit.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl">
+      <file leaf-file-name="InterceptorAction.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1173">
-              <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlrule.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2448">
-              <caret line="14" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlruleadd.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="6052">
-              <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlruledetail.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6596">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="urlruleedit.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="6817">
-              <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usermanager.ftl" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1581">
-              <caret line="14" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="usermanageredit.ftl" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.64378697" vertical-offset="0" max-vertical-offset="1445">
-              <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="2329">
+              <caret line="109" column="78" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
               <folding />
             </state>
           </provider>
@@ -132,8 +77,91 @@
       <file leaf-file-name="interceptoredit.ftl" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1173">
-              <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
+            <state vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="1377">
+              <caret line="57" column="123" selection-start-line="57" selection-start-column="123" selection-end-line="57" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlruleedit.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.26923" vertical-offset="2771" max-vertical-offset="7106">
+              <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+              <folding>
+                <element signature="e#2052#2071#0#HTML" expanded="true" />
+                <element signature="e#2546#2565#0#HTML" expanded="true" />
+                <element signature="e#3031#3050#0#HTML" expanded="true" />
+                <element signature="e#4827#4846#0#HTML" expanded="true" />
+                <element signature="e#6717#6736#0#HTML" expanded="true" />
+                <element signature="e#8134#8156#0#HTML" expanded="true" />
+                <element signature="e#9157#9176#0#HTML" expanded="true" />
+                <element signature="e#9560#9579#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="project.ftl" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.7443787" vertical-offset="221" max-vertical-offset="1598">
+              <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urlruledetail.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-3.0769231" vertical-offset="2674" max-vertical-offset="7123">
+              <caret line="162" column="66" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
+              <folding>
+                <element signature="e#1273#1292#0#HTML" expanded="true" />
+                <element signature="e#2499#2518#0#HTML" expanded="true" />
+                <element signature="e#3096#3115#0#HTML" expanded="true" />
+                <element signature="e#3621#3640#0#HTML" expanded="true" />
+                <element signature="e#4010#4029#0#HTML" expanded="true" />
+                <element signature="e#4385#4404#0#HTML" expanded="true" />
+                <element signature="e#5577#5596#0#HTML" expanded="true" />
+                <element signature="e#7056#7075#0#HTML" expanded="true" />
+                <element signature="e#8260#8279#0#HTML" expanded="true" />
+                <element signature="e#8633#8655#0#HTML" expanded="true" />
+                <element signature="e#8966#8985#0#HTML" expanded="true" />
+                <element signature="e#9424#9443#0#HTML" expanded="true" />
+                <element signature="e#10293#10312#0#HTML" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectdetail.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-14.192307" vertical-offset="668" max-vertical-offset="1377">
+              <caret line="61" column="123" selection-start-line="61" selection-start-column="123" selection-end-line="61" selection-end-column="123" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="interceptordetail.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-16.153847" vertical-offset="719" max-vertical-offset="1547">
+              <caret line="67" column="127" selection-start-line="67" selection-start-column="127" selection-end-line="67" selection-end-column="127" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="projectedit.ftl" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-7.1923075" vertical-offset="765" max-vertical-offset="1343">
+              <caret line="56" column="119" selection-start-line="56" selection-start-column="119" selection-end-line="56" selection-end-column="119" />
               <folding />
             </state>
           </provider>
@@ -147,8 +175,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/manage/header.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/manage/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/LoginAction.java" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/LoginServlet.java" />
@@ -156,7 +182,6 @@
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/Info.java" />
         <option value="$PROJECT_DIR$/WebContent/pages/examples/login.html" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.html" />
-        <option value="$PROJECT_DIR$/config/tgcms.sql" />
         <option value="$PROJECT_DIR$/src/net/tngou/http/RequestContext.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl" />
         <option value="$PROJECT_DIR$/WebContent/pages/examples/register.html" />
@@ -172,32 +197,35 @@
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
         <option value="$PROJECT_DIR$/config/tngou.properties" />
         <option value="$PROJECT_DIR$/WebContent/jsfile/Object.js" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java" />
         <option value="$PROJECT_DIR$/WebContent/pages/layout/top-nav.html" />
         <option value="$PROJECT_DIR$/WebContent/pages/layout/search.html" />
         <option value="$PROJECT_DIR$/src/net/tngou/pojo/POJO.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/searchheadermenu.ftl" />
         <option value="$PROJECT_DIR$/WebContent/index.html" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/searchfootermenu.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/search.ftl" />
         <option value="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoradd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl" />
         <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" />
+        <option value="$PROJECT_DIR$/config/tgcms.sql" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Project.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" />
+        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl" />
       </list>
     </option>
   </component>
@@ -406,20 +434,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="web" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="TngouCMS" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -446,7 +460,11 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="cache" />
+              <option name="myItemId" value="action" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urlserver" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -896,12 +914,12 @@
       <workItem from="1453946867064" duration="10433000" />
       <workItem from="1453972009789" duration="6042000" />
       <workItem from="1453978224548" duration="3780000" />
-      <workItem from="1454032265357" duration="7634000" />
+      <workItem from="1454032265357" duration="11357000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="175325000" />
+    <option name="totallyTimeSpent" value="179048000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -925,7 +943,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -942,7 +960,7 @@
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.48387095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22707888" sideWeight="0.38153505" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22707888" sideWeight="0.38153505" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.22707888" sideWeight="0.61846495" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -979,7 +997,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java</url>
-          <line>133</line>
+          <line>130</line>
           <properties />
           <option name="timeStamp" value="2" />
         </line-breakpoint>
@@ -997,7 +1015,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java</url>
-          <line>176</line>
+          <line>173</line>
           <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
@@ -1021,7 +1039,7 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java</url>
-          <line>130</line>
+          <line>140</line>
           <properties />
           <option name="timeStamp" value="32" />
         </line-breakpoint>
@@ -1041,34 +1059,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/DBManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="3162">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/Configurations.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="595">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/service/PageService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="697">
-          <caret line="10" column="27" selection-start-line="10" selection-start-column="20" selection-end-line="10" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/service/LinkService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/net/tngou/service/InfoService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="187">
@@ -1146,6 +1136,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="30722" max-vertical-offset="122468">
           <caret line="1824" column="0" selection-start-line="1824" selection-start-column="0" selection-end-line="1824" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1161,16 +1152,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="7.32" vertical-offset="2070" max-vertical-offset="5525">
           <caret line="126" column="113" selection-start-line="126" selection-start-column="107" selection-end-line="126" selection-end-column="113" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1282" max-vertical-offset="6919">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-          <folding>
-            <element signature="e#2148#2164#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1213,58 +1194,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1463" max-vertical-offset="2193">
-          <caret line="122" column="39" selection-start-line="122" selection-start-column="16" selection-end-line="122" selection-end-column="39" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.5833335" vertical-offset="482" max-vertical-offset="969">
-          <caret line="51" column="33" selection-start-line="51" selection-start-column="33" selection-end-line="51" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="425">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/search.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-15.5" vertical-offset="906" max-vertical-offset="2635">
           <caret line="77" column="45" selection-start-line="73" selection-start-column="43" selection-end-line="77" selection-end-column="45" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="28" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1936" max-vertical-offset="2346">
-          <caret line="140" column="0" selection-start-line="140" selection-start-column="0" selection-end-line="140" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2478" max-vertical-offset="3910">
-          <caret line="176" column="58" selection-start-line="176" selection-start-column="58" selection-end-line="176" selection-end-column="58" />
           <folding />
         </state>
       </provider>
@@ -1282,17 +1215,6 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="7402" max-vertical-offset="9197">
           <caret line="491" column="0" selection-start-line="491" selection-start-column="0" selection-end-line="491" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="901">
-          <caret line="12" column="24" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="24" />
-          <folding>
-            <element signature="e#849#850#0" expanded="false" />
-            <element signature="e#889#890#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1358,46 +1280,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-39.23077" vertical-offset="0" max-vertical-offset="1122">
-          <caret line="60" column="0" selection-start-line="60" selection-start-column="0" selection-end-line="60" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="14" column="17" selection-start-line="5" selection-start-column="4" selection-end-line="14" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1071">
-          <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="1173">
-          <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="2448">
@@ -1414,22 +1296,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="6596">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.5" vertical-offset="0" max-vertical-offset="6817">
-          <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.153846" vertical-offset="0" max-vertical-offset="1581">
@@ -1440,8 +1306,221 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.64378697" vertical-offset="0" max-vertical-offset="1445">
-          <caret line="32" column="44" selection-start-line="32" selection-start-column="44" selection-end-line="32" selection-end-column="44" />
+        <state vertical-scroll-proportion="0.06035503" vertical-offset="459" max-vertical-offset="1445">
+          <caret line="30" column="48" selection-start-line="30" selection-start-column="48" selection-end-line="30" selection-end-column="48" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.3" vertical-offset="2613" max-vertical-offset="6341">
+          <caret line="184" column="53" selection-start-line="184" selection-start-column="41" selection-end-line="184" selection-end-column="53" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/time/LocalDateTime.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="26740" max-vertical-offset="31433">
+          <caret line="1743" column="18" selection-start-line="1743" selection-start-column="18" selection-end-line="1743" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1156">
+          <caret line="33" column="50" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
+          <folding>
+            <element signature="e#451#452#0" expanded="true" />
+            <element signature="e#484#485#0" expanded="true" />
+            <element signature="e#523#524#0" expanded="true" />
+            <element signature="e#558#559#0" expanded="true" />
+            <element signature="e#595#596#0" expanded="true" />
+            <element signature="e#628#629#0" expanded="true" />
+            <element signature="e#667#668#0" expanded="true" />
+            <element signature="e#702#703#0" expanded="true" />
+            <element signature="e#798#799#0" expanded="true" />
+            <element signature="e#854#855#0" expanded="true" />
+            <element signature="e#902#903#0" expanded="true" />
+            <element signature="e#954#955#0" expanded="true" />
+            <element signature="e#998#999#0" expanded="true" />
+            <element signature="e#1054#1055#0" expanded="true" />
+            <element signature="e#1102#1103#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/util/DateUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="540" max-vertical-offset="1972">
+          <caret line="48" column="32" selection-start-line="48" selection-start-column="17" selection-end-line="48" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/BaseAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3264" max-vertical-offset="6919">
+          <caret line="44" column="22" selection-start-line="44" selection-start-column="22" selection-end-line="44" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="867">
+          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2529" max-vertical-offset="3961">
+          <caret line="200" column="6" selection-start-line="200" selection-start-column="6" selection-end-line="200" selection-end-column="6" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33295062" vertical-offset="67" max-vertical-offset="2125">
+          <caret line="21" column="51" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
+          <folding>
+            <element signature="e#990#991#0" expanded="true" />
+            <element signature="e#1023#1024#0" expanded="true" />
+            <element signature="e#1062#1063#0" expanded="true" />
+            <element signature="e#1097#1098#0" expanded="true" />
+            <element signature="e#1134#1135#0" expanded="true" />
+            <element signature="e#1167#1168#0" expanded="true" />
+            <element signature="e#1206#1207#0" expanded="true" />
+            <element signature="e#1241#1242#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1337#1338#0" expanded="true" />
+            <element signature="e#1393#1394#0" expanded="true" />
+            <element signature="e#1441#1442#0" expanded="true" />
+            <element signature="e#1493#1494#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1593#1594#0" expanded="true" />
+            <element signature="e#1641#1642#0" expanded="true" />
+            <element signature="e#2895#2896#0" expanded="true" />
+            <element signature="e#2945#2946#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.024852071" vertical-offset="200" max-vertical-offset="1071">
+          <caret line="13" column="17" selection-start-line="4" selection-start-column="4" selection-end-line="13" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1118" max-vertical-offset="2329">
+          <caret line="109" column="78" selection-start-line="109" selection-start-column="78" selection-end-line="109" selection-end-column="78" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2465">
+          <caret line="75" column="24" selection-start-line="75" selection-start-column="8" selection-end-line="78" selection-end-column="81" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Project.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
+          <caret line="14" column="31" selection-start-line="14" selection-start-column="19" selection-end-line="14" selection-end-column="31" />
+          <folding>
+            <element signature="e#692#693#0" expanded="true" />
+            <element signature="e#736#737#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.153847" vertical-offset="719" max-vertical-offset="1547">
+          <caret line="67" column="127" selection-start-line="67" selection-start-column="127" selection-end-line="67" selection-end-column="127" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="1377">
+          <caret line="57" column="123" selection-start-line="57" selection-start-column="123" selection-end-line="57" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-14.192307" vertical-offset="668" max-vertical-offset="1377">
+          <caret line="61" column="123" selection-start-line="61" selection-start-column="123" selection-end-line="61" selection-end-column="123" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.1923075" vertical-offset="765" max-vertical-offset="1343">
+          <caret line="56" column="119" selection-start-line="56" selection-start-column="119" selection-end-line="56" selection-end-column="119" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-3.0769231" vertical-offset="2674" max-vertical-offset="7123">
+          <caret line="162" column="66" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
+          <folding>
+            <element signature="e#1273#1292#0#HTML" expanded="true" />
+            <element signature="e#2499#2518#0#HTML" expanded="true" />
+            <element signature="e#3096#3115#0#HTML" expanded="true" />
+            <element signature="e#3621#3640#0#HTML" expanded="true" />
+            <element signature="e#4010#4029#0#HTML" expanded="true" />
+            <element signature="e#4385#4404#0#HTML" expanded="true" />
+            <element signature="e#5577#5596#0#HTML" expanded="true" />
+            <element signature="e#7056#7075#0#HTML" expanded="true" />
+            <element signature="e#8260#8279#0#HTML" expanded="true" />
+            <element signature="e#8633#8655#0#HTML" expanded="true" />
+            <element signature="e#8966#8985#0#HTML" expanded="true" />
+            <element signature="e#9424#9443#0#HTML" expanded="true" />
+            <element signature="e#10293#10312#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.26923" vertical-offset="2771" max-vertical-offset="7106">
+          <caret line="194" column="8" selection-start-line="194" selection-start-column="8" selection-end-line="194" selection-end-column="8" />
+          <folding>
+            <element signature="e#2052#2071#0#HTML" expanded="true" />
+            <element signature="e#2546#2565#0#HTML" expanded="true" />
+            <element signature="e#3031#3050#0#HTML" expanded="true" />
+            <element signature="e#4827#4846#0#HTML" expanded="true" />
+            <element signature="e#6717#6736#0#HTML" expanded="true" />
+            <element signature="e#8134#8156#0#HTML" expanded="true" />
+            <element signature="e#9157#9176#0#HTML" expanded="true" />
+            <element signature="e#9560#9579#0#HTML" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7443787" vertical-offset="221" max-vertical-offset="1598">
+          <caret line="50" column="6" selection-start-line="50" selection-start-column="6" selection-end-line="50" selection-end-column="6" />
           <folding />
         </state>
       </provider>

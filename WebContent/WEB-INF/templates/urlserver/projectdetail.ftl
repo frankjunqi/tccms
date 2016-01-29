@@ -32,14 +32,38 @@
                         <div class="form-group">
                             <label>Project Text</label>
                             <input name="projectname" type="text" class="form-control" placeholder="Enter ..."
-                                   value="${project.projectname}"></input>
+                                   value="${project.projectname}" readonly></input>
                         </div>
 
                         <div class="form-group">
                             <label>projectremark Textarea</label>
                         <textarea name="projectremark" class="form-control" rows="8"
-                                  placeholder="Enter ...">${project.projectremark}</textarea>
+                                  placeholder="Enter ..." readonly>${project.projectremark}</textarea>
                         </div>
+
+                        <div class="form-group">
+                            <label>Project createtime</label>
+                            <input name="createtime" type="text" class="form-control" value="${project.createtime!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+                        <div class="form-group">
+                            <label>Project createauthor</label>
+                            <input name="createauthor" type="text" class="form-control" value="${project.createauthor!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+
+                        <div class="form-group">
+                            <label>Project updatetime</label>
+                            <input name="updatetime" type="text" class="form-control" value="${project.updatetime!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+                        <div class="form-group">
+                            <label>Project updateauthor</label>
+                            <input name="updateauthor" type="text" class="form-control" value="${project.updateauthor!"null"}"
+                                   placeholder="Enter ..." readonly></input>
+                        </div>
+
+
                     </form>
                 </div>
                 <!-- /.box-body -->

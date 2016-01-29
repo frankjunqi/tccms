@@ -4,10 +4,7 @@ import net.tngou.action.client.BaseAction;
 import net.tngou.entity.Ask;
 import net.tngou.jdbc.OrderType;
 import net.tngou.jdbc.QueryHelper;
-import net.tngou.pojo.Interceptor;
-import net.tngou.pojo.POJO;
-import net.tngou.pojo.Project;
-import net.tngou.pojo.Urlrule;
+import net.tngou.pojo.*;
 import net.tngou.util.DateUtil;
 import org.apache.http.util.TextUtils;
 
@@ -180,7 +177,10 @@ public class UrlruleAction extends BaseAction {
         String[] splits = projectnameid.split("\\|");
         urlrule.setProjectname(splits[0]);
         urlrule.setProjectid(splits[1]);
-        urlrule.setUrlupdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+
+        // 编辑时候修改信息
+        urlrule.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        urlrule.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
 
         long id = urlrule.update();
         if (id > 0) {
