@@ -1,18 +1,46 @@
 <#include "headerleftmenu.ftl">
-
 <!-- Content Wrapper. Contains page content -->
 <div class="content-wrapper">
     <!-- Content Header (Page header) -->
-    <#--<section class="content-header">
-        <h1>
-            Page Header
-            <small>Optional description</small>
-        </h1>
-        <ol class="breadcrumb">
-            <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
-            <li class="active">Here</li>
-        </ol>
-    </section>-->
+    <section class="content-header">
+    <#--<h1>
+        Page Header
+        <small>Optional description</small>
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
+        <li class="active">Here</li>
+    </ol>-->
+        <form role="search" method="post" action="${Domain.base}/urlserver/urlrule/search">
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                <ul class="nav navbar-nav">
+                    <li class="dropdown">
+                        <select id="projectname" name="projectname" class="form-control"
+                                style="width: 180px;margin-top: 8px;">
+                        <#list projectlist as item>
+                            <#if item??>
+                                <option value="${item.id}">${item.projectname}</option>
+                            <#else>
+                                <option value="-1">所有项目</option>
+                            </#if>
+                        </#list>
+                        </select>
+                    </li>
+                <#--<li class="active"><a href="#">Link <span class="sr-only">(current)</span></a></li>
+                <li><a href="#">Link</a></li>-->
+                </ul>
+                <div class="navbar-form navbar-left">
+                    <input name="searchkey" type="text" class="form-control" placeholder="输入页面名称..."
+                           value="${searchkey!""}">
+                </div>
+                <div class="navbar-left" style="width: 120px;margin-top: 8px;">
+                    <button type="submit" class="btn btn-primary btn-block btn-flat"> 查 询
+                    </button>
+                </div>
+            </div>
+        </form>
+    </section>
 
     <!-- Main content -->
     <section class="content">

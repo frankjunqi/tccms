@@ -23,6 +23,10 @@ public class UrlruleAction extends BaseAction {
 
     @Override
     public void execute() throws ServletException, IOException {
+        Project project = new Project();
+        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
+        root.put("projectlist", projectlist);
+
         root.put(FlagGroup, "urlrule");
         root.put(FlagChild, "urlrulelist");
         // 1. 得到list
@@ -42,6 +46,11 @@ public class UrlruleAction extends BaseAction {
     }
 
     public void json() {
+        // 项目的list
+        Project project = new Project();
+        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
+        root.put("projectlist", projectlist);
+
         Ask ask = (Ask) getAsk(new Ask());
         Urlrule bean = new Urlrule();
         // 查询count
