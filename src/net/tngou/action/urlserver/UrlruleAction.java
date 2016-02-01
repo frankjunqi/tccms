@@ -78,7 +78,7 @@ public class UrlruleAction extends BaseAction {
         int totalcount = bean.totalCount(map);
 
         // 查询list数据
-        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.ASC);
+        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.DESC);
         root.put("urlrulelist", list);
         root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
         root.put("page", ask.getPage());
@@ -138,7 +138,7 @@ public class UrlruleAction extends BaseAction {
         // 查询count
         int totalcount = bean.totalCount(map);
 
-        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.ASC);
+        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.DESC);
         root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
         root.put("page", ask.getPage());
         root.put("urlrulelist", list);
@@ -181,6 +181,10 @@ public class UrlruleAction extends BaseAction {
 
         // 新增的时间
         urlrule.setUrlupdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        urlrule.setCreatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        urlrule.setCreateauthor(((User)session.getAttribute("user")).getEmail());
+        urlrule.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        urlrule.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
 
         long id = urlrule.save();
         if (id > 0) {
