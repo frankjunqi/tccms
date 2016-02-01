@@ -10,10 +10,14 @@ import org.apache.http.util.TextUtils;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
+import java.io.UnsupportedEncodingException;
+import java.net.URLDecoder;
 import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+
+import static java.net.URLDecoder.decode;
 
 /**
  * Created by kjh08490 on 2015/12/31.
@@ -26,8 +30,9 @@ public class UrlruleAction extends BaseAction {
         json();
     }
 
-    public void json() {
+    public void json() throws UnsupportedEncodingException {
         // 项目的list
+        request.setCharacterEncoding("utf-8");
         Project project = new Project();
         List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
         projectlist.add(0, null);
@@ -59,6 +64,11 @@ public class UrlruleAction extends BaseAction {
         } else {
             map.put("projectid", projectnameid);
         }
+
+        // 编码出现问题的时候，需要去设置tomcat的编码问题
+        /*<Connector port="80" protocol="HTTP/1.1"
+        connectionTimeout="20000"
+        redirectPort="8443" URIEncoding="UTF-8" />*/
         String searchkey = request.getParameter("searchkey");
         if (!TextUtils.isEmpty(searchkey)) {
             map.put("urlfunctionname", "%" + searchkey + "%");

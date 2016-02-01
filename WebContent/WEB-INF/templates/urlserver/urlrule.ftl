@@ -171,7 +171,7 @@
         // 获取选择的关键字
         var searchkey = $("#searchkey").val();
 
-        var url = url + "&projectname=" + projectname + "&searchkey=" + searchkey;
+        var url = url + "&projectname=" + projectname + "&searchkey=" + encodeURI(searchkey);
         window.location.href = url;
     }
 
