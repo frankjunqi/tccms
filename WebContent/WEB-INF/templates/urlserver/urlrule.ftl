@@ -11,9 +11,13 @@
         <li><a href="#"><i class="fa fa-dashboard"></i> Level</a></li>
         <li class="active">Here</li>
     </ol>-->
-        <form role="search" method="post" action="${Domain.base}/urlserver/urlrule/search">
+        <form role="search" method="post" action="${Domain.base}/urlserver/urlrule/json">
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse pull-left" id="navbar-collapse">
+                <div class="navbar-left" style="width: 120px;margin-top: 8px;margin-right: 6px;">
+                    <label class="btn btn-primary btn-block">TC-PRO 规 则
+                    </label>
+                </div>
                 <ul class="nav navbar-nav">
                     <li class="dropdown">
                         <select id="projectname" name="projectname" class="form-control"
@@ -31,7 +35,7 @@
                 <li><a href="#">Link</a></li>-->
                 </ul>
                 <div class="navbar-form navbar-left">
-                    <input name="searchkey" type="text" class="form-control" placeholder="输入页面名称..."
+                    <input id="searchkey" name="searchkey" type="text" class="form-control" placeholder="输入页面名称..."
                            value="${searchkey!""}">
                 </div>
                 <div class="navbar-left" style="width: 120px;margin-top: 8px;">
@@ -131,7 +135,9 @@
                             <#assign x=1>
                             <#assign mx=totalpage>
                             <#list x..mx as i>
-                                <li><a href="${Domain.base}/urlserver/urlrule/json?page=${i}">${i}</a></li>
+                            <#--<li onclick=""><a href="${Domain.base}/urlserver/urlrule/json?page=${i}">${i}</a></li>-->
+                                <li onclick='change_Page("${Domain.base}/urlserver/urlrule/json?page=${i}")'><a>${i}</a>
+                                </li>
                             </#list>
                         </#if>
                         </ul>
@@ -144,6 +150,12 @@
     <!-- /.content -->
 </div>
 <script type="text/javascript">
+    window.onload = function () {
+        // init选中的项目
+        var project = "${projectid!"-1"}";
+        $("#projectname option[value='" + project + "']").attr("selected", true);
+    }
+
     function show_confirm(url) {
         var result = confirm('您确定删除吗！');
         if (result) {
@@ -151,6 +163,16 @@
         } else {
 
         }
+    }
+
+    function change_Page(url) {
+        // 获取选中的项目
+        var projectname = $("#projectname").val();
+        // 获取选择的关键字
+        var searchkey = $("#searchkey").val();
+
+        var url = url + "&projectname=" + projectname + "&searchkey=" + searchkey;
+        window.location.href = url;
     }
 
     function show_QRImg(urlStr, urldivid) {

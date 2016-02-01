@@ -23,38 +23,19 @@ public class UrlruleAction extends BaseAction {
 
     @Override
     public void execute() throws ServletException, IOException {
-        Project project = new Project();
-        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
-        root.put("projectlist", projectlist);
-
-        root.put(FlagGroup, "urlrule");
-        root.put(FlagChild, "urlrulelist");
-        // 1. 得到list
-        Ask ask = (Ask) getAsk(new Ask());
-        Urlrule bean = new Urlrule();
-        ask.setPage(1);
-        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
-        root.put("urlrulelist", list);
-
-        // 查询count
-        int totalcount = bean.totalCount();
-        root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
-        root.put("page", ask.getPage());
-
-        // 3. 得到页码的请求链接
-        printFreemarker("urlserver/urlrule.ftl", root);
+        json();
     }
 
     public void json() {
         // 项目的list
         Project project = new Project();
         List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
+        projectlist.add(0, null);
         root.put("projectlist", projectlist);
 
+        // 获取page
         Ask ask = (Ask) getAsk(new Ask());
         Urlrule bean = new Urlrule();
-        // 查询count
-        int totalcount = bean.totalCount();
         // 1. 获取page
         String page = request.getParameter("page");
         if (page == null || "".equals(page)) {
@@ -65,14 +46,95 @@ public class UrlruleAction extends BaseAction {
         } catch (Exception e) {
             ask.setPage(1);
         }
-        List<? extends POJO> list = bean.list(ask.getPage(), ask.getRows(), "id", OrderType.ASC);
+
+        // 2. 保存select的字符
+        Map<String, Object> map = new HashMap<>();
+
+        // 3. 获取projectid searchkey
+        String projectnameid = request.getParameter("projectname");
+        if (TextUtils.isEmpty(projectnameid)) {
+
+        } else if ("-1".equals(projectnameid)) {
+
+        } else {
+            map.put("projectid", projectnameid);
+        }
+        String searchkey = request.getParameter("searchkey");
+        if (!TextUtils.isEmpty(searchkey)) {
+            map.put("urlfunctionname", "%" + searchkey + "%");
+        }
+
+        // 查询count
+        int totalcount = bean.totalCount(map);
+
+        // 查询list数据
+        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.ASC);
         root.put("urlrulelist", list);
         root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
         root.put("page", ask.getPage());
         root.put(FlagGroup, "urlrule");
         root.put(FlagChild, "urlrulelist");
+
+        // 选中的项目以及搜索的关键字
+        root.put("projectid", projectnameid);
+        root.put("searchkey", searchkey);
         // 3. 得到页码的请求链接
         printFreemarker("urlserver/urlrule.ftl", root);
+    }
+
+
+    /**
+     * 对外公开的url的搜索页面
+     */
+    public void search() {
+        // 项目的list
+        Project project = new Project();
+        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
+        projectlist.add(0, null);
+        root.put("projectlist", projectlist);
+
+        // 获取page
+        Ask ask = (Ask) getAsk(new Ask());
+        Urlrule bean = new Urlrule();
+        // 1. 获取page
+        String page = request.getParameter("page");
+        if (page == null || "".equals(page)) {
+            page = "1";
+        }
+        try {
+            ask.setPage(Integer.valueOf(page));
+        } catch (Exception e) {
+            ask.setPage(1);
+        }
+
+        // 2. 保存select的字符
+        Map<String, Object> map = new HashMap<>();
+        // 1. 获取projectid searchkey
+        String projectnameid = request.getParameter("projectname");
+        if (TextUtils.isEmpty(projectnameid)) {
+
+        } else if ("-1".equals(projectnameid)) {
+
+        } else {
+            map.put("projectid", projectnameid);
+        }
+        String searchkey = request.getParameter("searchkey");
+        if (!TextUtils.isEmpty(searchkey)) {
+            map.put("urlfunctionname", "%" + searchkey + "%");
+        }
+        // 默认选取可对外开放的规则
+        map.put("urlshow", "1");
+
+        // 查询count
+        int totalcount = bean.totalCount(map);
+
+        List<? extends POJO> list = bean.list(map, ask.getPage(), ask.getRows(), "id", OrderType.ASC);
+        root.put("totalpage", totalcount % ask.getRows() > 0 ? totalcount / ask.getRows() + 1 : totalcount / ask.getRows());
+        root.put("page", ask.getPage());
+        root.put("urlrulelist", list);
+        root.put("projectid", projectnameid);
+        root.put("searchkey", searchkey);
+        printFreemarker("urlserver/search.ftl", root);
     }
 
     /**
@@ -98,43 +160,6 @@ public class UrlruleAction extends BaseAction {
         printFreemarker("urlserver/urlruleadd.ftl", root);
     }
 
-
-    /**
-     * 对外公开的url的搜索页面
-     */
-    public void search() {
-        // 项目的list
-        Project project = new Project();
-        List<? extends POJO> projectlist = project.list("id", OrderType.ASC);
-        projectlist.add(0, null);
-        root.put("projectlist", projectlist);
-
-        Urlrule bean = new Urlrule();
-        // 2. 保存select的字符
-        Map<String, Object> map = new HashMap<>();
-        // 1. 获取projectid searchkey
-        String projectnameid = request.getParameter("projectname");
-        if (TextUtils.isEmpty(projectnameid)) {
-            printFreemarker("urlserver/search.ftl", root);
-            return;
-        } else if ("-1".equals(projectnameid)) {
-
-        } else {
-            map.put("projectid", projectnameid);
-        }
-        String searchkey = request.getParameter("searchkey");
-        if (!TextUtils.isEmpty(searchkey)) {
-            map.put("urlfunctionname", "%" + searchkey + "%");
-        }
-        // 默认选取可对外开放的规则
-        map.put("urlshow", "1");
-
-        List<? extends POJO> list = bean.listLike(map);
-        root.put("urlrulelist", list);
-        root.put("projectid", projectnameid);
-        root.put("searchkey", searchkey);
-        printFreemarker("urlserver/search.ftl", root);
-    }
 
     public void addUrlrule() {
         Urlrule urlrule = (Urlrule) getAsk(new Urlrule());
@@ -189,7 +214,8 @@ public class UrlruleAction extends BaseAction {
 
         // 编辑时候修改信息
         urlrule.setUpdatetime(DateUtil.toLocalDateTime(new Date()).toString());
-        urlrule.setUpdateauthor(((User)session.getAttribute("user")).getEmail());
+        urlrule.setUrlupdatetime(DateUtil.toLocalDateTime(new Date()).toString());
+        urlrule.setUpdateauthor(((User) session.getAttribute("user")).getEmail());
 
         long id = urlrule.update();
         if (id > 0) {

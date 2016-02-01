@@ -161,26 +161,26 @@
                                   placeholder="规则Android & iOS 对接人  AND  版本说明  AND　特殊说明　等 Enter ...">${urlrule.urlremark}</textarea>
 
                     </div>
-                    <div class="box-footer">
-                        <button type="button" class="btn btn-primary"
-                                onclick='handleParamtes("${Domain.base}/urlserver/urlrule/editUrlrule")'>Update
-                        </button>
-                    </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">创建时间</label>
                         <textarea id="createtime" name="createtime" class="form-control" rows="1"
                                   style="width: 35%;"
-                                  placeholder="Enter ..." readonly>${urlrule.createtime}</textarea>
+                                  placeholder="Enter ..." readonly>${urlrule.createtime!"null"}</textarea>
                     </div>
 
                     <div class="form-group">
                         <label class="col-sm-2 control-label">创建人</label>
                         <textarea id="createauthor" name="createauthor" class="form-control" rows="1"
                                   style="width: 35%;"
-                                  placeholder="Enter ..." readonly>${urlrule.createauthor}</textarea>
+                                  placeholder="Enter ..." readonly>${urlrule.createauthor!"null"}</textarea>
                     </div>
 
+                    <div class="box-footer">
+                        <button type="button" class="btn btn-primary"
+                                onclick='handleParamtes("${Domain.base}/urlserver/urlrule/editUrlrule")'>Update
+                        </button>
+                    </div>
 
                 </form>
             </div>

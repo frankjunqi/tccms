@@ -6,7 +6,7 @@ import java.io.Serializable;
 public class Ask implements Serializable {
     private long id;
     private String callback;//Jsonp返回数据
-    private int rows = 20;//显示大小
+    private int rows = 11;//显示大小
     private int page = 1;//当前页
     private int start = 1;//开始条数
     private String keyword; //关键字

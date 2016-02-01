@@ -29,7 +29,7 @@
                     <li><a href="#">Link</a></li>-->
                     </ul>
                     <div class="navbar-form navbar-left">
-                        <input name="searchkey" type="text" class="form-control" placeholder="输入页面名称..."
+                        <input id="searchkey" name="searchkey" type="text" class="form-control" placeholder="输入页面名称..."
                                value="${searchkey!""}">
                     </div>
                     <div class="navbar-left" style="width: 120px;margin-top: 8px;">
@@ -124,6 +124,21 @@
 
                             </table>
                         </div>
+                        <!-- /.box-body -->
+                        <div class="box-footer clearfix">
+                            <ul class="pagination pagination-sm no-margin pull-right">
+                            <#if totalpage &gt; 1>
+                                <#assign x=1>
+                                <#assign mx=totalpage>
+                                <#list x..mx as i>
+                                <#--<li onclick=""><a href="${Domain.base}/urlserver/urlrule/json?page=${i}">${i}</a></li>-->
+                                    <li onclick='change_Page("${Domain.base}/urlserver/urlrule/search?page=${i}")'>
+                                        <a>${i}</a>
+                                    </li>
+                                </#list>
+                            </#if>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -135,7 +150,15 @@
                 var project = "${projectid!"-1"}";
                 $("#projectname option[value='" + project + "']").attr("selected", true);
             }
+            function change_Page(url) {
+                // 获取选中的项目
+                var projectname = $("#projectname").val();
+                // 获取选择的关键字
+                var searchkey = $("#searchkey").val();
 
+                var url = url + "&projectname=" + projectname + "&searchkey=" + searchkey;
+                window.location.href = url;
+            }
             function show_QRImg(urlStr, urldivid) {
                 $("#" + urldivid).empty();
                 var qrcode = new QRCode(document.getElementById(urldivid), {

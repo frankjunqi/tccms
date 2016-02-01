@@ -205,6 +205,12 @@ public class POJO implements Serializable {
         return QueryHelper.query_slice(getClass(), sql, page, size);
     }
 
+    public List<? extends POJO> list(Map<String, Object> map, int page, int size, String type, OrderType orderType) {
+        String filter = mapToFilterSql(map);
+        String sql = filter + " ORDER BY " + type + " " + orderType.toString();
+        return QueryHelper.query_slice(getClass(), sql, page, size, map.values().toArray());
+    }
+
     public List<? extends POJO> list(Map<String, Object> map) {
         String sql = "SELECT * FROM  " + tableName() + " where ";
         Set<String> sets = map.keySet();
@@ -293,19 +299,6 @@ public class POJO implements Serializable {
 
         return QueryHelper.update(sql, params);
 
-    }
-
-    /**
-     * 统计此对象的总记录数
-     *
-     * @return
-     */
-    public int totalCount() {
-        return (int) QueryHelper.stat("SELECT COUNT(*) FROM " + tableName());
-    }
-
-    public int totalCount(String filter) {
-        return (int) QueryHelper.stat("SELECT COUNT(*) FROM " + tableName() + " WHERE " + filter);
     }
 
 
@@ -574,6 +567,63 @@ public class POJO implements Serializable {
         s = s + "**************************************";
         return s;
 
+    }
+
+    /**
+     * 将map转成sql string
+     *
+     * @param map
+     * @return
+     */
+    public String mapToFilterSql(Map<String, Object> map) {
+        String filerSql = "";
+        if (map != null && map.size() > 0) {
+            filerSql = "SELECT * FROM  " + tableName() + " where ";
+            Set<String> sets = map.keySet();
+            int i = 0;
+            for (String string : sets) {
+                i++;
+                filerSql = filerSql + string + " like ?";
+                if (sets.size() > i) {
+                    filerSql = filerSql + " and ";
+                }
+            }
+        } else {
+            filerSql = "SELECT * FROM  " + tableName() + "";
+        }
+        return filerSql;
+    }
+
+    /**
+     * 统计此对象的总记录数
+     *
+     * @return
+     */
+    public int totalCount() {
+        return (int) QueryHelper.stat("SELECT COUNT(*) FROM " + tableName());
+    }
+
+    public int totalCount(String filter) {
+        return (int) QueryHelper.stat("SELECT COUNT(*) FROM " + tableName() + " WHERE " + filter);
+    }
+
+    public int totalCount(Map<String, Object> map) {
+        String filerSql = "";
+        if (map != null && map.size() > 0) {
+            filerSql = "SELECT COUNT(*)  FROM  " + tableName() + " where ";
+            Set<String> sets = map.keySet();
+            int i = 0;
+            for (String string : sets) {
+                i++;
+                filerSql = filerSql + string + " like ?";
+                if (sets.size() > i) {
+                    filerSql = filerSql + " and ";
+                }
+            }
+        } else {
+            filerSql = "SELECT COUNT(*) FROM " + tableName() + "";
+        }
+        return (int) QueryHelper.stat(filerSql, map.values().toArray());
     }
 
 }
