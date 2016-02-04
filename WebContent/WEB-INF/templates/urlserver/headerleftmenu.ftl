@@ -225,6 +225,11 @@ scratch. This page gets rid of all links and provides the needed markup only.
                 <li <#if FlagGroup == "user">class="active"<#else >class=""</#if>><a
                         href="${Domain.base}/urlserver/usermanager/list"><i class="fa fa-link"></i>
                     <span>User List</span></a></li>
+
+                <li <#if FlagGroup == "markdown">class="active"<#else >class=""</#if>><a
+                        href="${Domain.base}/urlserver/markdown/"><i class="fa fa-link"></i>
+                    <span>Markdown List</span></a></li>
+
                 <li><a href="#"><i class="fa fa-link"></i> <span>Another Link</span></a></li>
             </ul>
             <!-- /.sidebar-menu -->
