@@ -6,7 +6,8 @@
             <div class="about_us border">
                 <h2>关于我们</h2>
 
-                <p>苏州骏燕文化传播有限公司主营高端商业摄影以及视频广告制作，凭借严谨的工作作风，从工艺与艺术高度融合的思考态度，以完备的策划体系，致力于高端文化商业产品的专业策划与拍摄。为您提供专业的拍摄、设计及印刷制作的服务平台。</p>
+                <p>
+                    苏州骏燕文化传播有限公司主营高端商业摄影以及视频广告制作，凭借严谨的工作作风，从工艺与艺术高度融合的思考态度，以完备的策划体系，致力于高端文化商业产品的专业策划与拍摄。为您提供专业的拍摄、设计及印刷制作的服务平台。</p>
             </div>
             <div id="contact" class="clear">
                 <h2>联系我们</h2>
@@ -32,7 +33,8 @@
                 <li><span>QQ:</span> 4146361</li>
                 <li><span>QQ:</span> 896795844</li>
                 <li><span>微信公众号:</span> 骏燕文化</li>
-                <li class="last"><img style="width: 168px;height: 168px;" src="${Domain.base}/images/icon/jywh_erweima.jpg" alt="骏燕文化"/></li>
+                <li class="last"><img style="width: 168px;height: 168px;"
+                                      src="${Domain.base}/common/icon/jywh_erweima.jpg" alt="骏燕文化"/></li>
             </ul>
             <div style="margin-top: 40px">
                 <address>
@@ -58,7 +60,7 @@
 <!-- 版权信息声明 -->
 <div class="wrapper">
     <div id="copyright" class="clear">
-        <p class="fl_left">Copyright &copy; 2002-2015 版权所有 - <a href="javascript:void(0)">苏州骏燕文化有限公司</a>
+        <p class="fl_left">Copyright &copy; 2002-2016 版权所有 - <a href="javascript:void(0)">苏州骏燕文化有限公司</a>
         </p>
     </div>
 </div>

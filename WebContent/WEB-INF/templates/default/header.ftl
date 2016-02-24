@@ -58,7 +58,7 @@
         }
 
         #mbCenter.mbLoading {
-            background: #fff url(${Domain.base}/images/icon/WhiteLoading.gif) no-repeat center;
+            background: #fff url(${Domain.base}/common/icon/WhiteLoading.gif) no-repeat center;
             -moz-box-shadow: none;
             -webkit-box-shadow: none;
         }
@@ -102,20 +102,6 @@
             font-size: 12px;
         }
 
-        #mbNumber {
-            background: url(${Domain.base}/images/mbNumber_bg.gif) no-repeat center;
-            display: inline;
-            color: #C00;
-            line-height: 26px;
-            font-size: 12px;
-            position: absolute;
-            bottom: 10px;
-            right: 10px;
-            text-align: center;
-            width: 65px;
-            height: 26px;
-        }
-
         #mbCaption {
             display: block;
             color: #999;
@@ -134,7 +120,7 @@
         #mbPrevLink {
             width: 32px;
             height: 100px;
-            background: transparent url(${Domain.base}/images/icon/CustomBlackPrevious.gif) no-repeat center;
+            background: transparent url(${Domain.base}/common/icon/CustomBlackPrevious.gif) no-repeat center;
             position: absolute;
             top: 38%;
             left: -32px;
@@ -143,7 +129,7 @@
         #mbNextLink {
             width: 32px;
             height: 100px;
-            background: transparent url(${Domain.base}/images/icon/CustomBlackNext.gif) no-repeat center;
+            background: transparent url(${Domain.base}/common/icon/CustomBlackNext.gif) no-repeat center;
             position: absolute;
             top: 38%;
             right: -32px;
@@ -151,7 +137,7 @@
 
         #mbCloseLink {
             width: 24px;
-            background: transparent url(${Domain.base}/images/icon/CustomBlackClose.gif) no-repeat center;
+            background: transparent url(${Domain.base}/common/icon/CustomBlackClose.gif) no-repeat center;
             position: absolute;
             top: 10px;
             right: 10px;
@@ -253,7 +239,7 @@
 <div class="wrapper col2">
     <div id="header" class="clear">
         <div class="fl_left">
-            <a href="${Domain.base}"><img src="${Domain.base}/images/icon/logo_white.jpg" alt=""
+            <a href="${Domain.base}"><img src="${Domain.base}/common/icon/logo_white.jpg" alt=""
                                           style="width: 280px;height: 52px; text-align: center"/></a>
         </div>
         <div id="topnav">

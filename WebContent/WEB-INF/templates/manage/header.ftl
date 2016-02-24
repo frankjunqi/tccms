@@ -22,7 +22,7 @@
             <tr>
                 <td width="360px" height="60px"><a href="http://www.szjywh.com" target="_blank"><img height="60"
                                                                                                      style="border:0"
-                                                                                                     src="${Domain.base}/images/icon/logo_white.jpg"></img></a>
+                                                                                                     src="${Domain.base}/common/icon/logo_white.jpg"></img></a>
                 </td>
                 <td align="right" class="loginInfo">
                     <br>
