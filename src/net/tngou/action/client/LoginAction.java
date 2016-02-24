@@ -31,6 +31,7 @@ public class LoginAction extends BaseAction {
             if (user != null) {
                 session.setAttribute("user", user);
                 sendRedirect(getDomain().getBase() + "/urlserver/interceptor/json");
+                /*sendRedirect(getDomain().getBase() + "/manage");*/
             } else {
                 Info info = _getInfo();
                 root.put("message", "登录失败：请确认账户或者密码的准确性！");

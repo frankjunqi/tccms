@@ -11,7 +11,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- Tell the browser to be responsive to screen width -->
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
     <!-- Bootstrap 3.3.5 -->
-    <link rel="stylesheet" href="${Domain.base}/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="${Domain.base}/plugins/bootstrap/css/bootstrap.min.css">
     <link rel="stylesheet" href="${Domain.base}/dist/css/AdminLTE.min.css">
     <!-- AdminLTE Skins. We have chosen the skin-blue for this starter
           page. However, you can choose any other skin. Make sure you
@@ -28,7 +28,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <!-- jQuery 2.1.4 -->
     <script src="${Domain.base}/plugins/jQuery/jQuery-2.1.4.min.js"></script>
     <!-- Bootstrap 3.3.5 -->
-    <script src="${Domain.base}/bootstrap/js/bootstrap.min.js"></script>
+    <script src="${Domain.base}/plugins/bootstrap/js/bootstrap.min.js"></script>
     <!-- AdminLTE App -->
     <script src="${Domain.base}/dist/js/app.min.js"></script>
     <!-- PACE -->

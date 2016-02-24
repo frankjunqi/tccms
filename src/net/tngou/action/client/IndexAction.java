@@ -1,16 +1,11 @@
 package net.tngou.action.client;
 
 import net.tngou.entity.PageUtil;
-import net.tngou.jdbc.OrderType;
 import net.tngou.pojo.Info;
-import net.tngou.pojo.Link;
-import net.tngou.pojo.POJO;
-import net.tngou.service.LinkService;
 import net.tngou.service.PageService;
 
 import javax.servlet.ServletException;
 import java.io.IOException;
-import java.util.List;
 
 public class IndexAction extends BaseAction {
 
@@ -18,9 +13,6 @@ public class IndexAction extends BaseAction {
     public void execute() throws ServletException, IOException {
 
         Info info = _getInfo();
-        LinkService linkService = new LinkService();
-        List<? extends POJO> links = linkService.getList("seq", OrderType.ASC, new Link());
-        root.put("link", links);
         PageService pageService = new PageService();
         PageUtil newsPage = pageService.getPageWith(1, 5, 2, "1");//新闻资讯
         root.put("newsPage", newsPage);

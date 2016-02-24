@@ -50,34 +50,6 @@ INSERT INTO `tgcms_info` (`id`, `name`, `logo`, `img`, `icp`, `tel`, `fax`, `ema
 (1, 'name', 'logo', 'img', 'icp', '13880334484', '028-88888888', 'szjywh@sina.net', 'address');
 
 -- --------------------------------------------------------
-
---
--- 表的结构 `tgcms_link`PAGE_CHECKSUM=1 AUTO_INCREMENT=1 
---
-
-DROP TABLE IF EXISTS `tgcms_link`;
-CREATE TABLE IF NOT EXISTS `tgcms_link` (
-`id` tinyint(3) unsigned NOT NULL,
-  `name` varchar(8) NOT NULL,
-  `url` varchar(128) NOT NULL,
-  `seq` tinyint(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8;
-
--- --------------------------------------------------------
---
--- 表的结构 `tgcms_video`PAGE_CHECKSUM=1 AUTO_INCREMENT=1
---
-
-DROP TABLE IF EXISTS `tgcms_video`;
-CREATE TABLE IF NOT EXISTS `tgcms_video` (
-`id` tinyint(3) unsigned NOT NULL,
-  `name` varchar(128) NOT NULL,
-  `desc` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `url` longtext CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
-  `seq` tinyint(4) NOT NULL
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 ;
-
--- --------------------------------------------------------
 --
 -- 表的结构 `tgcms_menu`
 --
@@ -287,19 +259,6 @@ ALTER TABLE `tgcms_info`
  ADD PRIMARY KEY (`id`);
 
 --
--- Indexes for table `tgcms_link`
---
-ALTER TABLE `tgcms_link`
- ADD PRIMARY KEY (`id`);
-
---
--- Indexes for table `tgcms_video`
---
-ALTER TABLE `tgcms_video`
- ADD PRIMARY KEY (`id`);
-
-
---
 -- Indexes for table `tgcms_menu`
 --
 ALTER TABLE `tgcms_menu`
@@ -331,16 +290,6 @@ ALTER TABLE `tgcms_job`
 --
 ALTER TABLE `tgcms_info`
 MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT,AUTO_INCREMENT=2;
---
--- AUTO_INCREMENT for table `tgcms_link`
---
-ALTER TABLE `tgcms_link`
-MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
---
--- AUTO_INCREMENT for table `tgcms_video`
---
-ALTER TABLE `tgcms_video`
-MODIFY `id` tinyint(3) unsigned NOT NULL AUTO_INCREMENT;
 --
 -- AUTO_INCREMENT for table `tgcms_menu`
 --

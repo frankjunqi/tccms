@@ -57,17 +57,5 @@
         </div>
     </div>
 </div>
-<#--<div id="Tngou_Links">
-    <div id="links" class="bmodule">
-        <h3 class="caption">友情链接 + </h3>
-
-        <p>
-        <#list link as item>
-            <a href="${item.url}" target="_blank">${item.name}</a>
-        </#list>
-        </p>
-    </div>
-</div>-->
-
 
 <#include "footer.ftl">

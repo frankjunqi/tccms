@@ -16,7 +16,7 @@
 <!-- jQuery 2.1.4 -->
 <script src="${Domain.base}/plugins/jQuery/jQuery-2.1.4.min.js"></script>
 <!-- Bootstrap 3.3.5 -->
-<script src="${Domain.base}/bootstrap/js/bootstrap.min.js"></script>
+<script src="${Domain.base}/plugins/bootstrap/js/bootstrap.min.js"></script>
 <!-- AdminLTE App -->
 <script src="${Domain.base}/dist/js/app.min.js"></script>
 <!-- PACE -->

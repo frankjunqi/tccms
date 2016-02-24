@@ -47,9 +47,9 @@ import java.io.IOException;
  */
 @WebServlet(urlPatterns = {"/client/*", "/client"},
         initParams = {@WebInitParam(name = "package", value = "net.tngou.action.client")})
-public class ServletAction extends HttpServlet {
+public class ServletManage extends HttpServlet {
     private static final long serialVersionUID = 1L;
-    private final static Logger log = LoggerFactory.getLogger(ServletAction.class);
+    private final static Logger log = LoggerFactory.getLogger(ServletManage.class);
     private static String packages;//action的路径包
 
 
