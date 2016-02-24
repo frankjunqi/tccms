@@ -1,786 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\index2.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\general.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\icons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\modals.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\sliders.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\UI\timeline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\calendar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\charts\chartjs.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\charts\flot.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\charts\inline.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\charts\morris.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\404.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\500.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\blank.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\invoice-print.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\invoice.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\lockscreen.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\login.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\login.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\pace.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\profile.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\examples\register.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\forms\advanced.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\forms\editors.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\forms\general.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\layout\boxed.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\layout\collapsed-sidebar.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\layout\fixed.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\layout\search.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\layout\top-nav.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\mailbox\compose.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\mailbox\mailbox.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\mailbox\read-mail.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\tables\data.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\tables\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\pages\widgets.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-slider\bootstrap-slider.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-slider\slider.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.all.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\bootstrap-wysihtml5\bootstrap3-wysihtml5.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\chartjs\Chart.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\chartjs\Chart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\CHANGES.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\adapters\jquery.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\build-config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\ckeditor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\contents.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\af.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\bn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\bs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\en-au.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\en-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\en-gb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\eu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\fo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ka.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\mn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ms.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\a11yhelp.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\gu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\mn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sr-latn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\a11yhelp\dialogs\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\about\dialogs\about.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\about\dialogs\hidpi\logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\about\dialogs\logo_ckeditor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\clipboard\dialogs\paste.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\dialog\dialogDefinition.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\fakeobjects\images\spacer.gif" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\image\dialogs\image.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\image\images\noimage.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\link\dialogs\anchor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\link\dialogs\link.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\link\images\anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\link\images\hidpi\anchor.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\magicline\images\hidpi\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\magicline\images\icon.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\pastefromword\filter\default.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\scayt\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\scayt\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\scayt\dialogs\options.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\scayt\dialogs\toolbar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\_translationstatus.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\eo.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\fr-ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\km.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ku.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\pt-br.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\si.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\ug.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\zh-cn.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\lang\zh.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\specialchar\dialogs\specialchar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\table\dialogs\table.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\tabletools\dialogs\tableCell.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\LICENSE.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\ciframe.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\tmp.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\tmpFrameset.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\wsc.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\wsc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\plugins\wsc\dialogs\wsc_ie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\dialog_opera.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor_gecko.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor_ie.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor_ie7.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor_ie8.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\editor_iequirks.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\icons.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\icons_hidpi.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\arrow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\close.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\hidpi\close.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\hidpi\lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\hidpi\lock.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\hidpi\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\lock-open.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\lock.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\images\refresh.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\skins\moono\readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ckeditor\styles.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\bootstrap-colorpicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\bootstrap-colorpicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\bootstrap-colorpicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\img\alpha-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\img\alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\img\hue-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\img\hue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\colorpicker\img\saturation.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\dataTables.bootstrap.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\dataTables.bootstrap.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\css\dataTables.autoFill.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\css\dataTables.autoFill.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\columns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\complete-callback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\fill-both.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\fill-horizontal.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\examples\step-callback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\images\filler.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\js\dataTables.autoFill.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\AutoFill\js\dataTables.autoFill.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\css\dataTables.colReorder.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\css\dataTables.colReorder.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\alt_insert.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\col_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\colvis.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\fixedcolumns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\fixedheader.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\predefined.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\realtime.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\reset.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\server_side.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\examples\state_save.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\images\insert.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\js\dataTables.colReorder.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColReorder\js\dataTables.colReorder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\css\dataTables.colVis.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\css\dataTables.colVis.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\css\dataTables.colvis.jqueryui.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\button_order.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\exclude_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\group_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\mouseover.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\restore.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\text.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\title_callback.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\two_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\examples\two_tables_identical.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\js\dataTables.colVis.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\ColVis\js\dataTables.colVis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\css\dataTables.fixedColumns.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\col_filter.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\colvis.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\css_size.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\index_column.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\left_right_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\right_column.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\rowspan.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\server-side-processing.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\size_fixed.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\size_fluid.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\examples\two_columns.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedColumns\js\dataTables.fixedColumns.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\css\dataTables.fixedHeader.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\header_footer.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\top_left_right.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\two_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\examples\zIndexes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\FixedHeader\js\dataTables.fixedHeader.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\css\dataTables.keyTable.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\css\dataTables.keyTable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\examples\events.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\examples\html.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\examples\scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\js\dataTables.keyTable.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\KeyTable\js\dataTables.keyTable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\License.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\css\dataTables.responsive.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\css\dataTables.responsive.scss" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\column-control.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\custom-renderer.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\disable-child-rows.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\right-column.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\child-rows\whole-row-control.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\auto.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\classes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\complexHeader.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\fixedHeader.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\display-control\init-classes.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\className.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\default.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\new.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\initialisation\option.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\styling\bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\styling\compact.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\styling\foundation.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\styling\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\examples\styling\scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\js\dataTables.responsive.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Responsive\js\dataTables.responsive.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\Readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\css\dataTables.scroller.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\css\dataTables.scroller.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\api_scrolling.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\data\2500.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\data\ssp.php" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\large_js_source.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\server-side_processing.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\examples\state_saving.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\images\loading-background.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\js\dataTables.scroller.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\Scroller\js\dataTables.scroller.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\Readme.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\css\dataTables.tableTools.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\css\dataTables.tableTools.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\ajax.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\alter_buttons.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\bootstrap.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\button_text.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\collection.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\defaults.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\jqueryui.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\multi_instance.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\multiple_tables.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\new_init.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\pdf_message.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\plug-in.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\select_column.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\select_multi.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\select_os.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\select_single.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\simple.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\examples\swf_path.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\collection.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\collection_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\copy.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\copy_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\csv.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\csv_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\pdf.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\pdf_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\print.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\print_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\psd\collection.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\psd\copy document.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\psd\file_types.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\psd\printer.psd" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\xls.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\images\xls_hover.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\js\dataTables.tableTools.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\js\dataTables.tableTools.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\swf\copy_csv_xls.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\extensions\TableTools\swf\copy_csv_xls_pdf.swf" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\images\sort_asc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\images\sort_asc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\images\sort_both.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\images\sort_desc.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\images\sort_desc_disabled.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\jquery.dataTables.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\jquery.dataTables.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\jquery.dataTables.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datatables\jquery.dataTables_themeroller.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\bootstrap-datepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\datepicker3.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.az.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.cy.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.el.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ja.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ka.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.kk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.kr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ms.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.nl-BE.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.no.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.rs-latin.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.rs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.sl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.sq.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.sw.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.ua.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\datepicker\locales\bootstrap-datepicker.zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\daterangepicker\daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\daterangepicker\daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\daterangepicker\moment.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\daterangepicker\moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fastclick\fastclick.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fastclick\fastclick.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\excanvas.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.colorhelpers.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.colorhelpers.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.canvas.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.canvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.categories.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.categories.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.crosshair.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.crosshair.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.errorbars.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.errorbars.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.fillbetween.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.fillbetween.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.image.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.image.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.navigate.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.navigate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.pie.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.resize.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.selection.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.selection.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.stack.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.stack.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.symbol.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.symbol.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.threshold.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.threshold.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.time.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\flot\jquery.flot.time.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fullcalendar\fullcalendar.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fullcalendar\fullcalendar.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fullcalendar\fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fullcalendar\fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\fullcalendar\fullcalendar.print.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\all.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\_all.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\aero.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\aero.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\blue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\flat.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\flat.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\flat@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\green.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\grey.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\grey.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\orange.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\pink.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\pink.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\purple.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\red.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\red.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\flat\yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\futurico\futurico.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\futurico\futurico.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\futurico\futurico@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\icheck.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\icheck.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\_all.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\aero.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\grey.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\line.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\line.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\line@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\pink.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\red.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\line\yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\_all.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\aero.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\aero.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\blue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\green.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\grey.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\grey.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\minimal.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\minimal.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\minimal@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\orange.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\pink.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\pink.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\purple.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\red.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\red.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\minimal\yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\polaris\polaris.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\polaris\polaris.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\polaris\polaris@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\_all.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\aero.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\aero.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\aero@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\blue.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\blue.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\blue@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\green.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\green.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\green@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\grey.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\grey.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\grey@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\orange.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\orange.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\orange@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\pink.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\pink.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\pink@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\purple.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\purple.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\purple@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\red.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\red.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\red@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\square.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\square.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\square@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\yellow.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\yellow.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\iCheck\square\yellow@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.date.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.numeric.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.phone.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\jquery.inputmask.regex.extensions.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\phone-codes\phone-be.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\phone-codes\phone-codes.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\input-mask\phone-codes\readme.txt" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionicons.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\img\sprite-skin-flat.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\img\sprite-skin-nice.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\ion.rangeSlider.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\ion.rangeSlider.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\ion.rangeSlider.skinFlat.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\ionslider\ion.rangeSlider.skinNice.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jQueryUI\jquery-ui.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jQueryUI\jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jvectormap\jquery-jvectormap-1.2.2.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jvectormap\jquery-jvectormap-1.2.2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jvectormap\jquery-jvectormap-usa-en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\jvectormap\jquery-jvectormap-world-mill-en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\knob\jquery.knob.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\morris\morris.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\morris\morris.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\morris\morris.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\az.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\bg.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\ca.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\cs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\da.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\de.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\en.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\es.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\et.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\eu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\fa.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\fi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\fr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\gl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\he.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\hi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\hr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\hu.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\id.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\is.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\it.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\ko.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\lt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\lv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\mk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\nb.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\nl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\pl.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\pt-BR.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\pt.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\ro.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\ru.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\sk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\sr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\sv.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\th.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\tr.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\uk.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\vi.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\i18n\zh-TW.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.full.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.full.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\select2\select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\slimScroll\jquery.slimscroll.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\slimScroll\jquery.slimscroll.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\sparkline\jquery.sparkline.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\sparkline\jquery.sparkline.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\timepicker\bootstrap-timepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\timepicker\bootstrap-timepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\timepicker\bootstrap-timepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\plugins\timepicker\bootstrap-timepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\starter.html" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.project" afterPath="$PROJECT_DIR$/.project" />
+    <list default="true" id="3a285315-58df-44f1-8b18-0da8e1613d38" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" afterPath="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -810,11 +31,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Object.js" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/WebContent/jsfile/Object.js">
+      <file leaf-file-name=".project" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.project">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6126126" vertical-offset="0" max-vertical-offset="444">
-              <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.9305263" vertical-offset="0" max-vertical-offset="714">
+              <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="tngou.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/tngou.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="119">
+              <caret line="0" column="28" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -824,66 +55,12 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="br_tcpdc" />
-      </map>
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.html" />
-        <option value="$PROJECT_DIR$/src/net/tngou/http/RequestContext.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/footermenu.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/pages/examples/register.html" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/client/RegisterAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UserManagerAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/User.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UsermanagerAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/styles/pop_layout.css" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/login.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/register.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/Paramte.xhtml" />
-        <option value="$PROJECT_DIR$/WebContent/jsfile/Paramte.js" />
-        <option value="$PROJECT_DIR$/WebContent/jsfile/Object.js" />
-        <option value="$PROJECT_DIR$/WebContent/pages/layout/top-nav.html" />
-        <option value="$PROJECT_DIR$/WebContent/pages/layout/search.html" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/searchheadermenu.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/index.html" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/searchfootermenu.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptor.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoradd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectadd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanager.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/usermanageredit.ftl" />
-        <option value="$PROJECT_DIR$/config/tgcms.sql" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Interceptor.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/Project.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/InterceptorAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/pojo/POJO.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/entity/Ask.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/search.ftl" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java" />
-        <option value="D:/我的配置/桌面/EpicEditor-v0.2.2/index.html" />
-        <option value="$PROJECT_DIR$/src/net/tngou/action/urlserver/MarkdownAction.java" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/markdownadd.ftl" />
-        <option value="$PROJECT_DIR$/WebContent/likedown/dist/css/likedown.min.css" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
-        <option value="$PROJECT_DIR$/config/tngou.properties" />
-        <option value="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
+        <option value="$PROJECT_DIR$/WebContent/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/.settings/org.eclipse.wst.common.component" />
       </list>
     </option>
   </component>
@@ -984,8 +161,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -1014,12 +189,18 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="WebContent" />
+              <option name="myItemId" value="classes" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="artifacts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -1031,31 +212,13 @@
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
-    <property name="restartRequiresConfirmation" value="true" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.last.edited" value="Facets" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src" />
+    <property name="recentsLimit" value="5" />
+    <property name="restartRequiresConfirmation" value="true" />
     <property name="FullScreen" value="false" />
-    <property name="options.lastSelected" value="configurable.group.appearance" />
-    <property name="options.splitter.main.proportions" value="0.3" />
-    <property name="options.splitter.details.proportions" value="0.2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth0" value="253" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth1" value="260" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth2" value="275" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatWidth3" value="1058" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_flatOrder3" value="3" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth0" value="257" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder0" value="0" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth1" value="259" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder1" value="1" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth2" value="273" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder2" value="2" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeWidth3" value="1057" />
-    <property name="FileHistory.git4idea.history.GitHistoryProvider_treeOrder3" value="3" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -1080,7 +243,7 @@
       <recent name="net.tngou.action.manage" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.urlserver">
+  <component name="RunManager" selected="Tomcat Server.TngouCMS">
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -1110,17 +273,6 @@
       <option name="PORT" value="5005" />
       <method />
     </configuration>
-    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
-      <deployment />
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <method />
-    </configuration>
     <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
       <module name="" />
       <option name="ACTIVITY_CLASS" value="" />
@@ -1139,6 +291,17 @@
       <option name="CLEAR_LOGCAT" value="false" />
       <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
       <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" ALTERNATIVE_JRE_ENABLED="false">
+      <deployment />
+      <server-settings />
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <method />
     </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
@@ -1206,11 +369,6 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
-      <node-options />
-      <gulpfile />
-      <tasks />
-      <pass-parent-envs>true</pass-parent-envs>
-      <envs />
       <method />
     </configuration>
     <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
@@ -1334,17 +492,18 @@
       <envs />
       <method />
     </configuration>
-    <configuration default="false" name="urlserver" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.57" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+    <configuration default="false" name="TngouCMS" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.57" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="BROWSER_ID" value="98ca6316-2f89-46d9-a9e5-fa9e2b0625b3" />
       <option name="UPDATING_POLICY" value="restart-server" />
       <deployment>
         <artifact name="TngouCMS:Web exploded">
           <settings>
-            <option name="CONTEXT_PATH" value="/TngouCMS" />
+            <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TngouCMS_3" />
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_TngouCMS_4" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -1354,7 +513,7 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Cover" />
       <RunnerSettings RunnerId="Debug">
-        <option name="DEBUG_PORT" value="64403" />
+        <option name="DEBUG_PORT" value="53483" />
         <option name="TRANSPORT" value="0" />
         <option name="LOCAL" value="true" />
       </RunnerSettings>
@@ -1405,13 +564,11 @@
         </SHUTDOWN>
       </ConfigurationWrapper>
       <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="TngouCMS:Web exploded" />
-        </option>
+        <option name="BuildArtifacts" enabled="true" />
       </method>
     </configuration>
     <list size="1">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.urlserver" />
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.TngouCMS" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -1420,41 +577,16 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="" />
-      <created>1452128063368</created>
+      <changelist id="3a285315-58df-44f1-8b18-0da8e1613d38" name="Default" comment="" />
+      <created>1456287245347</created>
       <option name="number" value="Default" />
-      <updated>1452128063368</updated>
-      <workItem from="1452128063674" duration="22756000" />
-      <workItem from="1452220307288" duration="17519000" />
-      <workItem from="1452245176387" duration="9036000" />
-      <workItem from="1452474827262" duration="6454000" />
-      <workItem from="1452494976046" duration="15294000" />
-      <workItem from="1452566890302" duration="8041000" />
-      <workItem from="1452650358020" duration="17321000" />
-      <workItem from="1452750258772" duration="10807000" />
-      <workItem from="1453082900362" duration="12372000" />
-      <workItem from="1453173168672" duration="5833000" />
-      <workItem from="1453256572405" duration="15620000" />
-      <workItem from="1453337594264" duration="5452000" />
-      <workItem from="1453860490126" duration="931000" />
-      <workItem from="1453946867064" duration="10433000" />
-      <workItem from="1453972009789" duration="6042000" />
-      <workItem from="1453978224548" duration="3780000" />
-      <workItem from="1454032265357" duration="15813000" />
-      <workItem from="1454137039500" duration="2771000" />
-      <workItem from="1454299968782" duration="16873000" />
-      <workItem from="1454384622259" duration="1889000" />
-      <workItem from="1454464197096" duration="680000" />
-      <workItem from="1454489859125" duration="3501000" />
-      <workItem from="1454548851130" duration="3047000" />
-      <workItem from="1456228507005" duration="438000" />
-      <workItem from="1456281038234" duration="1906000" />
-      <workItem from="1456285170634" duration="394000" />
+      <updated>1456287245347</updated>
+      <workItem from="1456287245881" duration="1120000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="215003000" />
+    <option name="totallyTimeSpent" value="1120000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
@@ -1480,35 +612,35 @@
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4204672" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3303671" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4749722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17857143" sideWeight="0.38020834" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43555555" sideWeight="0.6171875" order="3" side_tool="true" content_ui="tabs" />
-      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.44048944" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32925472" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5537939" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.28921023" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1528,47 +660,7 @@
     </option>
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java</url>
-          <line>174</line>
-          <properties />
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/action/client/RegisterAction.java</url>
-          <line>34</line>
-          <properties />
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UsermanagerAction.java</url>
-          <line>53</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java</url>
-          <line>214</line>
-          <properties />
-          <option name="timeStamp" value="24" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java</url>
-          <line>140</line>
-          <properties />
-          <option name="timeStamp" value="32" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java</url>
-          <line>472</line>
-          <properties />
-          <option name="timeStamp" value="40" />
-        </line-breakpoint>
-      </breakpoints>
-      <option name="time" value="53" />
-    </breakpoint-manager>
+    <breakpoint-manager />
     <watches-manager />
   </component>
   <component name="antWorkspaceConfiguration">
@@ -1576,370 +668,34 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptordetail.ftl">
+    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-16.153847" vertical-offset="719" max-vertical-offset="1547">
-          <caret line="67" column="127" selection-start-line="67" selection-start-column="127" selection-end-line="67" selection-end-column="127" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/interceptoredit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.769231" vertical-offset="663" max-vertical-offset="1377">
-          <caret line="57" column="123" selection-start-line="57" selection-start-column="123" selection-end-line="57" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectdetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-14.192307" vertical-offset="668" max-vertical-offset="1377">
-          <caret line="61" column="123" selection-start-line="61" selection-start-column="123" selection-end-line="61" selection-end-column="123" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/projectedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.1923075" vertical-offset="765" max-vertical-offset="1343">
-          <caret line="56" column="119" selection-start-line="56" selection-start-column="119" selection-end-line="56" selection-end-column="119" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruledetail.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-3.0769231" vertical-offset="2674" max-vertical-offset="7123">
-          <caret line="162" column="66" selection-start-line="162" selection-start-column="66" selection-end-line="162" selection-end-column="66" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/project.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="221" max-vertical-offset="1598">
-          <caret line="41" column="26" selection-start-line="41" selection-start-column="26" selection-end-line="41" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/util/MailUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2040" max-vertical-offset="2924">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/util/OAuthUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="833">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/IndexAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="561">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/AboutAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="391">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/CommentAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="283" max-vertical-offset="1513">
-          <caret line="37" column="45" selection-start-line="37" selection-start-column="45" selection-end-line="37" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/LoginAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="782">
-          <caret line="17" column="0" selection-start-line="17" selection-start-column="0" selection-end-line="17" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/commons-lang-2.6.jar!/org/apache/commons/lang/ArrayUtils.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.08" vertical-offset="24543" max-vertical-offset="31025">
-          <caret line="1565" column="49" selection-start-line="1565" selection-start-column="43" selection-end-line="1565" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Urlrule.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1819">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/jdbc/QueryHelper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2400" max-vertical-offset="4403">
-          <caret line="170" column="23" selection-start-line="170" selection-start-column="23" selection-end-line="170" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleedit.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32200357" vertical-offset="874" max-vertical-offset="7106">
-          <caret line="62" column="76" selection-start-line="62" selection-start-column="61" selection-end-line="62" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/freemarker.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="566">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/Project.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="799">
-          <caret line="6" column="30" selection-start-line="6" selection-start-column="30" selection-end-line="6" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/pojo/POJO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.85779816" vertical-offset="0" max-vertical-offset="10047">
-          <caret line="44" column="0" selection-start-line="44" selection-start-column="0" selection-end-line="44" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="323">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/DHTML.js">
+    <entry file="file://$PROJECT_DIR$/.settings/org.eclipse.wst.common.component">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="22991" max-vertical-offset="81617">
-          <caret line="1365" column="0" selection-start-line="1365" selection-start-column="0" selection-end-line="1365" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/mootools-core.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="4253" max-vertical-offset="6188">
-          <caret line="267" column="2" selection-start-line="267" selection-start-column="2" selection-end-line="267" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/lib/JavaScriptLanguage.jar!/com/intellij/lang/javascript/index/predefined/EcmaScript.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="662" max-vertical-offset="15946">
-          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/net/URLDecoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6651376" vertical-offset="1546" max-vertical-offset="3230">
-          <caret line="131" column="25" selection-start-line="131" selection-start-column="25" selection-end-line="131" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$PROJECT_DIR$/WebContent/WEB-INF/lib/servlet-api.jar!/javax/servlet/ServletRequest.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.34597877" vertical-offset="163" max-vertical-offset="1496">
-          <caret line="37" column="11" selection-start-line="37" selection-start-column="11" selection-end-line="37" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/BaseAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5229358" vertical-offset="1200" max-vertical-offset="6919">
-          <caret line="119" column="0" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Program Files/Java/jdk1.8.0/src.zip!/java/net/DualStackPlainSocketImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.28440368" vertical-offset="4194" max-vertical-offset="4726">
-          <caret line="282" column="22" selection-start-line="282" selection-start-column="22" selection-end-line="282" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/entity/Ask.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="850">
-          <caret line="61" column="0" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ProjectAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="846" max-vertical-offset="2465">
-          <caret line="75" column="24" selection-start-line="75" selection-start-column="8" selection-end-line="78" selection-end-column="81" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UrlruleAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="51" max-vertical-offset="4726">
-          <caret line="37" column="33" selection-start-line="37" selection-start-column="33" selection-end-line="37" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/searchheadermenu.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="842">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/search.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="3026">
-          <caret line="0" column="25" selection-start-line="0" selection-start-column="25" selection-end-line="0" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlruleadd.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="2788" max-vertical-offset="6052">
-          <caret line="179" column="5" selection-start-line="170" selection-start-column="3" selection-end-line="179" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/我的配置/桌面/markdown/梳理orderdetail.txt">
-      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.051948" vertical-offset="3338" max-vertical-offset="3978">
-          <caret line="14" column="54" selection-start-line="14" selection-start-column="54" selection-end-line="14" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://D:/我的配置/桌面/EpicEditor-v0.2.2/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="186" max-vertical-offset="1054">
-          <caret line="41" column="56" selection-start-line="41" selection-start-column="56" selection-end-line="41" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/urlrule.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-18.923077" vertical-offset="2449" max-vertical-offset="3298">
-          <caret line="173" column="37" selection-start-line="173" selection-start-column="26" selection-end-line="173" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/UsermanagerAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1751">
-          <caret line="48" column="59" selection-start-line="45" selection-start-column="8" selection-end-line="48" selection-end-column="59" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/urlserver/ServletUrlManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1683">
-          <caret line="27" column="13" selection-start-line="27" selection-start-column="13" selection-end-line="27" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/manage/ServletManage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1598">
-          <caret line="24" column="13" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/net/tngou/action/client/ServletAction.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="271" max-vertical-offset="2465">
-          <caret line="74" column="63" selection-start-line="74" selection-start-column="63" selection-end-line="74" selection-end-column="63" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/companyprofile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1802">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/ehcache.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2720">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/tgcms.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="6341">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.18085106" vertical-offset="0" max-vertical-offset="846">
+          <caret line="9" column="0" selection-start-line="9" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/config/tngou.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.029616725" vertical-offset="0" max-vertical-offset="574">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="871">
+          <caret line="0" column="28" selection-start-line="0" selection-start-column="5" selection-end-line="0" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl">
+    <entry file="file://$PROJECT_DIR$/.project">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.9927007" vertical-offset="1738" max-vertical-offset="4097">
-          <caret line="38" column="60" selection-start-line="38" selection-start-column="60" selection-end-line="38" selection-end-column="60" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/styles/swiperstyle.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.5052265" vertical-offset="6663" max-vertical-offset="9758">
-          <caret line="409" column="0" selection-start-line="409" selection-start-column="0" selection-end-line="409" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/index.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.1551095" vertical-offset="0" max-vertical-offset="1343">
-          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/scripts/hashtabber.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.1689897" vertical-offset="2393" max-vertical-offset="3264">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.80656934" vertical-offset="0" max-vertical-offset="4726">
-          <caret line="26" column="9" selection-start-line="26" selection-start-column="9" selection-end-line="26" selection-end-column="9" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebContent/jsfile/Object.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6126126" vertical-offset="0" max-vertical-offset="444">
-          <caret line="16" column="1" selection-start-line="16" selection-start-column="1" selection-end-line="16" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.9305263" vertical-offset="0" max-vertical-offset="714">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
           <folding />
         </state>
       </provider>
@@ -1949,20 +705,12 @@
     <states>
       <state key="ArtifactsStructureConfigurable.UI">
         <settings>
-          <artifact-editor>
-            <show-content>
-              <type id="library" />
-              <type id="jpa-descriptors" />
-              <type id="javaee-facet-resources" />
-              <type id="artifact" />
-            </show-content>
-          </artifact-editor>
+          <artifact-editor />
           <last-edited>TngouCMS:Web exploded</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
                 <option value="0.2" />
-                <option value="0.5" />
               </list>
             </option>
           </splitter-proportions>
@@ -1970,7 +718,7 @@
       </state>
       <state key="FacetStructureConfigurable.UI">
         <settings>
-          <last-edited>Web</last-edited>
+          <last-edited>Web (TngouCMS)|Web</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -1982,7 +730,6 @@
       </state>
       <state key="GlobalLibrariesConfigurable.UI">
         <settings>
-          <last-edited>unexport_serv</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -2006,7 +753,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>tccms</last-edited>
+          <last-edited>TngouCMS</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
