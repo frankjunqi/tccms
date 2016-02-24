@@ -1,57 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="">
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\WEB-INF\templates\urlserver\markdownadd.ftl" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\adminlte-options.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\advice.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\browsers.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\components.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\dependencies.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\download.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\faq.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\implementations.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\introduction.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\layout.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\license.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\plugins.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\include\upgrade.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\build\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\docs.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\documentation\style.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\.gitignore" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\Gruntfile.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\LICENSE" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\README.md" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\demos\index.html" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\css\likedown.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\css\likedown.min.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\img\editor\editor@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\js\flowchart-1.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\js\likedown-ext.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\js\likedown-ext.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\dist\js\likedown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\img\editor\editor@2x.png" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\Markdown.Converter.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\Markdown.Editor.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\Markdown.Extra.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\Markdown.MathJax.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\Markdown.Toc.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\flowchart-1.4.0.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\libs\mathjax.config.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\likedown.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\package.json" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\src\js\.jshintrc" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\src\js\likedown.js" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\likedown\src\less\likedown.less" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\WebContent\styles\lrtk.css" afterPath="" />
-      <change type="DELETED" beforePath="D:\397713572-TngouCMS-master\TngouCMS\TngouCMS\src\net\tngou\action\urlserver\MarkdownAction.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/default/header.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" afterPath="$PROJECT_DIR$/WebContent/WEB-INF/templates/urlserver/headerleftmenu.ftl" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/config/tngou.properties" afterPath="$PROJECT_DIR$/config/tngou.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="2368a2c1-964e-4f85-afbe-4722a4c1d715" name="Default" comment="" />
     <ignored path="TngouCMS.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/classes/" />
@@ -715,12 +665,12 @@
       <workItem from="1454489859125" duration="3501000" />
       <workItem from="1454548851130" duration="3047000" />
       <workItem from="1456228507005" duration="438000" />
-      <workItem from="1456281038234" duration="1525000" />
+      <workItem from="1456281038234" duration="1906000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="214228000" />
+    <option name="totallyTimeSpent" value="214609000" />
   </component>
   <component name="TodoView" selected-index="0">
     <todo-panel id="selected-file">
