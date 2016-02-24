@@ -9,7 +9,6 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
     <meta http-equiv="imagetoolbar" content="no"/>
     <link rel="stylesheet" href="${Domain.base}/styles/layout.css" type="text/css"/>
-    <link rel="stylesheet" href="${Domain.base}/styles/lrtk.css" type="text/css"/>
     <link rel="stylesheet" href="${Domain.base}/styles/main.css" type="text/css"/>
     <script type="text/javascript" src="${Domain.base}/scripts/hashtabber.js"></script>
     <script type="text/javascript" src="${Domain.base}/scripts/jquery-1.6.3.min.js"></script>
