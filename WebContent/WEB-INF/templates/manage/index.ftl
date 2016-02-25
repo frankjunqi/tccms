@@ -25,25 +25,11 @@
             <li>系统时刻刻自动化设计，方便企业网站的个性化设计。</li>
             <li>系统支持多中页面模板，让网站有不同风格。</li>
             <li>该系统相对其他CMS系统来说，功能简单、操作方便。</li>
+            <li><strong><a href="${Domain.base}" target="_blank">default</a>.<a href="${Domain.base}/manage"
+                                                                                target="_blank">manage</a>.<a
+                    href="${Domain.base}/urlserver/urlrule/search" target="_blank">urlserver</a>.</strong></li>
+
             <br>
-            <br>
-            <b>注意：</b>
-
-            <div style="margin:20px 0;"></div>
-            <ul style="font-size:14px;">
-
-                <br>
-                <li>该系统功能不多，只支持微小企业的官方网站</li>
-                <li>软件开源软件，不做任何技术支持</li>
-                <li>骏燕文化内容管理系统首页： <a target="_blank" href="http://www.szjywh.com">http://www.szjywh.com</a></li>
-                <li>更多信息请关注 <a target="_blank" href="http://www.szjywh.com">szjywh</a></li>
-
-            </ul>
-
-
-            <div style="margin:80px 0;"></div>
-            <p>需要更多的帮助，请联系：<a target="_blank" href="http://www.szjywh.com">http://www.szjywh.com</a></p>
-
 
     </div>
 

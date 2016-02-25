@@ -9,6 +9,9 @@
         <strong>Copyright &copy; 2016 <a href="http://www.ly.com">www.LY.com</a>.</strong> All
         rights
         reserved.
+        <strong><a href="${Domain.base}" target="_blank">default</a>.<a href="${Domain.base}/manage"
+                                                                        target="_blank">manage</a>.<a
+                href="${Domain.base}/urlserver/urlrule/search" target="_blank">urlserver</a>.</strong>
     </div>
     <!-- /.container -->
 </footer>
