@@ -9,7 +9,7 @@
     <script type="text/javascript" src="${Domain.base}/common/easyui/jquery.min.js"></script>
     <script type="text/javascript" src="${Domain.base}/common/easyui/jquery.easyui.min.js"></script>
     <script type="text/javascript" src="${Domain.base}/common/easyui/locale/easyui-lang-zh_CN.js"></script>
-    <link rel="shortcut icon" type="image/x-icon" href="${Domain.base}/common/upload/favicon.ico"/>
+    <link rel="shortcut icon" type="image/x-icon" href="${Domain.base}/common/icon/favicon.ico"/>
 
 </head>
 <body class="easyui-layout">

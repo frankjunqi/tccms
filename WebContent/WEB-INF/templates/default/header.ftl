@@ -10,6 +10,9 @@
     <meta http-equiv="imagetoolbar" content="no"/>
     <link rel="stylesheet" href="${Domain.base}/styles/layout.css" type="text/css"/>
     <link rel="stylesheet" href="${Domain.base}/styles/main.css" type="text/css"/>
+
+    <link rel="shortcut icon" type="image/x-icon" href="${Domain.base}/common/icon/favicon.ico"/>
+
     <script type="text/javascript" src="${Domain.base}/scripts/hashtabber.js"></script>
     <script type="text/javascript" src="${Domain.base}/scripts/jquery-1.6.3.min.js"></script>
     <script type="text/javascript" src="${Domain.base}/scripts/jquery.defaultvalue.js"></script>
@@ -224,16 +227,6 @@
 <body id="top">
 <!--top search-->
 <div class="wrapper col1">
-    <div id="topbar" class="clear">
-        <form action="#" method="post" id="search">
-            <fieldset>
-                <legend>Site Search</legend>
-                <input type="text" value="Search Our Website&hellip;"
-                       onfocus="this.value=(this.value=='Search Our Website&hellip;')? '' : this.value ;"/>
-                <input type="image" id="go" src="${Domain.base}/images/icon/search.gif" alt="Search"/>
-            </fieldset>
-        </form>
-    </div>
 </div>
 <!-- 导航栏 -->
 <div class="wrapper col2">
@@ -246,7 +239,6 @@
             <ul>
                 <li><a href="${Domain.base}/joblist">招聘</a></li>
                 <li><a href="${Domain.base}/news/list">新闻动态</a></li>
-            <#--<li class="active"><a href="gallery.html">动态</a></li>-->
                 <li><a href="${Domain.base}/products/list">案例</a></li>
                 <li><a href="${Domain.base}/about/">简介</a></li>
                 <li><a href="${Domain.base}">首页</a></li>

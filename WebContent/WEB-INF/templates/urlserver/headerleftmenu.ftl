@@ -23,7 +23,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
     <link rel="stylesheet" href="${Domain.base}/plugins/iCheck/all.css">
     <!-- Pace style -->
     <link rel="stylesheet" href="${Domain.base}/plugins/pace/pace.min.css">
-
+    <link rel="shortcut icon" type="image/x-icon" href="${Domain.base}/common/icon/favicon.ico"/>
     <!-- REQUIRED JS SCRIPTS -->
     <!-- jQuery 2.1.4 -->
     <script src="${Domain.base}/plugins/jQuery/jQuery-2.1.4.min.js"></script>

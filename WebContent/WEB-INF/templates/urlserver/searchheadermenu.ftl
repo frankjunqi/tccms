@@ -14,6 +14,8 @@
          folder instead of downloading all of them to reduce the load. -->
     <link rel="stylesheet" href="${Domain.base}/dist/css/skins/_all-skins.min.css">
 
+    <link rel="shortcut icon" type="image/x-icon" href="${Domain.base}/common/icon/favicon.ico"/>
+
 </head>
 <!-- ADD THE CLASS layout-top-nav TO REMOVE THE SIDEBAR. -->
 <body class="hold-transition skin-blue layout-top-nav">
