@@ -2,7 +2,7 @@
         "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xml:lang="EN" lang="EN" dir="ltr">
 <head>
-    <title>骏燕文化</title>
+    <title>TC</title>
     <meta name="keywords" content=""/>
     <meta name="description" content=""/>
 

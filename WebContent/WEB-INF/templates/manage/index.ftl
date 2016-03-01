@@ -10,7 +10,7 @@
 
 
     <div title="首页" style="padding:10px;" data-options="iconCls:'application_home'">
-        <p style="font-size:18px;">欢迎使用骏燕文化内容管理系统! </p>
+        <p style="font-size:18px;">欢迎使用TC内容管理系统! </p>
 
         <div style="margin:40px 0;"></div>
         <b>功能特点：</b>

@@ -1,7 +1,7 @@
 <div class="easyui-panel" data-options="region:'west',split:true" style="width:200px;" title="菜单">
     <ul id="tree" class="easyui-tree" data-options="lines: true">
         <li data-options="iconCls:'application_side_tree'">
-            <span ">骏燕文化管理</span>
+            <span ">TC管理</span>
             <ul>
                 <li data-options="iconCls:'database'">
                     <span>数据管理</span>
