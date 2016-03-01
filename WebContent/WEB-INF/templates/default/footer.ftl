@@ -61,7 +61,7 @@
 <div class="wrapper">
     <div id="copyright" class="clear">
         <p class="fl_left">Copyright &copy; 2002-2016 版权所有 - <a href="javascript:void(0)">苏州TC有限公司</a>
-            <strong><a href="${Domain.base}" target="_blank">default</a>.<a href="${Domain.base}/manage"
+            <strong><a href="${Domain.base}/client/index" target="_blank">default</a>.<a href="${Domain.base}/manage"
                                                                             target="_blank">manage</a>.<a
                     href="${Domain.base}/urlserver/urlrule/search" target="_blank">urlserver</a>.</strong>
         </p>

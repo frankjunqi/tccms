@@ -232,16 +232,16 @@
 <div class="wrapper col2">
     <div id="header" class="clear">
         <div class="fl_left">
-            <a href="${Domain.base}"><img src="${Domain.base}/common/icon/logo_white.jpg" alt=""
+            <a href="${Domain.base}/client/index"><img src="${Domain.base}/common/icon/logo_white.jpg" alt=""
                                           style="width: 280px;height: 52px; text-align: center"/></a>
         </div>
         <div id="topnav">
             <ul>
-                <li><a href="${Domain.base}/joblist">招聘</a></li>
-                <li><a href="${Domain.base}/news/list">新闻动态</a></li>
-                <li><a href="${Domain.base}/products/list">案例</a></li>
-                <li><a href="${Domain.base}/about/">简介</a></li>
-                <li><a href="${Domain.base}">首页</a></li>
+                <li><a href="${Domain.base}/client/joblist">招聘</a></li>
+                <li><a href="${Domain.base}/client/news/list">新闻动态</a></li>
+                <li><a href="${Domain.base}/client/products/list">案例</a></li>
+                <li><a href="${Domain.base}/client/about/">简介</a></li>
+                <li><a href="${Domain.base}/client/index">首页</a></li>
             </ul>
         </div>
     </div>

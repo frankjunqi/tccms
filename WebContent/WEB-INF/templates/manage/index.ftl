@@ -25,7 +25,7 @@
             <li>系统时刻刻自动化设计，方便企业网站的个性化设计。</li>
             <li>系统支持多中页面模板，让网站有不同风格。</li>
             <li>该系统相对其他CMS系统来说，功能简单、操作方便。</li>
-            <li><strong><a href="${Domain.base}" target="_blank">default</a>.<a href="${Domain.base}/manage"
+            <li><strong><a href="${Domain.base}/client/index" target="_blank">default</a>.<a href="${Domain.base}/manage"
                                                                                 target="_blank">manage</a>.<a
                     href="${Domain.base}/urlserver/urlrule/search" target="_blank">urlserver</a>.</strong></li>
 

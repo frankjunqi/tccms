@@ -48,7 +48,7 @@ public class URLMappingFilter implements Filter {
 
         //项目名跳转
         if (req_uri.equals(request.getContextPath() + "/")) {
-            request.getRequestDispatcher("/client/index/execute").forward(request, response);
+            request.getRequestDispatcher("/urlserver/urlrule/search").forward(request, response);
             return;
         }
         if (req_uri.startsWith(request.getContextPath())) {
